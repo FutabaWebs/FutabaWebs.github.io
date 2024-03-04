@@ -35,8 +35,14 @@ body
 	color: white;
 	font-size: 20px;
 	padding: 20px;
-	background: rgba(0, 0, 0, 0.750);
-	border: none;  
+	background-color: rgba(0, 0, 0, 0.750);
+
+	/**
+	background: steelblue;
+	border: skyblue 1px solid;
+	**/
+    
+    
 
 }
 
