@@ -55,7 +55,9 @@ body
     	background-position-y: 0px;
     	background-position-x: 0px;
     	background-size: 250px;
-    	background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		border-color: purple;
+		border-style: solid;
    	 
    	 
 
