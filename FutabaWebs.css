@@ -14,7 +14,7 @@ body
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 0px;
 	row-gap: 0px;
-	background-image: url("Your\ Journey\ begins.png");
+	background-image: url("Cyber\ Security\ Portfolio.png");
 	background-size: 1300px;
 }
 
@@ -86,14 +86,14 @@ body
 .WelcomeLogo
 {   
 
-	background-image: url(Welcome.jpg);
+	background-image: url(Cyber\ Security\ Portfolio.png);
 	border-style: solid;
 	border-color: purple;
     
-	background-size: 50px;
+	background-size: 100px;
 	background-repeat: no-repeat;
-	background-position-x: 0px;
-	background-position-y: 0px;
+	background-position-x: -28px;
+	background-position-y: -15px;
 
 	left: 150px;
 	top: 450px;
@@ -110,14 +110,14 @@ body
 .CyberSecuritySkills
 {   
 
-	background-image: url(Who\ is\ Futaba.jpg);
+	background-image: url(Cyber\ Security\ Portfolio.png);
 	border-style: solid;
-	border-color: purple;
+	border-color: black;
     
-	background-size: 78px;
+	background-size: 100px;
 	background-repeat: no-repeat;
-	background-position-x: -10px;
-	background-position-y: 0px;
+	background-position-x: -28px;
+	background-position-y: -15px;
 
 	left: 150px;
 	top: 450px;
@@ -411,6 +411,29 @@ body
 	background-repeat: no-repeat;
 	background-position-x: -46px;
 	background-position-y: 0px;
+
+	left: 210px;
+	top: 450px;
+
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	margin: 0 2px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.Contact_Icons2
+{   
+
+	background-image: url(TCPServer.avif);
+    
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position-x: -26px;
+	background-position-y: -20px;
 
 	left: 210px;
 	top: 450px;
