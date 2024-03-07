@@ -302,11 +302,23 @@ body
 	margin-left: 100px auto;
 	padding: 10px;
 	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	column-gap: 10px;
+	row-gap: 10px;
+	overflow-x: auto;
+}
+
+.Featured_Items2
+{
+	max-width: 960px;
+	margin: 10px auto;
+	margin-left: 100px auto;
+	padding: 10px;
+	display: grid;
 	grid-template-columns: repeat(9, 1fr);
 	column-gap: 10px;
 	row-gap: 10px;
 	overflow-x: auto;
-
 }
 
 .FeaturedItems
