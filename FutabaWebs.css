@@ -53,8 +53,8 @@ body
 
     	background-image: url(futaba2.jpg);
     	background-position-y: 0px;
-    	background-position-x: 0px;
-    	background-size: 250px;
+    	background-position-x: -5px;
+    	background-size: 300px;
 		background-repeat: no-repeat;
 		border-color: purple;
 		border-style: solid;
@@ -62,8 +62,8 @@ body
    	 
 
     	cursor: pointer;
-    	height: 250px;
-    	width: 250px;
+    	height: 300px;
+    	width: 300px;
     	margin: 0 2px;
     	background-color: silver;
     	border-radius: 50%;
@@ -73,10 +73,10 @@ body
 
 .FutabaLogo:hover
 {
-    	height: 260px;
-    	width: 260px;
+    	height: 310px;
+    	width: 310px;
     	background-position-x: 0px;
-    	background-size: 260px;
+    	background-size: 305px;
     	background-image: url(futaba3.jpg);
     	background-position-x: 0px;
     	background-position-y: 0px;
@@ -337,8 +337,8 @@ body
 .F_Pics
 {
 	object-fit: cover;
-	width: 100%;
-	max-height: 275px;
+	width: 200%;
+	max-height: 975px;
 }
 
 .Title_Menu
