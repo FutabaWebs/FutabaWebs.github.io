@@ -1,38 +1,36 @@
-<!doctype html> <!-- This is going to tell the wbe browser thrat we are wokgin tiwh ta html document -->
+<!doctype html> 
 
 <!-- -->
 
-<html> <!-- This is going to define the main html body of th epage -->
-    <head> <!-- This is going to defien the main header tha is going to contain any and  all main title, links refernes, even style seets and meta tag settigs for the page  -->
+<html> 
+    <head>
         <title> Futaba_Webs </title>
 
-        <!-- This is going to set the mian meta elements for the site, as well as the main tye of unicode it will accept -->
+        
         <meta
             name = "viewpoint"
             content = "device-width, initial-scale=1"
             charset = "utf-8"
         />
 
-        <!-- This is going to set up the main  icon that is to be shwon on the main tab pag e-->
+        <!-- Sets the main shortcut Icon for us  -->
         <link 
             rel = "shortcut icon"
             type = "x-icon"
-            href = "Spider.jpg"
+            href = "futaba2.jpg"
         /> 
 
-        <!-- THis is goign to include a main style sheet for our web applicaiton -->
         <link   
             rel = "stylesheet"
             href = "FutabaWebs.css"
         />
 
-        <!-- Next we are going to include a main script that is gonig to be shown on the page -->
         <script src = "FutabaWebs.js">
 
             
         </script>
 
-        <!-- This is all for bootstrap 5 -->
+        <!-- -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -41,18 +39,21 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
         
 
-        <!-- This is all for bootstrap 3 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        -->
-
 
     </head>
 
-<body>
+<body> 
 
 
+
+<!-- 
+    START OF MODALS
+
+    These are the main dialogue menus that pop up for the main elements when you click on any of the main images or buttons to view more information
+    
+-->
+
+    <!-- CTF Modal -->
     <div class = "modal fade" id = "CTF_Write_Ups" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -114,6 +115,8 @@
         </div>
         </div>
 
+
+    <!-- Crypto Modal -->
     <div class = "modal fade" id = "Crypto_Malware" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -171,6 +174,8 @@
         </div>
         </div>
 
+
+    <!-- LAN Turtle Project Modal -->
     <div class = "modal fade" id = "Lan_Turtle" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -187,7 +192,7 @@
     
                 <div class = "modal-body bg-dark" style = "color: violet; font-size: 20px">
     
-                    <img class = "img-thumbnail mt-4" src = "Lan Turtle.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    <img class = "img-thumbnail mt-4 Modal_Pic_LAN_Turtle" src = "Lan Turtle.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
                     
                     <p class = "pb-5 mt-4"> 
                         
@@ -223,6 +228,7 @@
         </div>
         </div>
 
+    <!-- MITB Modal -->
     <div class = "modal fade" id = "MITB" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -275,6 +281,8 @@
         </div>
         </div>
 
+
+    <!-- TCP Client Modal -->
     <div class = "modal fade" id = "TCP_Client" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -327,6 +335,9 @@
         </div>
         </div>
 
+
+
+    <!-- TCP Server Modal -->
     <div class = "modal fade" id = "TCP_Server" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -379,6 +390,8 @@
         </div>
         </div>
 
+
+    <!-- Hero Modal -->
     <div class = "modal fade" id = "Hero_Signal" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -431,6 +444,8 @@
         </div>
         </div>
 
+
+    <!-- SQL Script Modal -->
     <div class = "modal fade" id = "SQL_Inject_Script" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -484,7 +499,7 @@
         </div>
         </div>
 
-
+    <!-- CTF Modal -->
     <div class = "modal fade" id = "CTF_Server" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -544,7 +559,7 @@
 
 
 
-
+    <!-- GitHub Modal -->
     <div class = "modal fade" id = "GitHub" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -595,7 +610,7 @@
 
 
 
-
+    <!-- Exploit Modal -->
     <div class = "modal fade" id = "Exploit_Videos" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -647,7 +662,7 @@
 
 
 
-
+    <!-- Python Modal -->
     <div class = "modal fade" id = "Python_Tools" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -712,7 +727,7 @@
 
 
 
-
+    <!-- YouPic Modal -->
     <div class = "modal fade" id = "YouPic_Feature" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -763,8 +778,7 @@
         </div>
 
 
-
-
+    <!-- Rubber Ducky Modal -->
     <div class = "modal fade" id = "Ruby_Ducky" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -819,7 +833,7 @@
 
 
 
-
+    <!-- App Modal -->
     <div class = "modal fade" id = "Pen_Testing_App" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -882,8 +896,7 @@
         </div>
 
 
-
-
+    <!-- Drone Modal -->
     <div class = "modal fade" id = "Hacking_Drone" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -942,8 +955,7 @@
         </div>
 
 
-
-
+    <!-- Botnet Modal -->
     <div class = "modal fade" id = "How_to_Botnet" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1008,8 +1020,7 @@
         </div>
 
 
-
-
+    <!-- ARP Modal -->
     <div class = "modal fade" id = "ARP_Poisoning" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1059,8 +1070,7 @@
         </div>
 
 
-
-
+    <!--CCTV Modal -->
     <div class = "modal fade" id = "CCTV_Hacking" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1134,9 +1144,7 @@
         </div>
         </div>
 
-
-
-
+    <!-- SQL Modal -->
     <div class = "modal fade" id = "SQL_Injection" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1191,7 +1199,7 @@
 
 
 
-
+    <!-- LAN Turtle Modal -->
     <div class = "modal fade" id = "LAN_Turtle" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1262,7 +1270,7 @@
 
 
 
-
+    <!-- Ransomware Modal -->
     <div class = "modal fade" id = "Ransomware" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1322,8 +1330,7 @@
         </div>
 
 
-
-
+    <!-- Free Resources Modal -->
     <div class = "modal fade" id = "FREE_Resources" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1377,9 +1384,8 @@
         </div>
         </div>
 
-
-
-
+    
+    <!-- MITB Exploit Modal -->
     <div class = "modal fade" id = "MITB_Exploit" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1450,7 +1456,7 @@
 
 
 
-
+    <!-- Bypassing Tor Modal -->
     <div class = "modal fade" id = "Bypassing_Tor" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1516,7 +1522,7 @@
         </div>
 
 
-
+    <!-- Portfolio Modal-->
     <div class = "modal fade" id = "Cyber_Portfolio" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1601,8 +1607,7 @@
 
 
 
-    <!-- THis is a test modal -->
-    <!-- This is going to be used to open the main modal for "#Futaba_Bio"-->
+    <!-- Futaba_Webs Modal -->
     <div class = "modal fade" id = "Futaba_Business" style = "background-image: url('PurpleRain3.gif');">
         <div class = "modal-dialog modal-lg">
         <div class = "modal-content">
@@ -1650,8 +1655,8 @@
         </div>
         </div>
 
-
-    <!-- This is going to be used to open the main modal for "#Futaba_Bio"-->
+    
+    <!-- Futaba Bio Modal -->
     <div class = "modal fade" id = "Futaba_Bio" style = "background-image: url('PurpleRain3.gif');">
     <div class = "modal-dialog modal-lg">
     <div class = "modal-content">
@@ -1715,7 +1720,13 @@
     </div>
     </div>
 
-    <!-- Features  -->
+
+<!-- 
+    END OF MODALS
+-->
+
+
+ <!-- Features  -->
 
 <div class = "container-fluid container-xxl bg-dark Title_Menu pt-5 pb-5" id = "Features">
 
@@ -1745,21 +1756,17 @@
 </div>
 
 
-<div class = "container-fluid container-xxl bg-dark Featured_Items "> <!-- This is going to be the main container used in order to hold any and all main elements on the page for us  -->
-
+<div class = "container-fluid container-xxl bg-dark Featured_Items "> 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" >
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  🕸🕸🎃🕸🕸  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
     
                     <img class = "img-thumbnail F_Pics bg-dark" src = "Your Journey begins.png" style = "border-color: violet; height: 250px;" data-bs-target = "#Futaba_Business" data-bs-toggle = "modal"/>
@@ -1785,17 +1792,13 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
-
-            <!-- Next we need to setup the main card header -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" >
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;"> CTF Server </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
     
                     <img class = "img-thumbnail F_Pics bg-dark" src = "CTFServer.jpeg" style = "border-color: violet; height: 250px;" data-bs-target = "#CTF_Server" data-bs-toggle = "modal"/>
@@ -1821,17 +1824,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  RoyMBull Github  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
                 
                     <img class = "img-thumbnail F_Pics bg-dark" src = "GIthubWorkShop.png" style = "border-color: violet; height: 250px;" data-bs-target = "#GitHub" data-bs-toggle = "modal"/>
@@ -1858,17 +1858,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  Exploit Videos  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
                 
                     <img class = "img-thumbnail F_Pics bg-dark" src = "ExploitVideos.png" style = "border-color: violet; height: 250px;" data-bs-target = "#Exploit_Videos" data-bs-toggle = "modal" />
@@ -1893,17 +1890,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center; ">  Python Tools  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
     
                     <img class = "img-thumbnail F_Pics bg-dark" src = "Sombra.png" style = "border-color: violet; height: 250px;" data-bs-target = "#Python_Tools" data-bs-toggle = "modal"/>
@@ -1930,17 +1924,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  YouPic Feature  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
     
                     <img class = "img-thumbnail F_Pics bg-dark" src = "YouPIc Feature.jpeg" style = "border-color: violet; height: 250px;" data-bs-target = "#YouPic_Feature" data-bs-toggle = "modal" />
@@ -1966,17 +1957,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  Ruby-Ducky  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
                 
                     <img class = "img-thumbnail F_Pics bg-dark" src = "RubberDucky.avif" style = "border-color: violet; height: 250px;" data-bs-target = "#Ruby_Ducky" data-bs-toggle = "modal"/>
@@ -2001,17 +1989,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" >
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  Pen-Testing-App  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
     
                     <img class = "img-thumbnail F_Pics bg-dark" src = "PenTestApp.jpg" style = "border-color: violet; height: 250px;" data-bs-target = "#Pen_Testing_App" data-bs-toggle = "modal"/>
@@ -2038,17 +2023,14 @@
 
     <div class = "FeaturedItems">  
 
-        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > <!-- First we have to declare the main card body -->
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
 
-            <!-- Next we need to setup the main card header -->
             <div class = "card-header bg-dark">
     
-                <!-- For cards there is no need to add a title specific element, we can cna just use a nromal header -->
                 <h3 style = "color: gray; font-weight: bold; text-align: center;">  Hacking Drone  </h3>
     
             </div>
     
-            <!-- Next we need to add in the mian paragraph elements to the card, along iwth any and alll main images via the card-body -->
             <div class = "card-body"> 
                 
                     <img class = "img-thumbnail F_Pics bg-dark" src = "Pentesting Drone.jpeg" style = "border-color: violet; height: 250px;" data-bs-target = "#Hacking_Drone" data-bs-toggle = "modal"/>
@@ -2071,7 +2053,41 @@
 
     </div> 
 
-   
+    <div class = "FeaturedItems">  
+
+        <div class = "card F_Items bg-dark" style = "background-color: indigo; color: gray; font-weight: bold;" > 
+
+            <div class = "card-header bg-dark">
+    
+                <h3 style = "color: gray; font-weight: bold; text-align: center;">  More Features   </h3>
+    
+            </div>
+    
+            <div class = "card-body"> 
+                
+                <a href = "MoreFeatures.html" style = "text-decoration: none;">
+                    <img class = "img-thumbnail F_Pics bg-dark" src = "futaba3.jpg" style = "border-color: violet; height: 250px;" data-bs-target = "#" data-bs-toggle = "modal" />
+                </a>
+                <em> 
+                    <strong> 
+                        <p>  Click to See more Features and available content  </p>
+                    </strong>
+                </em>
+
+                <a href = "MoreFeatures.html" style = "text-decoration: none;">
+
+                    <div class="d-grid">
+                  
+                        <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" data-bs-target = "#" data-bs-toggle = ""> Click to View More </button>
+
+                    </div>
+                </a>
+
+            </div>
+    
+        </div>
+
+    </div> 
 
 </div>
 
