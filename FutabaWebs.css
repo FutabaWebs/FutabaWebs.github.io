@@ -80,6 +80,18 @@ body
     	background-image: url(futaba3.jpg);
     	background-position-x: 0px;
     	background-position-y: 0px;
+		box-shadow: 25px 0 40px purple, -25px 0 40px purple;
+}
+
+.BannerNeon
+{
+	transition: 0.3s ease;
+}
+
+.BannerNeon:hover
+{
+	box-shadow: -10px 0 30px purple, 0px 0 30px purple;
+
 }
 
 
@@ -344,6 +356,7 @@ body
 .F_Items
 {
 	width: 263.9px;
+	transition: 0.3s ease;
 }
 
 .F_Pics
@@ -351,13 +364,40 @@ body
 	object-fit: cover;
 	width: 200%;
 	max-height: 275px;
+	transition: 0.3s ease;
 }
+
+.d-grid
+{
+	transition: 0.3s ease;
+}
+
+
+.F_Pics:hover
+{
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+
+}
+
+.F_Items:hover
+{
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+
+}
+
+
+.d-grid:hover
+{
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
 
 .Modal_Pic_TCP_Client
 {
 	object-fit: cover;
 	width: 96%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_TCP_Server
@@ -365,6 +405,7 @@ body
 	object-fit: cover;
 	width: 96.5%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_MITB
@@ -372,6 +413,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Hero_Signal
@@ -379,6 +421,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_SQL_Injection
@@ -386,6 +429,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Github
@@ -393,6 +437,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Exploits
@@ -400,6 +445,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Py_Tools
@@ -407,6 +453,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_You_Pic
@@ -414,6 +461,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Drone
@@ -421,6 +469,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_BotNet
@@ -428,6 +477,12 @@ body
 	object-fit: cover;
 	width: 96%;
 	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_Generic
+{
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_CCTV
@@ -435,6 +490,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_LAN_Turtle
@@ -442,6 +498,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Ransomware
@@ -449,6 +506,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Resources
@@ -456,6 +514,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Man_Browser
@@ -463,6 +522,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Wifi_Hacking
@@ -470,6 +530,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Women_Cyber
@@ -477,6 +538,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Programming
@@ -484,6 +546,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Evil_Twin
@@ -491,6 +554,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Malware_Architype
@@ -498,6 +562,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Cipher
@@ -505,6 +570,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Mobile
@@ -512,6 +578,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Totsugeki
@@ -519,6 +586,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_NOT_Cyber
@@ -526,6 +594,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Mentor
@@ -533,6 +602,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Hats
@@ -540,6 +610,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_DangerMobile
@@ -547,6 +618,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 
@@ -555,6 +627,15 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_Footprinting
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 
@@ -563,6 +644,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_DLLCode
@@ -570,6 +652,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_ExifTool
@@ -577,6 +660,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Resources2
@@ -584,6 +668,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_SSID
@@ -591,6 +676,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_CookieSession
@@ -598,6 +684,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Zip2John
@@ -605,6 +692,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_TCP1
@@ -612,6 +700,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_TCP2
@@ -619,6 +708,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_TCPLab
@@ -626,6 +716,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_LEDProject
@@ -633,6 +724,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_ArduinoLED1
@@ -640,6 +732,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_ArduinoLED2
@@ -647,6 +740,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_DLPRansomware
@@ -654,6 +748,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_RemoteFileInclusion
@@ -661,6 +756,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_HTTPServer
@@ -668,6 +764,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_Potentiometer
@@ -675,6 +772,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
 }
 
 .Modal_Pic_HydraPat
@@ -682,6 +780,480 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_WindowsRecall
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_HTTPRequests
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_AdvancedMITB
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_SQLMapRCE
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+.Modal_Pic_JoyStick
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	transition: 0.3s ease;
+}
+
+
+/* /** HOVER EFFECTS FOR THE MODAL IMAGES  **/
+.Modal_Pic_TCP_Client:hover
+{
+	object-fit: cover;
+	width: 96%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_TCP_Server:hover
+{
+	object-fit: cover;
+	width: 96.5%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_MITB:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Hero_Signal:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_SQL_Injection:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Github:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Exploits:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Py_Tools:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_You_Pic:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Drone:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_BotNet:hover
+{
+	object-fit: cover;
+	width: 96%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Generic:hover
+{
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_CCTV:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_LAN_Turtle:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Ransomware:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Resources:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Man_Browser:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Wifi_Hacking:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Women_Cyber:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Programming:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Evil_Twin:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Malware_Architype:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Cipher:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Mobile:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Totsugeki:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_NOT_Cyber:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Mentor:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Hats:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_DangerMobile:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+
+.Modal_Pic_FoxyProxy:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Footprinting:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
+}
+
+
+.Modal_Pic_SSOOpen:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_DLLCode:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_ExifTool:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Resources2:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_SSID:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_CookieSession:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Zip2John:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_TCP1:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_TCP2:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_TCPLab:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_LEDProject:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_ArduinoLED1:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_ArduinoLED2:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_DLPRansomware:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_RemoteFileInclusion:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_HTTPServer:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_Potentiometer:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_HydraPat:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_WindowsRecall:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_HTTPRequests:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_AdvancedMITB:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_SQLMapRCE:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+}
+
+.Modal_Pic_JoyStick:hover
+{
+	object-fit: cover;
+	width: 100%;
+	max-height: 405px;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
 }
 
 
