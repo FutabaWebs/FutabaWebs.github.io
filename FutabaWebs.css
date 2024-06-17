@@ -5,19 +5,6 @@ body
     
 }
 
-.modal-body:hover
-{
-	transition: 0.3s ease;
-	
-}
-
-.modal-body:hover
-{
-	box-shadow: -10px 0 30px purple, 0px 0 30px purple;
-	color: silver;
-
-}
-
 .Banner
 {
 	max-width: 960px;
@@ -385,6 +372,12 @@ body
 	transition: 0.3s ease;
 }
 
+.modal-body
+{
+	transition: 0.3s ease;
+	
+}
+
 
 .F_Pics:hover
 {
@@ -398,6 +391,11 @@ body
 
 }
 
+.modal-body:hover
+{
+	box-shadow: -10px 0 30px purple, 0px 0 30px purple;
+
+}
 
 .d-grid:hover
 {
