@@ -18,10 +18,11 @@ body
 	background-size: 1500px;
 }
 
+
 .modal-body
 {
 	color: violet;
-	font-size: 20px;
+	font-size: 25px;
 	transition: 0.3 ease;
 }
 
@@ -29,6 +30,18 @@ body
 {
 	color: #bc5bf5;
 
+}
+
+.card-body
+{
+	color: violet;
+	transition: 0.3 ease;
+}
+
+.card-body:hover
+{
+	color: #bc5bf5;
+	transition: 0.3 ease;
 }
 
 .BannerButtons
