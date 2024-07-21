@@ -1104,7 +1104,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
+	box-shadow: 25px 0 100px purple, -25px 0 100px black;
 }
 
 
