@@ -91,7 +91,7 @@ body
 
     	background-image: url(futaba2.jpg);
     	background-position-y: 0px;
-    	background-position-x: -5px;
+    	background-position-x: 0px;
     	background-size: 300px;
 		background-repeat: no-repeat;
 		border-color: purple;
@@ -116,7 +116,7 @@ body
     	background-position-x: 0px;
     	background-size: 305px;
     	background-image: url(futaba3.jpg);
-    	background-position-x: 0px;
+    	background-position-x: 5px;
     	background-position-y: 0px;
 		box-shadow: 25px 0 40px purple, -25px 0 40px purple;
 }
