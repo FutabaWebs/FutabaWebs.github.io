@@ -52,7 +52,7 @@ body
 
 .card-body:hover
 {
-	color: #bc5bf5;
+	color: rgb(34, 182, 182);
 	transition: 0.3 ease;
 }
 
