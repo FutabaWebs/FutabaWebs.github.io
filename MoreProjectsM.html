@@ -40,6 +40,11 @@
         <script src="bootstrap.min.js" > </script>
         <script src="popper.min.js" > </script>
 
+        <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+        <script src="jquery.terminal.min.js"></script>
+        <link href="jquery.terminal.min.css" rel="stylesheet"/>
+        <script src="https://cdn.jsdelivr.net/npm/js-polyfills/keyboard.js"></script>
+
 
     </head>
 
@@ -82,6 +87,1047 @@
         </div>
         
 </div>
+
+<!-- 
+    START OF MODALS
+
+    These are the main dialogue menus that pop up for the main elements when you click on any of the main images or buttons to view more information
+    
+-->
+
+
+    <!-- Terminal Mode Modal -->
+    <div class = "modal fade" id = "TerminalMode" style = "background-image: url('PurpleRain3.gif'); zoom: 170%">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> CTF_Write_Ups </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body" id = "TerminalF" style = "background-color: black;">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_Generic" src = "TheBatManWhoLaughs.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <script>
+
+                        //This is going to be the main function that calls any body or main ID element on te page for us
+                           //THIS IS CRUCIAL AS WHERE YOU SET IT INSIDE THE $() will tell the code where to place all the css and html elements on the page
+   
+                           /** Useful Options/objects 
+                             
+                               term -> This is going to tell the code to do the following
+   
+                                   echo: Print something for us 
+                                   push: Execute a function for us via the main datathat is being overloaded from the main function in the code
+                                   pause: 
+   
+                               prompt: -> This is going to prompt  amessage to the end user on the screen for us (ADD IN THE COLON TO FINISH THE COMMAND OVERALL)
+   
+   
+   
+                            **/
+                           
+                       var term;
+                       jQuery(function($) {
+                           var id = 1;                       
+   
+                           term = $('#TerminalF').terminal(function(command, term) 
+                           {
+   
+                               //This is going to pull up the main help menu for the end user to see all avaialble commands and options
+                               if (command == 'help') 
+                               {
+                                   term.echo("\n \n (Commands) \n \n \n 🕸🕸🎃🕸🕸 CTRL-ALT-O -> Pulls up the standard temrinal \n \n 🕸🕸🎃🕸🕸 CTRL-ALT-P-> Pull up the full screen terminal \n \n \n help -> Shows list of all commands \n \n \n banner -> Displays the main banner for the terminal \n \n \n mobile -> Navigate to the Mobile version of this site \n \n \n desktop -> Navigate to the Desktop version of this site \n \n \n futaba -> Navigates you to either Mobile or Desktop for Purple Mode \n \n darkmode -> Navigates you to either Mobile or Desktop for Dark Mode \n \n navi -> Browse between the pages in either mode/color \n \n \n index -> Takes you to the index section \n \n \n articles -> Takes you to the articles section \n \n \n features -> Takes you to the features section \n \n \n termux -> Takes you to the full screen terminal mode \n \n \n exit -> Closes the terminal window \n \n ");
+                               } 
+                               
+                               //Takes the end user to the Mobile verison of the site
+                               else if (command == 'mobile') 
+                               {
+                                   window.location.href = "https://futabawebs.github.io/indexM.html";   
+                               } 
+   
+                               //Takes the end user to the Desktop version of the site 
+                               else if (command == 'desktop') 
+                               {
+                                   window.location.href = "https://futabawebs.github.io/index.html";   
+                               }
+
+
+                               //This is going to display the main banner for us
+                               else if (command == "banner")
+                               {
+                                    term.echo( "Welcome to terminal mode 🕸🕸🎃🎃🕸🕸 \n  - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸 \n \n Run the 'help' command to see all available options \n ")
+
+                               }
+   
+                               //This will give the end user the option of being able to go to either the desktop or mobile mode of the web applicaton for PURPLE MODE
+                               else if (command == "futaba")
+                               {
+                                   //The user is going to be brought to a menu that is going to change the ovreall display of the prompt
+                                   term.push(
+   
+                                       function(command, term) //This is going to be the main function that handles any commnad input from the end user
+                                       {   
+                                           //This pulls up the mian help menu for the command
+                                           if (command == "help")
+                                           { 
+                                               term.echo("\n This command brings you to either the Mobile or Desktop verison for the purple mode of the site \n \n (Commands) \n \n mobile -> Takes you to Mobile mode \n \n desktop -> Takes you to Desktop mode \n \n")
+   
+                                           }
+   
+                                           //If the command is equal to Mobile, then we are going to send the end user to the mobile version of the site
+                                           else if (command == "mobile")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/indexM.html";
+                                           }
+   
+                                           //If the command is equal to Desktop, then we are going to send the end user to the desktop version of the site
+                                           else if (command == "desktop")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/index.html";
+                                           }      
+                                           
+                                           //This will redirect the user to the full screen page in order to refresh the main terminal back to a default state
+                                           else if (command == "cd" || command == "cd .." || command == "..")
+                                            {
+
+                                                window.location.href = "https://futabawebs.github.io/FullScreenMode.html";
+
+                                            }
+
+                                            //Exits the terminal
+                                            else if (command == "exit")
+                                            {
+                                                window.location.href = "https://futabawebs.github.io/indexM.html";
+
+                                            }
+   
+                                       },
+   
+                                       { //This is going to change the overall prompt for the terminal that is being displayed to the end user
+                                           prompt: 'Futaba_Webs# ',
+                                           name: 'futaba'
+                                       }
+   
+   
+                                   );
+                                   
+                               }
+   
+                               //This will give the end user the option of being able to go to either the desktop or mobile mode of the web applicaton for DARK MODE
+                               else if (command == "darkmode")
+                               {
+                                   //The user is going to be brought to a menu that is going to change the ovreall display of the prompt
+                                   term.push(
+   
+                                       function(command, term) //This is going to be the main function that handles any commnad input from the end user
+                                       {   
+                                           //This pulls up the mian help menu for the command
+                                           if (command == "help")
+                                           { 
+                                               term.echo("\n This command brings you to either the Mobile or Desktop verison for the dark mode of the site \n \n (Commands) \n \n mobile -> Takes you to Mobile mode \n \n desktop -> Takes you to Desktop mode \n \n")
+   
+                                           }
+   
+                                           //If the command is equal to Mobile, then we are going to send the end user to the mobile version of the site
+                                           else if (command == "mobile")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/indexM.html";
+                                           }
+   
+                                           //If the command is equal to Desktop, then we are going to send the end user to the desktop version of the site
+                                           else if (command == "desktop")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/index.html";
+                                           }
+
+                                           //This will redirect the user to the full screen page in order to refresh the main terminal back to a default state
+                                           else if (command == "cd" || command == "cd .." || command == "..")
+                                            {
+
+                                                window.location.href = "https://futabawebs.github.io/FullScreenMode.html";
+
+                                            }
+
+                                            //Exits the terminal
+                                            else if (command == "exit")
+                                            {
+                                                window.location.href = "https://futabawebs.github.io/indexM.html";
+
+                                            }
+   
+                                       },
+   
+                                       { //This is going to change the overall prompt for the terminal that is being displayed to the end user
+                                           prompt: 'RoyMBull# ',
+                                           name: 'futaba'
+                                       }
+   
+   
+                                   );
+                                   
+                               }
+                               
+                               //This will allow the end user to move to different pages for the site
+                               else if (command == "navi")
+                               {
+                                   //The user is going to be brought to a menu that is going to change the ovreall display of the prompt
+                                   term.push(
+   
+                                       function(command, term) //This is going to be the main function that handles any commnad input from the end user
+                                       {   
+                                           //This pulls up the mian help menu for the command
+                                           if (command == "help")
+                                           { 
+                                               term.echo("\n This command allows you to browse any of the pages of the site in either color pallet or mode (desktop/mobile) \n \n (Commands) \n \n index-mp -> Takes you to the PURPLE version of Mobile mode for the index page  \n \n index-dp -> Takes you to the PURPLE version of Desktop mode for the index page \n \n index-drkm -> Takes you to the DARK version of Mobile mode for the index page \n \n index-drkd -> Takes you to the DARK version of Desktop mode for the index page \n \n articles-mp -> Takes you to the PURPLE version of Mobile mode for the article section \n \n articles-dp -> Takes you to the PURPLE version of Desktop mode for the article section \n \n articles-drkm -> Takes you to the DARK version of Mobile mode for the article section \n \n articles-drkd -> Takes you to the DARK version of Desktop mode for the article section \n \n articles2-mp -> Takes you to the PURPLE version of Mobile mode for the the article section page 2 \n \n articles2-dp -> Takes you to the PURPLE version of Desktop mode for the the article section page 2 \n \n articles2-drkm -> Takes you to the DARK version of Mobile mode for the the article section page 2 \n \n articles2-drkd -> Takes you to the DARK version of Desktop mode for the the article section page 2 \n \n features-mp -> Takes you to the PURPLE version of Mobile mode for the the features section \n \n features-dp -> Takes you to the PURPLE version of Desktops mode for the the features section \n \n features-drkm -> Takes you to the DARK version of Mobile mode for the the features section \n \n features-drkd -> Takes you to the DARK version of Desktop mode for the the features section \n \n Projects-mp -> Takes you to the PURPLE version of Mobile mode for the the projects section \n \n  projects-dp -> Takes you to the PURPLE version of Desktop mode for the the projects section \n \n projects-drkm -> Takes you to the DARK version of Mobile mode for the the projects section \n \n projects-drkd -> Takes you to the DARK version of Desktop mode for the the features section \n \n " )
+   
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "index-mp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/indexM.html";
+                                           }
+   
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "index-dp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/index.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "index-drkm")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/indexM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "index-drkd")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/index.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles-mp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreArticlesM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles-dp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreArticles.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles-drkm")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreArticlesM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles-drkd")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreArticles.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles2-mp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreArticles2M.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles2-dp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreArticles2.html";
+                                           }
+                                           
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles2-drkm")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreArticles2M.html";
+                                           }
+   
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "articles2-drkd")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreArticles2.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "features-mp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreFeaturesM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "features-dp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreFeatures.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "features-drkm")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreFeaturesM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "features-drkd")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreFeatures.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "projects-mp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreFeaturesM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "projects-dp")
+                                           {
+                                               window.location.href = "https://futabawebs.github.io/MoreFeatures.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "projects-drkm")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreProjectsM.html";
+                                           }
+   
+                                           //This will take the end user to any of the available options/pages
+                                           else if (command == "projects-drkd")
+                                           {
+                                               window.location.href = "https://roymbull.github.io/MoreProjects.html";
+                                           }
+
+                                           //This will redirect the user to the full screen page in order to refresh the main terminal back to a default state
+                                            else if (command == "cd" || command == "cd .." || command == "..")
+                                            {
+
+                                                window.location.href = "https://futabawebs.github.io/FullScreenMode.html";
+
+                                            }
+
+                                            //Exits the terminal
+                                            else if (command == "exit")
+                                            {
+                                                window.location.href = "https://futabawebs.github.io/indexM.html";
+
+                                            }
+   
+   
+                                       },
+   
+                                       { //This is going to change the overall prompt for the terminal that is being displayed to the end user
+                                           prompt: 'Navigation# ',
+                                           name: 'futaba'
+                                       }
+   
+   
+                                   );
+                                   
+                               }
+   
+                               //This will redirect the user to the full screen page in order to refresh the main terminal back to a default state
+                               else if (command == "cd" || command == "cd .." || command == "..")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/FullScreenMode.html";
+
+                               }
+
+                               //Exits the terminal
+                               else if (command == "exit")
+                               {
+                                    window.location.href = "https://futabawebs.github.io/indexM.html";
+
+                               }
+                            
+                               //Index command options
+                               else if (command == "index")
+                               {
+                                    term.echo("\n \n Options: \n \n -d -> Takes you to the desktop verison of the site \n \n -m -> Takes you to the mobile version of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "index -d" || command == "cd index -d")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/index.html";
+
+                               } 
+
+                               else if (command == "index -m" || command == "cd index -m")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/indexM.html";
+                                
+                               }
+
+                               //Articles command options
+                               else if (command == "articles")
+                               {
+                                    term.echo("\n \n Options: \n \n -d -> Takes you to the desktop verison of the site \n \n -m -> Takes you to the mobile version of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "articles -d" || command == "cd articles -d")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreArticles.html";
+
+                               } 
+
+                               else if (command == "articles -m" || command == "cd articles -m")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreArticlesM.html";
+                                
+                               }
+
+                               //Articles2 command options
+                               else if (command == "articles2")
+                               {
+                                    term.echo("\n \n Options: \n \n -d -> Takes you to the desktop verison of the site \n \n -m -> Takes you to the mobile version of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "articles2 -d" || command == "cd articles2 -d")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreArticles2.html";
+
+                               } 
+
+                               else if (command == "articles2 -m" || command == "cd articles2 -m")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreArticles2M.html";
+                                
+                               }
+
+                               //Features command options
+                               else if (command == "features")
+                               {
+                                    term.echo("\n \n Options: \n \n -d -> Takes you to the desktop verison of the site \n \n -m -> Takes you to the mobile version of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "features -d" || command == "cd features -d")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreFeatures.html";
+
+                               } 
+
+                               else if (command == "features -m" || command == "cd features -m")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreFeaturesM.html";
+                                
+                               }
+
+                               //Projects command options
+                               else if (command == "projects")
+                               {
+                                    term.echo("\n \n Options: \n \n -d -> Takes you to the desktop verison of the site \n \n -m -> Takes you to the mobile version of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "projects -d" || command == "cd projects -d")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreProjects.html";
+
+                               } 
+
+                               else if (command == "projects -m" || command == "cd projects -m")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/MoreProjectsM.html";
+                                
+                               }
+
+                                //Termux command options
+                                else if (command == "termux")
+                               {
+                                    term.echo("\n \n Options: \n \n -f -> Takes you to the desktop verison of the site \n \n")
+                                    
+                               }
+
+                               else if (command == "termux -f" || command == "cd termux -f")
+                               {
+
+                                    window.location.href = "https://futabawebs.github.io/FullScreenMode.html";
+
+                               } 
+
+                        
+                               else
+                               {
+                                   return "Unknown Command! Run 'help' to see a list of all available commands";
+   
+                               }
+   
+   
+                           }, {
+                               greetings: "Welcome to terminal mode 🕸🕸🎃🎃🕸🕸 \n  - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸 \n \n Run the 'help' command to see all available options \n"
+                           });
+                       });
+                       
+                       </script>
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+    <!-- CTF Modal -->
+    <div class = "modal fade" id = "CTF_Write_Ups" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> CTF_Write_Ups </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_Generic" src = "CTF.webp" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        I’ve participated in various high level complex CTF challenges, some of which landed me interviews at companies that had them as a part of their hiring process such as: “Security Innovation”, “Brainnest Consulting”, as well as “Chip Scan”.
+                        
+                    </br>
+                </br>
+                        I also do a bunch of platforms like HackTheBox and TryHackMe, as well as the many 6 that are available on “Canyouhack[.]us” which was provided by “Security Innovation”.
+
+                    </br>
+                </br>
+
+                        I’m also a Pico CTF competitor, and have even done a few high level forensics challenges that involve high level cryptanalysis techniques to decipher hidden data, as well as rebuild, analyze, and compile them.
+
+                    </br>
+                </br>
+
+                        All of the CTF’s I’ve participated in inspired me to create my own known as “Futaba’s Playground”
+
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸 
+
+                    </p>
+    
+                    <a href = "https://drive.google.com/drive/folders/1AVCVjhWW0irlQ0D-1izHHc5ksFtV40Og" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+        <!-- Portfolio Modal-->
+    <div class = "modal fade" id = "Cyber_Portfolio" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> Cyber_Portfolio </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_Generic" src = "Cyber Security Portfolio.png" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        Self-Taught Cyber Security Professional with a background in Software Engineering, IT Technical Support, Security Engineering, and proficiency in Electrical engineering and Reverse Engineering. 
+
+                    </br>
+                </br>
+
+                        I have a love and passion for offensive security. I reverse engineer various core API’s and technologies in order to explore and fabricate new ideas that will make my projects come to life.  
+
+                    </br>
+                </br>
+
+                        I use my Software Engineering skills to design custom exploits and penetration testing tools, and CTF servers that demonstrate my Security Engineering skills and ingenious ingenuity. 
+
+                    </br>
+                </br>
+
+                        My Electrical Engineering skills allow me to devise various custom tools such as keyboard injection exploits that manipulate the virtual keyboard API of a system in order to inject payloads and bypass security measures for security testing, some with the ability to write their own code, which I use to extend further C/C++ Win32API and LinuxAPI exploits along with python scripts.
+
+                    </br>
+                </br>
+
+                        On top of being proficient in C/C++ I’m also proficient in 13 programming languages in total, my main ones being: C/C++, Python3, Bash, SQL, HTML/CSS/JS, PHP, and of course a bit of Powershell scripting as well. 
+
+                    </br>
+                </br>
+
+                        My IT skills are on par with level 4 tier experience. I use my reverse engineering skills in order to deduce probable causes and solutions for technical problems. 
+
+                    </br>
+                </br>
+                        Reverse engineering is my specialty and is how I learn. Given my level of ingenuity, I was allowed to operate above my tier level and demonstrate my skill sets to the fullest and solve lots of complex technical problems at the companies that I worked at, including the infamous Pfizer Pharmaceutical company, which I have thorough documentation of in my research portfolio.
+
+                    </br>
+                </br>
+                
+                        My skill sets won’t disappoint you! Check out my work and my research. I take pride in what I do as a professional hacker.
+                     
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://drive.google.com/drive/folders/1SSrPxY4UKp-YLhBjqsTKBl29VTaqCfyp?usp=sharing" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+    <!-- Crypto Modal -->
+    <div class = "modal fade" id = "Crypto_Malware" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> Crypto_Malware </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_Generic" src = "RansomeWare.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        I wrote a test sample to demonstrate how ransomware targets and infects a victim system via file enumeration and disk encryption tactics such as RSA and AES encryption. 
+
+                    </br>
+                </br>
+
+                        For this test specifically I am only using RSA encryption.
+
+                    </br>
+                </br>
+
+                        The code basically creates a directory with a series of files with a bit of sample data in them, creates crypto keys to use for the experiment, enumerates and locates all the root files in the folder, and then handles them via encrypting the files, showing you the cipher text, and then reversing the process to decrypt it in front of you. It even tests the keys by asking you to input data when it launches so that you see the program works.
+
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Python-Pen-Testing-Tools/blob/main/Python%20PenTesting%20Tools/Ransomeware.py" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+    <!-- LAN Turtle Project Modal -->
+    <div class = "modal fade" id = "Lan_Turtle" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> Lan_Turtle </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_LAN_Turtle" src = "Lan Turtle.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4 meme"> 
+                        
+                        I've always wanted to have one of my rubber ducky scripts write its own code In a cool way, so I figured why not combine that with a LAN turtle.
+                        
+                    </br>
+                </br>
+                
+                        I'm even working on a version of this that acts as retro malware to disable security systems in place, allowing me to install any backdoor.
+                     
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Ruby-Ducky-Code/blob/main/Ruber%20Ducky%20Code/LanTurtleScript.ino" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+    <!-- MITB Modal -->
+    <div class = "modal fade" id = "MITB" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> Man-In-The-Browser </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_MITB" src = "MITB.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        I wrote a Man-In-The-Browser exploit that is able to sit in place via the use of exceptions to monitor and track end user browser sessions to keylog facebook credentials from the end user. 
+
+                    </br>
+                </br>
+
+                        I ran into a HUGE issue during trial and error with the code. Whenever the end user would clickoff off the page, the code would be unable to find the form elements, breaking the code. What I NEED it to do is, when  the end user leaves the page, or should they be on the same site but the code can’t find the elements, is for the for loop to break, bringing us back to the main while loop so that the process to check for sites begins again. To get around this I set up an exception handler.
+                     
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Python-Pen-Testing-Tools/blob/main/Python%20PenTesting%20Tools/MITB.py" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+    <!-- TCP Client Modal -->
+    <div class = "modal fade" id = "TCP_Client" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> TCP_Client </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 mx-2 Modal_Pic_TCP_Client" src = "TCPClient.avif" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        This is a TCP Client that I wrote that connects to a server in a listening state on a victim machine, that can check the OS and version of the system, and then install and run payloads I set based on that, even tools that I might need to pwn the system. 
+
+                    </br>
+                </br>
+
+                        I’m upgrading this in the future to combine data encryption to mask my network traffic on internal networks to stay hidden for exploits. 
+
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Python-Pen-Testing-Tools/blob/main/Python%20PenTesting%20Tools/TCPClientBackDoor.py" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+
+    <!-- TCP Server Modal -->
+    <div class = "modal fade" id = "TCP_Server" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> TCP_Server </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4  mx-2 Modal_Pic_TCP_Server" src = "TCPServer.avif" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        This is a TCP Server that I wrote that listens on a victim machine for TCP Client side connections, so that it can interpret and handle any and all shell code commands that are sent by the botmaster.
+
+                    </br>
+                </br>
+                
+                        I’m upgrading this in the future to combine data encryption to mask my network traffic on internal networks to stay hidden for exploits.
+   
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Python-Pen-Testing-Tools/blob/main/Python%20PenTesting%20Tools/TCPServerBackDoor.py" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+    <!-- Hero Modal -->
+    <div class = "modal fade" id = "Hero_Signal" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> Hero_Signal </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_Hero_Signal" src = "HeroSignal.png" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        I designed a custom bash script that makes Kali Linux more accessible to new comers. It's on version 5 but I have a demo version that you can try out here.
+
+                    </br>
+                </br>
+
+                        You can find that right here on my GitHub 
+
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Bash-Shell-Scripting/blob/main/Bash%20Shell%20Scripting/MasterScriptFWebsVer4.sh" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+    <!-- SQL Script Modal -->
+    <div class = "modal fade" id = "SQL_Inject_Script" style = "background-image: url('PurpleRain3.gif'); zoom: 170%;">
+        <div class = "modal-dialog modal-lg">
+        <div class = "modal-content">
+    
+                <div class = "modal-header" style = "background-color: indigo; color: violet ">
+    
+                    <span class="Contact_Icons mx-4"></span>
+    
+                    <h3 class = "modal-title" style = "text-align: center; font-weight: bold;"> SQL_Inject_Script </h3>
+    
+                    <button class = "btn-close bg-danger"  data-bs-dismiss = "modal"> </button>
+    
+                </div>
+    
+                <div class = "modal-body bg-dark">
+    
+                    <img class = "img-thumbnail mt-4 Modal_Pic_SQL_Injection" src = "SQL.jpg" style = "border-color: violet; background-color: indigo;"> </h3>
+                    
+                    <p class = "pb-5 mt-4"> 
+                        
+                        This is a script that I designed that solves one of “Security Innovations” first SQL injection based CTF’s. 
+
+                    </br>
+                </br>
+
+                        The script is able to inject a payload into the URL parameter of the web server while pre-loading a cookie session that has been assigned to it, solving the challenge, and storing the results for us in a file, in which we can parse through to check for the flag.
+
+                     
+                    </br>
+                </br>
+                        - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸
+
+                    </p>
+    
+                    <a href = "https://github.com/RoyMBull/Python-Pen-Testing-Tools/blob/main/Python%20PenTesting%20Tools/SQLInjection.py" style = "text-decoration: none;"> 
+
+                        <div class="d-grid">
+                      
+                            <button type = "button" class = "btn btn-block" style = "background-color: purple; font-weight: bold; color: black; border-color: black;" > Click to View More </button>
+    
+                        </div>
+    
+                    </a>     
+    
+    
+    
+                </div>
+    
+    
+        </div>
+        </div>
+        </div>
+
+
+<!-- 
+    END OF MODALS
+-->
 
 <!-- Projects -->
 
@@ -519,6 +1565,26 @@
         
                 </div> 
     
+            </a>
+    
+        </div>
+
+        <div class = "ContactInfo" style = "font-size: 60px; text-align: center;" hidden>
+
+            <div class="d-grid pt-3">
+                    
+                <button type = "button" class = "btn btn-block BannerNeon" style = "background-color: indigo; font-weight: bold; font-size: 20px; color: violet; border-color: purple;" data-bs-target="#TerminalMode" data-bs-toggle = "modal" accesskey="o" hidden> Terminal Mode 🕸🕸🎃🕸🕸 </button>
+    
+            </div> 
+    
+            <a href = "https://futabawebs.github.io/FullScreenMode.html" style = "text-decoration:none" hidden>
+    
+                <div class="d-grid pt-3">
+                
+                    <button type = "button" class = "btn btn-block BannerNeon" style = "background-color: indigo; font-weight: bold; font-size: 20px; color: violet; border-color: purple;" accesskey="p"> Terminal ModeF 🕸🕸🎃🕸🕸 </button>
+        
+                </div> 
+        
             </a>
     
         </div>
