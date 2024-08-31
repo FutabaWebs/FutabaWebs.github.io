@@ -2,7 +2,7 @@ body
 {
     
 	background-image: url("PurpleRain3.gif");
-    	
+
 }
 
 .Banner
@@ -403,7 +403,7 @@ body
 {
 	object-fit: cover;
 	width: 200%;
-	max-height: 275px;
+	max-height: 975px;
 	transition: 0.3s ease;
 }
 
