@@ -403,7 +403,7 @@ body
 {
 	object-fit: cover;
 	width: 200%;
-	max-height: 975px;
+	max-height: 275px;
 	transition: 0.3s ease;
 }
 
