@@ -31,6 +31,13 @@ body
 	background-size: 1500px;
 }
 
+.modal
+{
+	background-image: url("PurpleRain3.gif");
+
+}
+
+
 .modal-body
 {
 	color: silver;
