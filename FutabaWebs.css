@@ -1,7 +1,7 @@
 body
 {
     
-	background-image: url("PurpleRain3.gif");
+	background-image: url("RedCity.gif");
     
 }
 
@@ -33,12 +33,13 @@ body
 
 .modal
 {
-	background-image: url("PurpleRain3.gif");
+	background-image: url("RedCity.gif");
 
 }
 
 .modal-body
 {
+	background-color: black;
 	color: silver;
 	font-size: 24px;
 	transition: 0.3 ease;
@@ -46,7 +47,7 @@ body
 
 .modal-body:hover
 {
-	color: rgb(34, 182, 182);
+	color: #bc5bf5;
 
 }
 
@@ -58,7 +59,7 @@ body
 
 .card-body:hover
 {
-	color: rgb(34, 182, 182);
+	color: #bc5bf5;
 	transition: 0.3 ease;
 }
 
