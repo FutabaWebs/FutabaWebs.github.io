@@ -91,8 +91,8 @@
             slidesNavPosition: 'bottom',
             scrollBar: false,
 
-            //scrolling
-            css3: true,
+            //scrolling (THIS CAUSES AUTO SCROLLING TURN THIS OFF TO PREVENT PAGES FROM RE-ADJUSTINGS)
+           /**  css3: true,
             scrollingSpeed: 700,
             autoScrolling: true,
             fitToSection: true,
@@ -106,6 +106,8 @@
             scrollOverflow: false,
             touchSensitivity: 5,
             normalScrollElementTouchThreshold: 5,
+
+            **/
 
             //Accessibility
             keyboardScrolling: true,
