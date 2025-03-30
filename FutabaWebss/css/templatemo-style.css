@@ -181,8 +181,8 @@ h1,h2,h3,h4,h5
 	}
 #home h1
     {
-        border: 2px solid #D43F52;
-        color: #D43F52;
+        border: 2px solid purple;
+        color: teal;
         display: inline-block;
         letter-spacing: 6px;
         padding: 25px 35px;
@@ -195,8 +195,8 @@ h1,h2,h3,h4,h5
 #home .btn
     {
         background: transparent;
-        border: 2px solid #ffffff;
-        color: #ffffff;
+        border: 2px solid purple;
+        color: teal;
         font-size: 16px;
         font-weight: bold;
         width: 180px;
@@ -207,8 +207,9 @@ h1,h2,h3,h4,h5
     }
 #home .btn:hover
     {
-        background: teal;
-        border-color: transparent;
+        background: indigo;
+        border-color: black;
+        color: black;
     }
 /* end home */
 
