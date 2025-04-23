@@ -376,16 +376,34 @@ h1,h2,h3,h4,h5
     }
 #contact input[type="submit"]
     {
-        background: indigo;
-        border: 2px solid transparent;
-        color: black;
+        background-color: rgb(0, 0, 0, 0.88);
+        border: 2px solid;
+        border-color: #D43F52;
+        border-radius: 5px;
+        color: #D43F52;
         font-weight: bold;
         transition: all 0.4s ease-in-out;
     }
 #contact input[type="submit"]:hover
     {
-        background: purple;
-        color: silver;
+        background: #D43F52;
+        color: black;
+    }
+
+    #contact2 input[type="submit"]
+    {
+        background-color: rgb(0, 0, 0, 0.88);
+        border: 2px solid;
+        border-color: #D43F52;
+        border-radius: 5px;
+        color: #D43F52;
+        font-weight: bold;
+        transition: all 0.4s ease-in-out;
+    }
+    #contact2 input[type="submit"]:hover
+    {
+        background: #D43F52;
+        color: black;
     }
 /* end contact */
 
