@@ -320,25 +320,36 @@
 	</div>
 	<div class="modal-body">
 		
-	
-	<input 
-			type = "text"
-			name = "search"
-			id = "search"
-			style = "background-color: #D43F52; color: black;"
-	/>
+		
+		<!-- The code is going to query the PHP file with anything the client sends over via the "search paramater" -->
+		<form 
+				method = "POST"
+				action = "SearchMode.php"
+				name = "SearchMode"
+				id = "SearchMode"
+		>
+				<input 
+					type = "text"
+					name = "search"
+					id = "search"
+					style = "background-color: #D43F52; color: black;"
+				/>
 
-	<input	
-	type = "submit"
-	name = "submit"
-	id = "submit"
-	style = "background-color: #D43F52; color: black;"
-	onclick = "test()"
-/>
+				<input	
+					type = "submit"
+					name = "submit"
+					id = "submit"
+					style = "background-color: #D43F52; color: black;"
+				/>
+	
+		</form>
+
+
+	
 
 
 	</div>
-	<div class="modal-footer" style = "background-color: #D43F52;"> 
+	<div class="modal-footer" style = "background-color: #D43F52;"> Test Trial1
 	<button type="button" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: #D43F52;">THIS IS STILL IN TESTING! (CLOSE)</button>
 	</div>
 	</div>
