@@ -1,3 +1,7 @@
+https://tools.knowledgewalls.com/online-multiline-to-single-line-converter
+
+https://www.quackit.com/html/html_generators/html_text_generator.cfm
+
 //Two column section
 <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
 
