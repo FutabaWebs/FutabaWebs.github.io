@@ -1,6 +1,6 @@
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
+    input = document.getElementById("search");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
@@ -32,7 +32,7 @@ document.getElementById('search').addEventListener('input', function(event) {
         {   
             
             document.getElementById("testq").innerHTML = '🎃 Is TCM Still Credible?';
-            document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible"> <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Is TCM Security Still Credible? 🕸🕸🎃🕸🕸 </h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸 </h5> </div> </a> </div> </div> </div> </div> </div>'; //We can use this to dispaly the instruction 
+            document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> '; 
 
 
             document.getElementById("submit").addEventListener('click', function(event)
@@ -47,6 +47,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
                 window.location.href = "https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible";
 
+                //We're going to change the value of the field again 
+
+            })
+
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
                 //We're going to change the value of the field again 
 
             })
@@ -77,6 +97,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                 //We're going to change the value of the field again 
 
             })
+
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
         }
 
        else if (command == "tcm -stance")
@@ -92,6 +132,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
                 window.location.href = "https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible#stance";    
 
+                //We're going to change the value of the field again 
+
+            })
+
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
                 //We're going to change the value of the field again 
 
             })
@@ -116,6 +176,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
             })
 
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
+
         }
 
        else  if (command == "tcm -lying")
@@ -132,6 +212,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
                 window.location.href = "https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible#lying";    
 
+                //We're going to change the value of the field again 
+
+            })
+
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
                 //We're going to change the value of the field again 
 
             })
@@ -156,6 +256,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
             })
 
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
+
         }
 
         else if (command == "tcm -truth")
@@ -172,6 +292,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
                 window.location.href = "https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible#truth";    
 
+                //We're going to change the value of the field again 
+
+            })
+
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
                 //We're going to change the value of the field again 
 
             })
@@ -196,6 +336,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
             })
 
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
+
         }
 
         else if (command == "tcm -afterthoughts")
@@ -216,6 +376,26 @@ document.getElementById('search').addEventListener('input', function(event) {
 
             })
 
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                //The event is going to trigger a test alert message on the page
+
+                //alert('working');
+                //document.getElementById("testq").innerHTML = '';
+                //document.getElementById("testp").innerHTML = ''; 
+                //window.location.href = "";
+
+
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
+
         }
 
 
@@ -227,8 +407,8 @@ document.getElementById('search').addEventListener('input', function(event) {
             {   
                 
                 document.getElementById("testq").innerHTML = '🎃 How To Build Your Personal Brand?';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand"> <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"> <div class="portfolio-overlay"> <h4 style = "color: black;">How to Build Your Personal Brand? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> '; 
+                    
                     document.getElementById("submit").addEventListener('click', function(event)
                 {
                     //The event is going to trigger a test alert message on the page
@@ -240,6 +420,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand";
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -271,6 +471,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "brandp -authentic")
@@ -287,6 +507,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand#authentic";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -309,6 +549,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+                
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "brandp -community")
@@ -325,6 +585,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand#community";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -347,6 +627,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
 
@@ -359,8 +659,7 @@ document.getElementById('search').addEventListener('input', function(event) {
             {   
                
                 document.getElementById("testq").innerHTML = '🎃 Women’s History Month 2025';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"> <img src="kiki.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Women’s History Month 2025 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -373,6 +672,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025";
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -403,6 +722,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -bailey")
@@ -419,6 +758,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#bailey";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -441,6 +800,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -angelina")
@@ -457,6 +836,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#angelina";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -479,6 +878,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -rana")
@@ -495,6 +914,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#rana";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -517,6 +956,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -lena")
@@ -533,6 +992,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#lena";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -555,6 +1034,27 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -ana")
@@ -571,6 +1071,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#anastasia";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -593,9 +1113,30 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
-                    else if (command == "whm2025 -sandra")
+            
+            else if (command == "whm2025 -sandra")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -609,6 +1150,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#sandra";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -631,6 +1192,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -laurie")
@@ -647,6 +1228,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#laurie";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -669,6 +1270,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -ell")
@@ -685,6 +1306,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025#ell";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -707,6 +1348,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             else if (command == "whm2025 -kazel")
@@ -726,6 +1387,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
             
@@ -741,8 +1422,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Why Futaba Does Cyber Security!?';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber"> <img src="BatManWL.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Why Futaba Does Cyber Security!? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -756,6 +1436,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber";
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -786,6 +1486,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
              else if (command == "futabawhy -insights")
@@ -802,6 +1522,26 @@ document.getElementById('search').addEventListener('input', function(event) {
     
                     window.location.href = "https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber#insights";    
     
+                    //We're going to change the value of the field again 
+    
+                })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
                     //We're going to change the value of the field again 
     
                 })
@@ -824,6 +1564,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
              else if (command == "futabawhy -outlook")
@@ -843,6 +1603,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
             }
 
         //( Article)
@@ -854,8 +1634,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 FREE Resource? OR Opportunities?';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities"> <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">FREE Resource? OR Opportunities? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -872,10 +1651,30 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                {
+                    //The event is going to trigger a test alert message on the page
+    
+                    //alert('working');
+                    //document.getElementById("testq").innerHTML = '';
+                    //document.getElementById("testp").innerHTML = ''; 
+                    //window.location.href = "";
+    
+    
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById("submit").click();
+                    }
+                    //We're going to change the value of the field again 
+    
+                })
       
             }
 
-            else if (command == "resources -options")
+            else if (command == "resources -ops")
                 {
                     document.getElementById("testq").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: resources -enough) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -enough</p> <p>🎃 -opportunities</p> <p>🎃 -options</p> <p></p>';
         
@@ -899,6 +1698,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //We're going to change the value of the field again 
         
                     })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
                 }
 
             else if (command == "resources -opportunities")
@@ -918,11 +1737,8 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //We're going to change the value of the field again 
         
                     })
-                }
 
-            else if (command == "resources -ops")
-                {
-                    document.getElementById("submit").addEventListener('click', function(event)
+                    document.getElementById("search").addEventListener('keypress', function(event)
                     {
                         //The event is going to trigger a test alert message on the page
         
@@ -932,14 +1748,18 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //window.location.href = "";
         
         
-                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities#ops";    
-        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
                         //We're going to change the value of the field again 
         
                     })
                 }
 
-            
+                       
                 
 
 
@@ -952,8 +1772,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = ' Ex Machina Parlor';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor"> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Ex Machina Parlor 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -970,6 +1789,28 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                
       
             }
 
@@ -997,6 +1838,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //We're going to change the value of the field again 
         
                     })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
                 }
 
             else if (command == "exmachina -lexie")
@@ -1016,6 +1877,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //We're going to change the value of the field again 
         
                     })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
                 }
 
 
@@ -1030,8 +1911,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Confluence LockBit Ransomware';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart1"> <img src="confluence.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Confluence LockBit Ransomware 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1048,6 +1928,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
     
@@ -1075,6 +1975,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -cve")
@@ -1094,6 +2014,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -metasploit")
@@ -1113,6 +2053,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -mimikatz")
@@ -1132,6 +2092,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -pdq")
@@ -1151,6 +2131,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -anydesk")
@@ -1170,6 +2170,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -lockbit")
@@ -1189,6 +2209,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -ransomware")
@@ -1208,6 +2248,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -smb")
@@ -1227,6 +2287,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "confluence -rclone")
@@ -1246,6 +2326,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
 
@@ -1259,8 +2359,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Confluence LockBit Ransomware (Pt2)';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart2"> <img src="rclone.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Confluence LockBit Ransomware (Pt 2) 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1277,6 +2376,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
             
@@ -1305,6 +2424,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -cve")
@@ -1324,6 +2463,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -shell")
@@ -1343,6 +2502,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -access")
@@ -1362,6 +2541,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -takeover5")
@@ -1381,6 +2580,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -rclone")
@@ -1400,6 +2619,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
              else if (command == "confluence2 -lockbit")
@@ -1419,6 +2658,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             
@@ -1431,8 +2690,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = "🎃 Futaba's Cyber Security Content";
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/FutabasCyberSecurityContent"> <img src="FutabasCyberSecurityContent.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Futabas Cyber Security Content 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>' 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1449,6 +2707,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1476,6 +2754,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -exploit")
@@ -1495,6 +2793,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -toolguides")
@@ -1514,6 +2832,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -programming")
@@ -1533,6 +2871,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -electrical")
@@ -1552,6 +2910,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -malwarelabs")
@@ -1571,6 +2949,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -securecoding")
@@ -1590,6 +2988,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -mrrobot")
@@ -1609,6 +3027,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -labs")
@@ -1628,6 +3066,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
             else if (command == "content -audibles")
@@ -1647,6 +3105,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
 
@@ -1660,8 +3138,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Should 3rd Party Vendors Be Trusted?';
-                document.getElementById("testp").innerHTML = '<div id="portfolio" class="section"> <div class="container"> <div class="row"> <div class="col-md-12"> </div> <div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/Should3rdPartyVendorsBeTrusted"> <img src="Should3rdPartyVendorsBeTrusted.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Should 3rd Party Vendors Be Trusted 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div> </div> </div> </div>'; 
-    
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1678,6 +3155,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
     
@@ -1705,6 +3202,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
 
@@ -1725,9 +3242,279 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
             }
 
 
+
+            else if (command == "futabagoal") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "futabagoal -options")
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: futabagoal -tooldev) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -whitepaper</p> <p>🎃 -tooldev</p> <p>🎃 -contractor</p> <p>🎃 -evilhero</p> <p></p>'; 
+          
+                }
+
+                else if (command == "futabagoal -whitepaper")
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs"> <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Goal Of Futaba_Webs 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>'; 
+        
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs#whitepaper";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "futabagoal -tooldev")
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs"> <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Goal Of Futaba_Webs 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>'; 
+        
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs#tooldev";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "futabagoal -contractor")
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs"> <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Goal Of Futaba_Webs 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>'; 
+        
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs#contractor";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+                
+                else if (command == "futabagoal -evilhero")
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
+                    document.getElementById("testp").innerHTML = '<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs"> <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Goal Of Futaba_Webs 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>'; 
+        
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs#evilhero";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
 
 
 
@@ -1758,6 +3545,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1786,6 +3593,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1814,6 +3641,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1842,6 +3689,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1870,6 +3737,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1899,6 +3786,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1927,6 +3834,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1955,6 +3882,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -1983,6 +3930,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2013,6 +3980,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2041,6 +4028,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2069,6 +4076,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2097,6 +4124,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2125,6 +4172,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2153,6 +4220,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2181,6 +4268,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2209,6 +4316,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2237,6 +4364,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                     //We're going to change the value of the field again 
     
                 })
+
+                document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
       
             }
 
@@ -2262,6 +4409,26 @@ document.getElementById('search').addEventListener('input', function(event) {
         
                         window.location.href = "http://linkedin.com/company/futaba-webs/";
         
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
                         //We're going to change the value of the field again 
         
                     })
@@ -2293,6 +4460,26 @@ document.getElementById('search').addEventListener('input', function(event) {
                             //We're going to change the value of the field again 
             
                         })
+
+                        document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
               
                     }
 
@@ -2321,8 +4508,29 @@ document.getElementById('search').addEventListener('input', function(event) {
                                 //We're going to change the value of the field again 
                 
                             })
+
+                            document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
                   
                         }
+
 
                         else if (command == "help")
                             {   
@@ -2349,30 +4557,9 @@ document.getElementById('search').addEventListener('input', function(event) {
                             }
 
             //Intelisense
-                else if (command == "catalog -search") 
-                    {   
-                        //What we can do is have the code define the html elements on the page with all of them being hidden.
-                        //The code can interact with the catalog items on the page via the list, and then a sthe end user types, it unhides certain elements on the field and shows them directly to you
-                        //This still needs to be tested throughly
-
-
-                        var catalog = new String('<h2>Futaba_Webs 🕸🕸🎃🕸🕸</h2> <p> Run the "Help" Command</p> <p> "Shift-Alt-P" (Opens Search Mode)</p> </br> <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Futabas Catalog" title="Type in a name" style = "background-color: white; font-color: black; border-color: #D43F52; border-style: solid;"> </br> </br> <ul id="myUL" style = "list-style-type: none;"> <li><a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Is TCM Security Still Credible? <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"></a></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 How to Build Your Personal Brand? <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Womens History Month 2025 <img src="kiki.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Why Futaba Does Cyber Security!? <img src="BatManWL.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 FREE Resource? OR Opportunities? <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Ex Machina Parlor</a> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img"></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart1" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware <img src="confluence.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart2" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware (Part 2) <img src="rclone.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FutabasCyberSecurityContent" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Futabas Cyber Security Content <img src="FutabasCyberSecurityContent.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/Should3rdPartyVendorsBeTrusted" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> 🎃 Should 3rd Party Vendors Be Trusted? <img src="Should3rdPartyVendorsBeTrusted.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ArticleCatalog#portfolio" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Catalog Page <img src="Welcome Tier.png" class="img-responsive" alt="portfolio img"></a> </li> </ul>');
-                        //Now that all the main elements are written to the page we need to see if they show up successfully
-                        
-                        //This is where the intelisense logic takes place
-                            //We need to convert one of the portfploo buttons into a line of html
-                        
-                        //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
-                        document.getElementById("testp").innerHTML = catalog;
-
-                        
-                        
-              
-                    }
-
-            else
+            else if (command == "")
             {
-                document.getElementById("testq").innerHTML = '<h2>Futaba_Webs 🕸🕸🎃🕸🕸</h2> <p> Run the "Help" Command</p> <p> "Shift-Alt-P" (Opens Search Mode)</p> </br> <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Futabas Catalog" title="Type in a name" style = "background-color: white; font-color: black; border-color: #D43F52; border-style: solid;"> </br> </br> <ul id="myUL" style = "list-style-type: none;"> <li><a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Is TCM Security Still Credible? <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"></a></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 How to Build Your Personal Brand? <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Womens History Month 2025 <img src="kiki.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Why Futaba Does Cyber Security!? <img src="BatManWL.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 FREE Resource? OR Opportunities? <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Ex Machina Parlor</a> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img"></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart1" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware <img src="confluence.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart2" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware (Part 2) <img src="rclone.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FutabasCyberSecurityContent" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Futabas Cyber Security Content <img src="FutabasCyberSecurityContent.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/Should3rdPartyVendorsBeTrusted" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> 🎃 Should 3rd Party Vendors Be Trusted? <img src="Should3rdPartyVendorsBeTrusted.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ArticleCatalog#portfolio" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Catalog Page <img src="Welcome Tier.png" class="img-responsive" alt="portfolio img"></a> </li> </ul>';
+                document.getElementById("testq").innerHTML = '<h2>Futaba_Webs 🕸🕸🎃🕸🕸</h2> <p> Run the "Help" Command</p> <p> "Shift-Alt-P" (Opens Search Mode)</p> </br> <ul id="myUL" style = "list-style-type: none;"> <li><a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Is TCM Security Still Credible? <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"></a></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 How to Build Your Personal Brand? <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Womens History Month 2025 <img src="kiki.jpg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Why Futaba Does Cyber Security!? <img src="BatManWL.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 FREE Resource? OR Opportunities? <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Ex Machina Parlor</a> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img"></li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart1" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware <img src="confluence.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart2" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Confluence LockBit Ransomware (Part 2) <img src="rclone.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/FutabasCyberSecurityContent" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Futabas Cyber Security Content <img src="FutabasCyberSecurityContent.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/Should3rdPartyVendorsBeTrusted" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> 🎃 Should 3rd Party Vendors Be Trusted? <img src="Should3rdPartyVendorsBeTrusted.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/ArticleCatalog#portfolio" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 Catalog Page <img src="Welcome Tier.png" class="img-responsive" alt="portfolio img"></a> </li> </br> <li><a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs" style = "text-decoration: none; color: #D43F52; font-weight: bold;">🎃 The Goal Of Futaba_Webs <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img"></a> </li></br> </ul>';
        
             }     
 
