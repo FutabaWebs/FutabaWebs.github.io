@@ -59,9 +59,9 @@ document.getElementById('search').addEventListener('input', function(event) {
         {   
             
             document.getElementById("testq").innerHTML = '🎃 Is TCM Still Credible?';
-            document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> '; 
+            document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible"> <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Is TCM Security Still Credible? 🕸🕸🎃🕸🕸 </h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸 </h5> </div> </a> </div> </div>'; 
 
-
+            
             document.getElementById("submit").addEventListener('click', function(event)
             {
                 //The event is going to trigger a test alert message on the page
@@ -97,6 +97,11 @@ document.getElementById('search').addEventListener('input', function(event) {
                 //We're going to change the value of the field again 
 
             })
+
+            if (command == "tcm -b")
+            {
+                alert ("Hello wolrd");
+            }
   
         }
 
@@ -434,7 +439,7 @@ document.getElementById('search').addEventListener('input', function(event) {
             {   
                 
                 document.getElementById("testq").innerHTML = '🎃 How To Build Your Personal Brand?';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> '; 
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand"> <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"> <div class="portfolio-overlay"> <h4 style = "color: black;">How to Build Your Personal Brand? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>'; 
                     
                     document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -682,11 +687,11 @@ document.getElementById('search').addEventListener('input', function(event) {
 
 
         //(Women's History Month Article)
-        else if (command == "whm2025")
+        else if (command == "whm")
             {   
                
                 document.getElementById("testq").innerHTML = '🎃 Women’s History Month 2025';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"> <img src="kiki.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Women’s History Month 2025 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -725,14 +730,14 @@ document.getElementById('search').addEventListener('input', function(event) {
       
             }
     
-            else if (command == "whm2025 -options")
+            else if (command == "whm -options")
             {
-                document.getElementById("testq").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: whm2025 -stacey) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -stacey</p> <p>🎃 -bailey</p> <p>🎃 -jennifer</p> <p>🎃 -angelina</p> <p>🎃 -lina</p> <p>🎃 -rana</p> <p>🎃 -nina</p> <p>🎃 -lena</p> <p>🎃 -carolina</p> <p>🎃 -ana</p> <p>🎃 -lexie</p> <p>🎃 -sandra</p> <p>🎃 -katie</p> <p>🎃 -laurie</p> <p>🎃 -grace</p> <p>🎃 -ell</p> <p>🎃 -lily</p> <p>🎃 -kazel</p> <p></p>';
+                document.getElementById("testq").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: whm -stacey) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -stacey</p> <p>🎃 -bailey</p> <p>🎃 -jennifer</p> <p>🎃 -angelina</p> <p>🎃 -lina</p> <p>🎃 -rana</p> <p>🎃 -nina</p> <p>🎃 -lena</p> <p>🎃 -carolina</p> <p>🎃 -ana</p> <p>🎃 -lexie</p> <p>🎃 -sandra</p> <p>🎃 -katie</p> <p>🎃 -laurie</p> <p>🎃 -grace</p> <p>🎃 -ell</p> <p>🎃 -lily</p> <p>🎃 -kazel</p> <p></p>';
     
             }
     
             //OPTIONS FOR WOMEN'S HISTORY 2025 ARTICLE
-            else if (command == "whm2025 -stacey")
+            else if (command == "whm -stacey")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -771,7 +776,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -bailey")
+            else if (command == "whm -bailey")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -810,7 +815,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -jennifer")
+            else if (command == "whm -jennifer")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -849,7 +854,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -angelina")
+            else if (command == "whm -angelina")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -888,7 +893,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -lina")
+            else if (command == "whm -lina")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -927,7 +932,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -rana")
+            else if (command == "whm -rana")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -966,7 +971,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -nina")
+            else if (command == "whm -nina")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1005,7 +1010,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -lena")
+            else if (command == "whm -lena")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1044,7 +1049,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -carolina")
+            else if (command == "whm -carolina")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1084,7 +1089,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -ana")
+            else if (command == "whm -ana")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1123,7 +1128,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -lexie")
+            else if (command == "whm -lexie")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1163,7 +1168,7 @@ document.getElementById('search').addEventListener('input', function(event) {
             }
 
             
-            else if (command == "whm2025 -sandra")
+            else if (command == "whm -sandra")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1202,7 +1207,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -katie")
+            else if (command == "whm -katie")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1241,7 +1246,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -laurie")
+            else if (command == "whm -laurie")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1280,7 +1285,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -grace")
+            else if (command == "whm -grace")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1319,7 +1324,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -ell")
+            else if (command == "whm -ell")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1358,7 +1363,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -lily")
+            else if (command == "whm -lily")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1397,7 +1402,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 })
             }
 
-            else if (command == "whm2025 -kazel")
+            else if (command == "whm -kazel")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -1449,7 +1454,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Why Futaba Does Cyber Security!?';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber"> <img src="BatManWL.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Why Futaba Does Cyber Security!? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1661,7 +1666,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 FREE Resource? OR Opportunities?';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities"> <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">FREE Resource? OR Opportunities? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1799,7 +1804,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = ' Ex Machina Parlor';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor"> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Ex Machina Parlor 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -1938,7 +1943,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Confluence LockBit Ransomware';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart1"> <img src="confluence.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Confluence LockBit Ransomware 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -2386,7 +2391,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Confluence LockBit Ransomware (Pt2)';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/ConfluenceRansomwarePart2"> <img src="rclone.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;">Confluence LockBit Ransomware (Pt 2) 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -3158,14 +3163,14 @@ document.getElementById('search').addEventListener('input', function(event) {
 
         //(Trusting 3rd parties Article)
         //For now we're just going to have it direct us to different articles on the pae
-        else if (command == "3rdparties")
+        else if (command == "vendor")
             {   
                 //This is where the intelisense logic takes place
                     //We need to convert one of the portfploo buttons into a line of html
                 
                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                 document.getElementById("testq").innerHTML = '🎃 Should 3rd Party Vendors Be Trusted?';
-                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';     
+                document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/Should3rdPartyVendorsBeTrusted"> <img src="Should3rdPartyVendorsBeTrusted.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Should 3rd Party Vendors Be Trusted 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';     
     
                 //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                 document.getElementById("submit").addEventListener('click', function(event)
@@ -3205,14 +3210,14 @@ document.getElementById('search').addEventListener('input', function(event) {
       
             }
     
-            else if (command == "3rdparties -options")
+            else if (command == "vendor -options")
             {
-                document.getElementById("testq").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: 3rdparties -example) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -disclosure</p> <p>🎃 -example</p> <p></p>';
+                document.getElementById("testq").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: vendor -example) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -disclosure</p> <p>🎃 -example</p> <p></p>';
     
             }
     
 
-            else if (command == "3rdparties -disclosure")
+            else if (command == "vendor -disclosure")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -3252,7 +3257,7 @@ document.getElementById('search').addEventListener('input', function(event) {
             }
 
 
-            else if (command == "3rdparties -example")
+            else if (command == "vendor -example")
             {
                 document.getElementById("submit").addEventListener('click', function(event)
                 {
@@ -3300,7 +3305,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                     
                     //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                     document.getElementById("testq").innerHTML = '🎃 The Goal Of Futaba_Webs';
-                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> ';         
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheGoalOfFutabaWebs"> <img src="TheGoalOfFutabaWebs.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Goal Of Futaba_Webs 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
         
                     //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
                     document.getElementById("submit").addEventListener('click', function(event)
@@ -4566,7 +4571,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                                 
                                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                                 document.getElementById("testq").innerHTML = '🕸🎃🕸 General Commands🕸🎃🕸';
-                                document.getElementById("testp").innerHTML = "</br> 🎃 help -a -> Shows you all the Advanced Commands </br> </br> 🎃 service -> Shows you all the services I offer </br> </br> 🎃 business card -> Takes you to my business card </br> </br> 🎃 termux -f -> Brings you to terminal mode for the site </br> </br> 🎃 discord -> Brings you to my Discord server </br> </br> 🎃 blog -> Brings you to my most featured blog </br> </br> 🎃 resume -d -> Auto downloads a repo of my resume credentials </br> </br> 🎃 red city -> Takes you to a custom version of my site </br> </br> 🎃 purple city -> Takes you to a custom version of my site </br> </br> 🎃 linkedin -> Takes you to my LinkedIn page </br> </br> 🎃 features -> Takes you to all of my featured content </br> </br> 🎃 projects -> Takes you to my featured projects </br> </br> 🎃 articles -> Takes you to a custom version of my article catalog </br> </br> 🎃 terminal -tour -> Takes you to a video tour of Terminal Mode </br> </br> 🎃 linkedin blogs -> Takes you to my LinkedIn article catalog </br> </br> 🎃 rss feed -> Takes you to a feed of all my recent LinkedIn posts </br> </br> 🎃 github -> Takes you to my GitHub page </br> </br> 🎃 donate -> Takes you to my CasahApp (Donation Page) </br> </br> 🎃 patreon -> Takes you to my Patreon </br> </br> 🎃 business page -> Takes you to my business page </br> </br> 🎃 resume -repo -> Takes you to my Resume Repo"; 
+                                document.getElementById("testp").innerHTML = "</br> 🎃 help -a -> Shows you all the Advanced Commands </br> </br> 🎃 service -> Shows you all the services I offer </br> </br> 🎃 business card -> Takes you to my business card </br> </br> 🎃 termux -f -> Brings you to terminal mode for the site </br> </br> 🎃 discord -> Brings you to my Discord server </br> </br> 🎃 resume -d -> Auto downloads a repo of my resume credentials </br> </br> 🎃 red city -> Takes you to a custom version of my site </br> </br> 🎃 purple city -> Takes you to a custom version of my site </br> </br> 🎃 linkedin -> Takes you to my LinkedIn page </br> </br> 🎃 features -> Takes you to all of my featured content </br> </br> 🎃 projects -> Takes you to my featured projects </br> </br> 🎃 articles -> Takes you to a custom version of my article catalog </br> </br> 🎃 terminal -tour -> Takes you to a video tour of Terminal Mode </br> </br> 🎃 linkedin blogs -> Takes you to my LinkedIn article catalog </br> </br> 🎃 rss feed -> Takes you to a feed of all my recent LinkedIn posts </br> </br> 🎃 github -> Takes you to my GitHub page </br> </br> 🎃 donate -> Takes you to my CasahApp (Donation Page) </br> </br> 🎃 patreon -> Takes you to my Patreon </br> </br> 🎃 business page -> Takes you to my business page </br> </br> 🎃 resume -repo -> Takes you to my Resume Repo"; 
                 
                       
                             }
@@ -4578,7 +4583,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                                 
                                 //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
                                 document.getElementById("testq").innerHTML = '🕸🎃🕸 Advanced Commands🕸🎃🕸';
-                                document.getElementById("testp").innerHTML = "<p></p> <p>🎃 help -> Shows you all the General Commands </br> </br> (Article Commands) 🕸🕸🎃🕸🕸 </br></br> Takes you to certain sections in an article </p> <p></p> <p>Run any of the following options (Ex: tcm -revoke) in order to jump to a particular section anywhere on the site.</p> <p></p> <p> </p> <p></p> <p> </br></br>(tcm) </p> <p>🎃 -revoke</p> <p>🎃 -stance</p> <p>🎃 -suspicions</p> <p>🎃 -lying</p> <p>🎃 -revised</p> <p>🎃 -truth</p> <p>🎃 -reliable</p> <p>🎃 -afterthoughts</p> <p></p> <p> </br></br>(brandp)</p> <p>🎃 -endgoal</p> <p>🎃 -authentic</p> <p>🎃 -gettingseen</p> <p>🎃 -community</p> <p>🎃 -capitalize</p> <p></p> <p> </br></br>(whm2025)</p> <p>🎃 -stacey</p> <p>🎃 -bailey</p> <p>🎃 -jennifer</p> <p>🎃 -angelina</p> <p>🎃 -lina</p> <p>🎃 -rana</p> <p>🎃 -nina</p> <p>🎃 -lena</p> <p>🎃 -carolina</p> <p>🎃 -ana</p> <p>🎃 -lexie</p> <p>🎃 -sandra</p> <p>🎃 -katie</p> <p>🎃 -laurie</p> <p>🎃 -grace</p> <p>🎃 -ell</p> <p>🎃 -lily</p> <p>🎃 -kazel</p> <p></p> <p> </br></br>(futabawhy)</p> <p>🎃 -background</p> <p>🎃 -insights</p> <p>🎃 -industry</p> <p>🎃 -outlook</p> <p></p> <p> </br></br>(resources)</p> <p>🎃 -enough</p> <p>🎃 -opportunities</p> <p>🎃 -options</p> <p></p> <p> </br></br>(exmachina)</p> <p>🎃 -exmachina</p> <p>🎃 -lexie</p> <p></p> <p> </br></br>(confluence)</p> <p>🎃 -confluence</p> <p>🎃 -cve</p> <p>🎃 -metasploit</p> <p>🎃 -mimikatz</p> <p>🎃 -pdq</p> <p>🎃 -anydesk</p> <p>🎃 -lockbit</p> <p>🎃 -ransomware</p> <p>🎃 -smb</p> <p>🎃 -rclone</p> <p></p> <p> </br></br>(confluence2)</p> <p>🎃 -attacktree</p> <p>🎃 -cve</p> <p>🎃 -shell</p> <p>🎃 -access</p> <p>🎃 -takeover5</p> <p>🎃 -rclone</p> <p>🎃 -lockbit</p> <p></p> <p> </br></br>(content)</p> <p>🎃 -danger</p> <p>🎃 -exploit</p> <p>🎃 -toolguides</p> <p>🎃 -programming</p> <p>🎃 -electrical</p> <p>🎃 -malwarelabs</p> <p>🎃 -securecoding</p> <p>🎃 -mrrobot</p> <p>🎃 -labs</p> <p>🎃 -audibles</p> <p></p> <p> </br></br>(3rdparties)</p> <p>🎃 -disclosure</p> <p>🎃 -example</p> <p></p> <p></p>"; 
+                                document.getElementById("testp").innerHTML = "<p></p> <p>🎃 help -> Shows you all the General Commands </br> </br> (Article Commands) 🕸🕸🎃🕸🕸 </br></br> Takes you to certain sections in an article </p> <p></p> <p>Run any of the following options (Ex: tcm -revoke) in order to jump to a particular section anywhere on the site.</p> <p></p> <p> </p> <p></p> <p> </br></br>(tcm) </p> <p>🎃 -revoke</p> <p>🎃 -stance</p> <p>🎃 -suspicions</p> <p>🎃 -lying</p> <p>🎃 -revised</p> <p>🎃 -truth</p> <p>🎃 -reliable</p> <p>🎃 -afterthoughts</p> <p></p> <p> </br></br>(brandp)</p> <p>🎃 -endgoal</p> <p>🎃 -authentic</p> <p>🎃 -gettingseen</p> <p>🎃 -community</p> <p>🎃 -capitalize</p> <p></p> <p> </br></br>(whm)</p> <p>🎃 -stacey</p> <p>🎃 -bailey</p> <p>🎃 -jennifer</p> <p>🎃 -angelina</p> <p>🎃 -lina</p> <p>🎃 -rana</p> <p>🎃 -nina</p> <p>🎃 -lena</p> <p>🎃 -carolina</p> <p>🎃 -ana</p> <p>🎃 -lexie</p> <p>🎃 -sandra</p> <p>🎃 -katie</p> <p>🎃 -laurie</p> <p>🎃 -grace</p> <p>🎃 -ell</p> <p>🎃 -lily</p> <p>🎃 -kazel</p> <p></p> <p> </br></br>(futabawhy)</p> <p>🎃 -background</p> <p>🎃 -insights</p> <p>🎃 -industry</p> <p>🎃 -outlook</p> <p></p> <p> </br></br>(resources)</p> <p>🎃 -enough</p> <p>🎃 -opportunities</p> <p>🎃 -options</p> <p></p> <p> </br></br>(exmachina)</p> <p>🎃 -exmachina</p> <p>🎃 -lexie</p> <p></p> <p> </br></br>(confluence)</p> <p>🎃 -confluence</p> <p>🎃 -cve</p> <p>🎃 -metasploit</p> <p>🎃 -mimikatz</p> <p>🎃 -pdq</p> <p>🎃 -anydesk</p> <p>🎃 -lockbit</p> <p>🎃 -ransomware</p> <p>🎃 -smb</p> <p>🎃 -rclone</p> <p></p> <p> </br></br>(confluence2)</p> <p>🎃 -attacktree</p> <p>🎃 -cve</p> <p>🎃 -shell</p> <p>🎃 -access</p> <p>🎃 -takeover5</p> <p>🎃 -rclone</p> <p>🎃 -lockbit</p> <p></p> <p> </br></br>(content)</p> <p>🎃 -danger</p> <p>🎃 -exploit</p> <p>🎃 -toolguides</p> <p>🎃 -programming</p> <p>🎃 -electrical</p> <p>🎃 -malwarelabs</p> <p>🎃 -securecoding</p> <p>🎃 -mrrobot</p> <p>🎃 -labs</p> <p>🎃 -audibles</p> <p></p> <p> </br></br>(vendor)</p> <p>🎃 -disclosure</p> <p>🎃 -example</p> <p></p> <p></p>"; 
                 
                       
                             }
