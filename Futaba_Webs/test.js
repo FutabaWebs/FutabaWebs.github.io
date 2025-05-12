@@ -4970,7 +4970,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                         //document.getElementById("testp").innerHTML = ''; 
         
         
-                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/SubnettingForDummies";
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TypesOfHackers";
         
                         //We're going to change the value of the field again 
         
