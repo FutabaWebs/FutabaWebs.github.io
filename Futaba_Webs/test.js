@@ -5171,6 +5171,2529 @@ document.getElementById('search').addEventListener('input', function(event) {
 
 
 
+                else if (command == "certs") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 Do Certs Still Matter?';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter"> <img src="DoCertsStillMatter.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Do Certs Still Matter? 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: certs -cert) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -cert</p> <p>🎃 -benefits</p> <p>🎃 -drawbacks</p> <p>🎃 -whichone</p> 🎃 -exp</p> 🎃 -expdrw</p> 🎃 -better</p> </p>'; 
+                }
+
+            
+
+                else if (command == "certs -cert") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#certifications";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+            else if (command == "certs -benefits") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#certbenefits";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -drawbacks") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#certdrawbacks";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -whichone") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#whichones";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -exp") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#experience";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -expdrw") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#onlyexperience";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "certs -better") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter#better";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Evil HERO';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheEvilHERO"> <img src="TheEvilHERO.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Evil HERO🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: evilhero -gray) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -gray</p> <p>🎃 -hunter</p> <p>🎃 -why</p> <p>🎃 -inspire</p> 🎃 -anti</p></p>'; 
+                }
+
+                else if (command == "evilhero -gray") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO#grayhat";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero -hunter") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO#hunter";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero -why") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO#reason";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero -inspire") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO#hunt";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "evilhero -anti") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheEvilHERO#evilhero";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+            else if (command == "kern") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Kernel';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheKernel"> <img src="TheKernel.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The Kernel 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKernel";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "kern -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: kern -kern) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -kern</p> <p>🎃 -access</p> <p>🎃 -cs</p> </p>'; 
+                }
+
+                else if (command == "kern -kern") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKernel#kernel";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "kern -access") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKernel#access";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "kern -cs") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKernel#crowdstrike";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                
+
+                else if (command == "aboveall") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The One Above All';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll"> <img src="TheOneAboveAll.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The One Above All 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "aboveall -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: aboveall -iq) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -iq</p> <p>🎃 -creative</p> <p>🎃 -persist</p> <p>🎃 -science</p> 🎃 -social</p> </p>'; 
+                }
+
+                else if (command == "aboveall -iq") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll#iq";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "aboveall -creative") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll#ingenious";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "aboveall -persist") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll#persistent";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "aboveall -science") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll#science";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "aboveall -social") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll#socialengineering";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+                else if (command == "foul") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 CrowdStrikes Foul Play';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay"> <img src="CrowdStrikesFoulPlay.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> CrowdStrikes Foul Play 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "foul -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: foul -fault) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -fault</p> <p>🎃 -enduser</p> <p>🎃 -vendor</p> <p>🎃 -cs</p> 🎃 -cap</p> </p>'; 
+                }
+
+                else if (command == "foul -fault") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay#delta";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "foul -enduser") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay#enduser";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "foul -vendor") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay#vendor";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "foul -cs") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay#crowdstrike";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "foul -cap") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay#capitalize";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+                else if (command == "doc") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 Documenting Your Journey ';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br>           <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney"> <img src="DocumentingYourJourney.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Documenting Your Journey 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "doc -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: doc -imp) in order to jump to a particular section anywhere on the site.</p> <p></p> 🎃 -imp </p> <p>🎃 -solve</p> <p>🎃 -soft</p> <p> </p>'; 
+                }
+
+                else if (command == "doc -imp") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney#memory";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "doc -solve") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney#problems";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "doc -soft") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney#skills";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+
+                else if (command == "best") //Come patch this later
+                {   
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 Best Programming Languages For Cyber';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber"> <img src="BestProgrammingLanguagesForCyber.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Best Programming Languages For Cyber 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+                }
+
+                else if (command == "best -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: best -python) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -python</p> <p>🎃 -cpp</p> <p>🎃 -math</p> </p>'; 
+                }
+
+                else if (command == "best -python") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber#python";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "best -cpp") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber#cpp";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "best -math") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber#math";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+
+                else if (command == "prog") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 More Training Programs';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TypesOfHackers"> <img src="TypesOfHackers.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Types Of Hackers 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "prog -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: prog -flaw) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -flaw</p> <p>🎃 -p1</p> <p>🎃 -p2</p> <p>🎃 -need</p> <p>🎃 -pick</p> </p>'; 
+                }
+
+                else if (command == "prog -flaw") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms#flaw";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "prog -p1") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms#fix1";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "prog -p2") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms#fix2";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "prog -need") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms#neccessary";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "prog -pick") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms#pickone";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+                else if (command == "create") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 How To Create Content';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/HowToCreateContent"> <img src="HowToCreateContent.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> How To Create Content 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "create -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: content -theme) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -theme</p> <p>🎃 -website</p> <p>🎃 -orig</p> <p>🎃 -inspi</p> <p>🎃 -collab </p> </p>'; 
+                }
+
+                else if (command == "create -theme") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent#theme";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "create -website") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent#website";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "create -orig") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent#original";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "create -inspi") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent#inspiration";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "create -collab") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowToCreateContent#collab";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                                
+                else if (command == "claude") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 The Keyboard Injection FrameWork';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork"> <img src="TheKeyBoardInjectionFrameWork.jpg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> The KeyBoard Injection FrameWork 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "claude -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: claude -threat) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -threat</p> <p>🎃 -ducky</p> <p>🎃 -need</p> </p>'; 
+                }
+
+                else if (command == "claude -threat") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork#threat";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "claude -ducky") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork#rubberducky";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "claude -need") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork#need";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+
+
+                else if (command == "wmtech") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 How to Get More Women In Tech?';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech"> <img src="HowtoGetMoreWomenInTech.png" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> How to Get More Women In Tech 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "wmtech -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: wmtech -origin) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -origin</p> <p>🎃 -more</p> <p>🎃 -brand</p> </p>'; 
+                }
+
+                else if (command == "wmtech -origin") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech#origin";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "wmtech -more") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech#tech";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == "wmtech -brand") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech#purpose";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
 
             //General Commands
                  //(BUTTONS ON THE BANNERS)
