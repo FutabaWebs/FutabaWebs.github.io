@@ -2,28 +2,253 @@ https://tools.knowledgewalls.com/online-multiline-to-single-line-converter
 
 https://www.quackit.com/html/html_generators/html_text_generator.cfm
 
+
+                else if (command == "") //Come patch this later
+                {   
+                    //This is where the intelisense logic takes place
+                        //We need to convert one of the portfploo buttons into a line of html
+                    
+                    //There needs to be a paragraph that will display a list of instructions for the said field. We'll insert that above the main field
+                    document.getElementById("testq").innerHTML = '🎃 ';
+                    document.getElementById("testp").innerHTML = '<p> Add "-options" to see all available commands </p> </br> <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s"> <div class="portfolio-thumb"> <a href="https://futabawebs.github.io/Futaba_Webs/TypesOfHackers"> <img src="TypesOfHackers.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> <div class="portfolio-overlay"> <h4 style = "color: black;"> Types Of Hackers 🕸🕸🎃🕸🕸</h4> <h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5> </div> </a> </div> </div>';         
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "https://futabawebs.github.io/Futaba_Webs/";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
+
+                else if (command == " -options") //Come patch this later
+                {   
+                   
+                    document.getElementById("testp").innerHTML = '<p>🕸🎃🕸 Options 🕸🎃🕸 </p> <p></p> <p>Run any of the following options (Ex: hunter -network) in order to jump to a particular section anywhere on the site.</p> <p></p> <p>🎃 -network</p> <p>🎃 -web</p> <p>🎃 -api</p> <p>🎃 -mobile</p> </p>'; 
+                }
+
+                else if (command == " -") //Come patch this later
+                {  
+        
+                    //Next, we're going to setup another event listener that's going to chain to see ifthe en duser clicks the submit button
+                    document.getElementById("submit").addEventListener('click', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+        
+        
+                        window.location.href = "";
+        
+                        //We're going to change the value of the field again 
+        
+                    })
+
+                    document.getElementById("search").addEventListener('keypress', function(event)
+                    {
+                        //The event is going to trigger a test alert message on the page
+        
+                        //alert('working');
+                        //document.getElementById("testq").innerHTML = '';
+                        //document.getElementById("testp").innerHTML = ''; 
+                        //window.location.href = "";
+        
+        
+                        if (event.key === "Enter") {
+                            // Cancel the default action, if needed
+                            event.preventDefault();
+                            // Trigger the button element with a click
+                            document.getElementById("submit").click();
+                        }
+                        //We're going to change the value of the field again 
+        
+                    })
+          
+                }
 //Two column section
 <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
 
 	<div class="portfolio-thumb">
-		<a href="https://futabawebs.github.io/Futaba_Webs/TypesOfHackers"> <img src="TypesOfHackers.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> 
-			<div class="portfolio-overlay">
-				<h4 style = "color: black;"> Types Of Hackers 🕸🕸🎃🕸🕸</h4>
-				<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
-			</div>
-		</a>
-	</div>
+						<a href="https://futabawebs.github.io/Futaba_Webs/DoCertsStillMatter"> <img src="DoCertsStillMatter.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> Do Certs Still Matter? 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
 
 </div>
 
 
 
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/TheEvilHERO"> <img src="TheEvilHERO.png" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> The Evil HERO🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/TheKernel"> <img src="TheKernel.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> The Kernel 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+	
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/TheOneAboveAll"> <img src="TheOneAboveAll.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> The One Above All 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/CrowdStrikesFoulPlay"> <img src="CrowdStrikesFoulPlay.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> CrowdStrikes Foul Play 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/DocumentingYourJourney"> <img src="DocumentingYourJourney.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> Documenting Your Journey 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/BestProgrammingLanguagesForCyber"> <img src="BestProgrammingLanguagesForCyber.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> Best Programming Languages For Cyber 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/MoreTrainingPrograms"> <img src="MoreTrainingPrograms.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> More Training Programs 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/HowToCreateContent"> <img src="HowToCreateContent.png" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> How To Create Content 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>	
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/TheKeyBoardInjectionFrameWork"> <img src="TheKeyBoardInjectionFrameWork.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> The KeyBoard Injection FrameWork 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
+
+<div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
+
+	<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Futaba_Webs/HowtoGetMoreWomenInTech"> <img src="HowtoGetMoreWomenInTech.png" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div class="portfolio-overlay">
+								<h4 style = "color: black;"> How to Get More Women In Tech 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+
+</div>
 
 <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
 
 	
 
 </div>
+
 
 //Catalog
 <div id = "portfolio" class = "col-md-4 col-xs-6 wow fadeIn section" data-wow-delay="0.6s">
