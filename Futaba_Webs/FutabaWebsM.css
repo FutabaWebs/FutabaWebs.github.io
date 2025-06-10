@@ -2,7 +2,7 @@ body
 {
     
 	background-image: url("RedCity.gif");
-    
+
 }
 
 .Banner
@@ -37,6 +37,7 @@ body
 
 }
 
+
 .modal-body
 {
 	background-color: black;
@@ -54,6 +55,8 @@ body
 .card-body
 {
 	color: violet;
+	font-size: 24px;
+	text-align: center;
 	transition: 0.3 ease;
 }
 
@@ -99,7 +102,7 @@ body
     	background-image: url(futaba2.jpg);
     	background-position-y: 0px;
     	background-position-x: 0px;
-    	background-size: 300px;
+    	background-size: 500px;
 		background-repeat: no-repeat;
 		border-color: purple;
 		border-style: solid;
@@ -107,8 +110,8 @@ body
    	 
 
     	cursor: pointer;
-    	height: 300px;
-    	width: 300px;
+    	height: 500px;
+    	width: 500px;
     	margin: 0 2px;
     	background-color: silver;
     	border-radius: 50%;
@@ -118,10 +121,10 @@ body
 
 .FutabaLogo:hover
 {
-    	height: 310px;
-    	width: 310px;
+    	height: 510px;
+    	width: 510px;
     	background-position-x: 0px;
-    	background-size: 305px;
+    	background-size: 505px;
     	background-image: url(futaba3.jpg);
     	background-position-x: 5px;
     	background-position-y: 0px;
@@ -147,17 +150,17 @@ body
 	border-style: solid;
 	border-color: purple;
     
-	background-size: 100px;
+	background-size: 200px;
 	background-repeat: no-repeat;
-	background-position-x: -28px;
-	background-position-y: -15px;
+	background-position-x: -51px;
+	background-position-y: -20px;
 
 	left: 150px;
 	top: 450px;
 
 	cursor: pointer;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	margin: 0 2px;
 	background-color: black;
 	border-radius: 50%;
@@ -195,16 +198,16 @@ body
 	border-style: solid;
 	border-color: purple;
     
-	background-size: 75px;
+	background-size: 150px;
 	background-repeat: no-repeat;
-	background-position-x: -14px;
+	background-position-x: -24px;
 	background-position-y: 0px;
 
     
 
 	cursor: pointer;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	margin: 0 2px;
 	background-color: black;
 	border-radius: 50%;
@@ -219,7 +222,7 @@ body
 	border-style: solid;
 	border-color: purple;
     
-	background-size: 44px;
+	background-size: 94px;
 	background-repeat: no-repeat;
 	background-position-x: 0px;
 	background-position-y: 0px;
@@ -228,8 +231,8 @@ body
 	top: 450px;
 
 	cursor: pointer;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	margin: 0 2px;
 	background-color: black;
 	border-radius: 50%;
@@ -243,17 +246,17 @@ body
 	border-style: solid;
 	border-color: purple;
     
-	background-size: 103px;
+	background-size: 203px;
 	background-repeat: no-repeat;
-	background-position-x: -29.8px;
-	background-position-y: -27.5px;
+	background-position-x: -54.8px;
+	background-position-y: -51.5px;
 
 	left: 210px;
 	top: 450px;
 
 	cursor: pointer;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 	margin: 0 2px;
 	background-color: black;
 	border-radius: 50%;
