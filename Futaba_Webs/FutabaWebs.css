@@ -14,8 +14,8 @@ body
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 0px;
 	row-gap: 0px;
-	background-image: url("Mobile\ Hacking.png");
-	background-size: 1500px;
+	background-image: url("Asian2Modal.png");
+	background-size: 1300px;
 }
 
 .Return
@@ -27,40 +27,8 @@ body
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 0px;
 	row-gap: 0px;
-	background-image: url("Mobile\ Hacking.png");
+	background-image: url("t1.png");
 	background-size: 1500px;
-}
-
-.modal
-{
-	background-image: url("bgtest.gif");
-
-}
-
-.modal-body
-{
-	background-color: black;
-	color: gray;
-	font-size: 24px;
-	transition: 0.3 ease;
-}
-
-.modal-body:hover
-{
-	color: #bc5bf5;
-
-}
-
-.card-body
-{
-	color: violet;
-	transition: 0.3 ease;
-}
-
-.card-body:hover
-{
-	color: #bc5bf5;
-	transition: 0.3 ease;
 }
 
 .BannerButtons
@@ -73,6 +41,37 @@ body
 .BannerButtons:hover
 {
 	background-color: purple;
+}
+
+.modal
+{
+	background-image: url("RedCity.gif");
+}
+
+.modal-body
+{
+	background-color: black;
+	color: silver;
+	font-size: 24px;
+	transition: 0.3 ease;
+}
+
+.modal-body:hover
+{
+	color: #bc5bf5; /** cc2565 **/ 
+
+}
+
+.card-body
+{
+	color: #d8286b;
+	transition: 0.3 ease;
+}
+
+.card-body:hover
+{
+	color: #bc5bf5;
+	transition: 0.3 ease;
 }
 
 .Futaba_Logo
@@ -96,14 +95,13 @@ body
 .FutabaLogo
 {   
 
-    	background-image: url(futaba2.jpg);
+    	background-image: url(asian2.jpg);
     	background-position-y: 0px;
-    	background-position-x: 0px;
-    	background-size: 300px;
-		background-repeat: no-repeat;
-		border-color: purple;
-		border-style: solid;
-   	 
+    	background-position-x: -81.5px;
+    	background-size: 450px;
+    	background-repeat: no-repeat;
+		border-color: red;
+		border-style: solid;   	 
    	 
 
     	cursor: pointer;
@@ -118,14 +116,15 @@ body
 
 .FutabaLogo:hover
 {
-    	height: 310px;
-    	width: 310px;
-    	background-position-x: 0px;
-    	background-size: 305px;
-    	background-image: url(futaba3.jpg);
-    	background-position-x: 5px;
-    	background-position-y: 0px;
-		box-shadow: 25px 0 40px purple, -25px 0 40px purple;
+    	height: 305px;
+    	width: 305px;
+    	background-size: 462px;
+    	background-image: url(Aisan.jpg);
+		background-repeat: repeat;
+    	background-position-x: -85px;
+    	background-position-y: -10px;
+		box-shadow: 25px 0 40px #940d0d, -25px 0 40px #940d0d;
+
 }
 
 .BannerNeon
@@ -135,22 +134,21 @@ body
 
 .BannerNeon:hover
 {
-	box-shadow: -10px 0 30px purple, 0px 0 30px purple;
+	box-shadow: -10px 0 30px #940d0d, 0px 0 30px #940d0d;
 
 }
-
 
 .WelcomeLogo
 {   
 
-	background-image: url(Cyber\ Security\ Portfolio.png);
+	background-image: url(asian2.jpg);
 	border-style: solid;
-	border-color: purple;
+	border-color: red;
     
-	background-size: 100px;
+	background-size: 103px;
 	background-repeat: no-repeat;
-	background-position-x: -28px;
-	background-position-y: -15px;
+	background-position-x: -29.8px;
+	background-position-y: -2.5px;
 
 	left: 150px;
 	top: 450px;
@@ -169,12 +167,12 @@ body
 
 	background-image: url(Cyber\ Security\ Portfolio.png);
 	border-style: solid;
-	border-color: black;
+	border-color: #500606;
     
-	background-size: 100px;
+	background-size: 78px;
 	background-repeat: no-repeat;
-	background-position-x: -28px;
-	background-position-y: -15px;
+	background-position-x: -18px;
+	background-position-y: -10px;
 
 	left: 150px;
 	top: 450px;
@@ -188,12 +186,11 @@ body
 	display: inline-block;
 }
 
-
 .PatreonLogo
 {   
 	background-image: url(Patreon2.jpg);
 	border-style: solid;
-	border-color: purple;
+	border-color: red;
     
 	background-size: 75px;
 	background-repeat: no-repeat;
@@ -217,7 +214,7 @@ body
 
 	background-image: url(Twitter.png);
 	border-style: solid;
-	border-color: purple;
+	border-color: red;
     
 	background-size: 44px;
 	background-repeat: no-repeat;
@@ -241,7 +238,7 @@ body
 
 	background-image: url(Instagram.jpg);
 	border-style: solid;
-	border-color: purple;
+	border-color: red;
     
 	background-size: 103px;
 	background-repeat: no-repeat;
@@ -259,7 +256,6 @@ body
 	border-radius: 50%;
 	display: inline-block;
 }
-
 
 .About_Futaba_Webs
 	{
@@ -363,6 +359,7 @@ body
 	column-gap: 10px;
 	row-gap: 10px;
 	overflow-x: auto;
+
 }
 
 .Featured_Items2
@@ -407,9 +404,15 @@ body
 .F_Pics
 {
 	object-fit: cover;
-	width: 200%;
+	width: 100%;
 	max-height: 275px;
 	transition: 0.3s ease;
+}
+
+.modal-body:hover
+{
+	transition: 0.3s ease;
+	
 }
 
 .d-grid
@@ -417,36 +420,29 @@ body
 	transition: 0.3s ease;
 }
 
-.modal-body
-{
-	transition: 0.3s ease;
-	
-}
-
-
 .F_Pics:hover
 {
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 
 }
 
 .F_Items:hover
 {
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 
+}
+
+
+.d-grid:hover
+{
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .modal-body:hover
 {
-	box-shadow: -10px 0 30px purple, 0px 0 30px purple;
+	box-shadow: -10px 0 30px #940d0d, 0px 0 30px #940d0d;
 
 }
-
-.d-grid:hover
-{
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
-}
-
 
 .Modal_Pic_TCP_Client
 {
@@ -886,7 +882,8 @@ body
 	object-fit: cover;
 	width: 96%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
+
 }
 
 .Modal_Pic_TCP_Server:hover
@@ -894,7 +891,8 @@ body
 	object-fit: cover;
 	width: 96.5%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
+
 }
 
 .Modal_Pic_MITB:hover
@@ -902,7 +900,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Hero_Signal:hover
@@ -910,7 +908,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_SQL_Injection:hover
@@ -918,7 +916,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Github:hover
@@ -926,7 +924,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Exploits:hover
@@ -934,7 +932,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Py_Tools:hover
@@ -942,7 +940,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_You_Pic:hover
@@ -950,7 +948,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Drone:hover
@@ -958,7 +956,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_BotNet:hover
@@ -966,12 +964,12 @@ body
 	object-fit: cover;
 	width: 96%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Generic:hover
 {
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_CCTV:hover
@@ -979,7 +977,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_LAN_Turtle:hover
@@ -987,7 +985,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Ransomware:hover
@@ -995,7 +993,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Resources:hover
@@ -1003,7 +1001,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Man_Browser:hover
@@ -1011,7 +1009,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Wifi_Hacking:hover
@@ -1019,7 +1017,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Women_Cyber:hover
@@ -1027,7 +1025,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Programming:hover
@@ -1035,7 +1033,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Evil_Twin:hover
@@ -1043,7 +1041,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Malware_Architype:hover
@@ -1051,7 +1049,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Cipher:hover
@@ -1059,7 +1057,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Mobile:hover
@@ -1067,7 +1065,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Totsugeki:hover
@@ -1075,7 +1073,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_NOT_Cyber:hover
@@ -1083,7 +1081,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Mentor:hover
@@ -1091,7 +1089,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Hats:hover
@@ -1099,7 +1097,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_DangerMobile:hover
@@ -1107,7 +1105,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 
@@ -1116,7 +1114,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Footprinting:hover
@@ -1124,7 +1122,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 
@@ -1133,7 +1131,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_DLLCode:hover
@@ -1141,7 +1139,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_ExifTool:hover
@@ -1149,7 +1147,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Resources2:hover
@@ -1157,7 +1155,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_SSID:hover
@@ -1165,7 +1163,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_CookieSession:hover
@@ -1173,7 +1171,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Zip2John:hover
@@ -1181,7 +1179,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_TCP1:hover
@@ -1189,7 +1187,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_TCP2:hover
@@ -1197,7 +1195,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_TCPLab:hover
@@ -1205,7 +1203,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_LEDProject:hover
@@ -1213,7 +1211,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_ArduinoLED1:hover
@@ -1221,7 +1219,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_ArduinoLED2:hover
@@ -1229,7 +1227,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_DLPRansomware:hover
@@ -1237,7 +1235,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_RemoteFileInclusion:hover
@@ -1245,7 +1243,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_HTTPServer:hover
@@ -1253,7 +1251,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_Potentiometer:hover
@@ -1261,7 +1259,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_HydraPat:hover
@@ -1269,7 +1267,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_WindowsRecall:hover
@@ -1277,7 +1275,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_HTTPRequests:hover
@@ -1285,7 +1283,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_AdvancedMITB:hover
@@ -1293,7 +1291,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_SQLMapRCE:hover
@@ -1301,7 +1299,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 .Modal_Pic_JoyStick:hover
@@ -1309,7 +1307,7 @@ body
 	object-fit: cover;
 	width: 100%;
 	max-height: 405px;
-	box-shadow: 25px 0 100px purple, -25px 0 100px black;
+	box-shadow: 25px 0 100px #5f0707, -25px 0 100px black;
 }
 
 
@@ -1378,35 +1376,13 @@ body
 .Contact_Icons
 {   
 
-	background-image: url(futaba3.jpg);
+	background-image: url(RansomeWare.jpg);
+    border-color: red;
     
-	background-size: 100px;
+	background-size: 103px;
 	background-repeat: no-repeat;
-	background-position-x: -46px;
-	background-position-y: 0px;
-
-	left: 210px;
-	top: 450px;
-
-	cursor: pointer;
-	height: 50px;
-	width: 50px;
-	margin: 0 2px;
-	background-color: black;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-
-.Contact_Icons2
-{   
-
-	background-image: url(TCPServer.avif);
-    
-	background-size: 100px;
-	background-repeat: no-repeat;
-	background-position-x: -26px;
-	background-position-y: -20px;
+	background-position-x: -29.8px;
+	background-position-y: -10.5px;
 
 	left: 210px;
 	top: 450px;
