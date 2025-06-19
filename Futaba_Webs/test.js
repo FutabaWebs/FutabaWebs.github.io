@@ -15,6 +15,96 @@ function myFunction() {
     }
 }
 
+////////////////////////////////////////////////Resume Script Handlers
+
+
+//Handles DarkMode Modal Logic
+function DarkModeModalLoad()
+{    
+    document.getElementById("dmode").innerHTML = '<img src = "DarkMode1.png" class="img-responsive" alt="portfolio img"/> <img src = "DarkMode2.png" class="img-responsive" alt="portfolio img"/>';
+}
+
+function DarkModeModalUnload()
+{    
+    document.getElementById("dmode").innerHTML = '';
+}
+
+
+
+//Handles LightMode Modal Logic
+function LightModeModalLoad()
+{    
+    document.getElementById("lmode").innerHTML = '<img src = "LightMode1.png" class="img-responsive" alt="portfolio img"/> <img src = "LightMode2.png" class="img-responsive" alt="portfolio img"/>';
+}
+
+function LightModeModalUnload()
+{    
+    document.getElementById("lmode").innerHTML = '';
+}
+
+
+
+//Handles WordMode Modal Logic
+function WordModeModalLoad()
+{    
+    document.getElementById("wmode").innerHTML = '<img src = "WordVersion1.png" class="img-responsive" alt="portfolio img"/> <img src = "WordVersion2.png" class="img-responsive" alt="portfolio img"/>';
+}
+
+function WordModeModalUnload()
+{    
+    document.getElementById("wmode").innerHTML = '';
+}
+
+
+
+//This is for the "DarkMode Modal"
+$('#darkmode').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    DarkModeModalLoad();
+})
+
+$('#darkmode').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    DarkModeModalUnload();
+})
+
+
+
+
+//This is for the "LightMode Modal"
+$('#lightmode').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    LightModeModalLoad();
+})
+
+$('#lightmode').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    LightModeModalUnload();
+})
+
+
+
+
+//This is for the "WordMode Modal"
+$('#wordmode').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    WordModeModalLoad();
+})
+
+$('#wordmode').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    WordModeModalUnload();
+})
+
+
+////////////////////////////////////////////////End of Resume Script Handlers
+
 
 //Loads the catalog list
 function ModalLoad()
