@@ -90,6 +90,19 @@ html, body {
     -webkit-transition: none !important;
     transition: none !important;
 }
+
+#custom-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 100%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+#custom-nav.right {
+    right: 17px;
+}
+
 #fp-nav {
     position: fixed;
     z-index: 100;
@@ -101,6 +114,7 @@ html, body {
 #fp-nav.right {
     right: 17px;
 }
+
 #fp-nav.left {
     left: 17px;
 }
