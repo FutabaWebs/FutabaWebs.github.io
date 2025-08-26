@@ -781,7 +781,559 @@ function CrimsonDomainThemeChange()
 
 
 //////////////////////////////////////////////// Theme Change Function (Article Pages)
+function VelvetRoomThemeChangeArticle()
+{
 
+    //First we're going to grab the main home element by it's ID name and attach the style attirbute for it
+   
+    
+    //Main Banner Elements
+
+        //Header Name for the banner
+        document.getElementById('Header').style = "color: #1F51FF;";
+
+        //Banner Title (The rotating text)
+        document.getElementById('BannerTitle').style = "color: #1F51FF;";
+    
+        //Navigation Buttons for it
+        $('span').css({ background: '#D43F52', color: '#D43F52' });
+
+
+        //Banner Buttons
+        
+        //This changes the initial color of the buttons
+        document.getElementById('homebtn1').style = "color: #1F51FF;";
+        document.getElementById('homebtn2').style = "color: #1F51FF;";
+        document.getElementById('homebtn3').style = "color: #1F51FF;";
+        document.getElementById('homebtn4').style = "color: #1F51FF;";
+        document.getElementById('homebtn5').style = "color: #1F51FF;";
+     
+
+        //This changes the hover effects for the buttons
+        $('#homebtn1').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+        });
+
+        $('#homebtn2').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+        });
+
+        $('#homebtn3').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+        });
+
+        $('#homebtn4').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+        });
+
+        $('#homebtn5').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+        });
+
+
+       
+
+        
+
+
+
+    //What I do Section
+    document.getElementById('work').style = "background-color: #42026f52;";
+
+        //Headers For It 
+        document.getElementById('ArticleGlossory').style = "color: #D43F52;";
+        document.getElementById('WorkHeader1').style = "color: #D43F52;";
+        document.getElementById('WorkHeader2').style = "color: #D43F52;";
+        document.getElementById('WorkHeader3').style = "color: #D43F52;";
+
+    //Article Title
+    document.getElementById('Article').style = "color: indigo;";
+
+    //Article Headers
+    $('#about h4').css({color: '#1F51FF'});
+
+    //PortFolio
+    document.getElementById('portfolio').style = "background-color: #42026f52;";
+    document.getElementById('PortfolioHeader').style = "color: #D43F52;";
+
+        //Overlays for the Portfolio
+        document.getElementById('overlay1').style = "background-color: #D43F52;";
+        document.getElementById('overlay2').style = "background-color: #D43F52;";
+        document.getElementById('overlay3').style = "background-color: #D43F52;";
+        document.getElementById('overlay4').style = "background-color: #D43F52;";
+        document.getElementById('overlay5').style = "background-color: #D43F52;";
+        document.getElementById('overlay6').style = "background-color: #D43F52;";
+        document.getElementById('overlay7').style = "background-color: #D43F52;";
+
+
+    //Contact Section Navigation Buttons
+    document.getElementById('send').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send1').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send2').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send3').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send4').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send5').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send6').style = "color: #1F51FF; border-color: #1F51FF;";
+    document.getElementById('send7').style = "color: #1F51FF; border-color: #1F51FF;";
+    
+    //This is to test the new hover effects for the contact section of the site
+    //https://stackoverflow.com/questions/13707134/adding-hover-css-attributes-via-jquery-javascript
+    $('#send1').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send2').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send3').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send4').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send5').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send6').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send7').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send8').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+    $('#send9').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: 'rgb(114, 3, 193)', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#1F51FF'
+                 });
+    });
+
+
+}
+
+//This is the Crimsons Domain Theme
+function CrimsonDomainThemeChangeArticle()
+{
+
+    //First we're going to grab the main home element by it's ID name and attach the style attirbute for it
+   
+    
+    //Main Banner Elements
+
+        //Header Name for the banner
+        document.getElementById('Header').style = "color: #D43F52;";
+
+        //Banner Title (The rotating text)
+        document.getElementById('BannerTitle').style = "color: #D43F52;";
+    
+        //Navigation Buttons for it
+        $('span').css({ background: '#1F51FF', color: '#1F51FF' });
+
+
+        //Banner Buttons
+        
+        //This changes the initial color of the buttons
+        document.getElementById('homebtn1').style = "color: #D43F52;";
+        document.getElementById('homebtn2').style = "color: #D43F52;";
+        document.getElementById('homebtn3').style = "color: #D43F52;";
+        document.getElementById('homebtn4').style = "color: #D43F52;";
+        document.getElementById('homebtn5').style = "color: #D43F52;";
+    
+  
+
+        //This changes the hover effects for the buttons
+        $('#homebtn1').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+        });
+
+        $('#homebtn2').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+        });
+
+        $('#homebtn3').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+        });
+
+        $('#homebtn4').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+        });
+
+        $('#homebtn5').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+        });
+
+
+
+       
+
+        
+
+
+
+    //What I do Section
+    document.getElementById('work').style = "background-color: #6f0b0252;";
+
+        //Headers For It 
+        document.getElementById('ArticleGlossory').style = "color: #1F51FF;";
+        document.getElementById('WorkHeader1').style = "color: #1F51FF;";
+        document.getElementById('WorkHeader2').style = "color: #1F51FF;";
+        document.getElementById('WorkHeader3').style = "color: #1F51FF;";
+
+    //Article Title
+    document.getElementById('Article').style = "color: indigo;";
+
+    //Article Headers
+    $('#about h4').css({color: '#D43F52'});
+
+    //PortFolio
+    document.getElementById('portfolio').style = "background-color: #6f0b0252;";
+    document.getElementById('PortfolioHeader').style = "color: #1F51FF;";
+
+        //Overlays for the Portfolio
+        document.getElementById('overlay1').style = "background-color: #1F51FF;";
+        document.getElementById('overlay2').style = "background-color: #1F51FF;";
+        document.getElementById('overlay3').style = "background-color: #1F51FF;";
+        document.getElementById('overlay4').style = "background-color: #1F51FF;";
+        document.getElementById('overlay5').style = "background-color: #1F51FF;";
+        document.getElementById('overlay6').style = "background-color: #1F51FF;";
+        document.getElementById('overlay7').style = "background-color: #1F51FF;";
+
+
+    //Contact Section Navigation Buttons
+    document.getElementById('send').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send1').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send2').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send3').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send4').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send5').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send6').style = "color: #D43F52; border-color: #D43F52;";
+    document.getElementById('send7').style = "color: #D43F52; border-color: #D43F52;";
+    
+    //This is to test the new hover effects for the contact section of the site
+    //https://stackoverflow.com/questions/13707134/adding-hover-css-attributes-via-jquery-javascript
+    $('#send1').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send2').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send3').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send4').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send5').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send6').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send7').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send8').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+    $('#send9').hover(
+
+        //This function handles the "hover" on effect
+        function(){
+                    $(this).css({ background: '#D43F52', color: 'black' });
+
+                },
+
+        //This function handles the "hover" off effect
+        function(){
+                $(this).css({ background: 'black', color: '#D43F52'
+                 });
+    });
+
+}
 
 
 ////////////////////////////////////////////////Resume Script Handlers
