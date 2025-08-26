@@ -44,8 +44,8 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h1 style = "background-color: rgb(0, 0, 0, 0.9)">Futaba _ Webs 🕸🕸🎃🕸🕸</h1>
-						<h2 class="rotate"> Confluence LockBit Ransomware (Pt 2) 🕸🕸🎃🕸🕸</h2>
+						<h1 style = "background-color: rgb(0, 0, 0, 0.9)" id = "Header">Futaba _ Webs 🕸🕸🎃🕸🕸</h1>
+						<h2 class="rotate" id = "BannerTitle" > Confluence LockBit Ransomware (Pt 2) 🕸🕸🎃🕸🕸</h2>
 						<strong> <p style = "color: rgb(148, 12, 148); text-align: left;"> Picking up from where we left off, now that we have a proper understanding of HOW all the tools threat actors used to compromise Confluence data servers, let’s dive into the official case study of how it all went down. 
 
 						</br>
@@ -60,12 +60,12 @@
 						</strong>
 
 
-						<a href="#Article" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Article</a>
-						<a href="#ArticleGlossory" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Glossary</a>
-						<a href="#Catalog" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Catalog</a>
-						<a href="https://futabawebs.github.io/Futaba_Webs/" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Home </a>
+                        <a id = "homebtn1" href="#Article" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Article</a>
+						<a id = "homebtn2" href="#ArticleGlossory" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Glossary</a>
+						<a id = "homebtn3" href="#Catalog" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Catalog</a>
+						<a id = "homebtn4" href="https://futabawebs.github.io/Futaba_Webs/" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Home </a>
+						<a id = "homebtn5" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color" data-toggle="modal" data-target="#flipFlop" accesskey="l">🎃 Search Mode</a>
 						<a href="https://futabawebs.github.io/FullScreenMode.html" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color; display: none;" accesskey="o">🎃 Terminal</a>
-						<a class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color" data-toggle="modal" data-target="#flipFlop" accesskey="l">🎃 Search Mode</a>
 
 
 					</br>
@@ -95,7 +95,7 @@
 								<i class="fa fa-laptop"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Synopsis 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Synopsis 🕸 </h3>
 								<p>Picking up from where we left off, now that we have a proper understanding of HOW all the tools threat actors used to compromise Confluence data servers, let’s dive into the official case study of how it all went down. 
 
 								</br> 
@@ -115,7 +115,7 @@
 								<i class="fa fa-link"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Article Topics 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader2"> 🕸 Article Topics 🕸 </h3>
 								<p> I'll be discussing the following topics in order:							
 								</br>
 							</br>							
@@ -176,7 +176,7 @@
 								<i class="fa fa-paper-plane"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Key Links 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader3"> 🕸 Key Links 🕸 </h3>
 								<p> Here's a quick run down on all the main links that are in the article in case you want to check them out first.
 								
 								</br>
@@ -377,16 +377,16 @@
 		<!-- end about -->
 
 	<!-- start portfolio -->
-	<div id="portfolio" class="section">
+    <div id="portfolio" class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="wow bounce" id = "Catalog">The Hacker Who Laughs 🕸🕸🎃🕸🕸</h2>
+					<h2 class="wow bounce" id = "PortfolioHeader">The Hacker Who Laughs 🕸🕸🎃🕸🕸</h2>
 				</div>
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/Is_TCM_Still_Credible"> <img src="futaba 6.jpg" class="img-responsive" alt="portfolio img"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay1" class="portfolio-overlay">
 								<h4 style = "color: black;"> Is TCM Security Still Credible? 🕸🕸🎃🕸🕸
                                 </h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸 </h5>
@@ -398,7 +398,7 @@
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/HowToBuildYourPersonalBrand"> <img src="futaba 5.jpg" class="img-responsive" alt="portfolio img"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay2" class="portfolio-overlay">
 								<h4 style = "color: black;">How to Build Your Personal Brand? 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
@@ -409,18 +409,18 @@
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/WomensHistoryMonth2025"> <img src="kiki.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay3" class="portfolio-overlay">
 								<h4 style = "color: black;">Women’s History Month 2025 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
 						</a>
 					</div>
 				</div>
-
+				
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/WhyFutabaDoesCyber"> <img src="BatManWL.png" class="img-responsive" alt="portfolio img" height = "400px"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay4" class="portfolio-overlay">
 								<h4 style = "color: black;">Why Futaba Does Cyber Security!? 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
@@ -431,7 +431,7 @@
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/FreeResourcesOrOpportunities"> <img src="FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay5" class="portfolio-overlay">
 								<h4 style = "color: black;">FREE Resource? OR Opportunities? 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
@@ -442,7 +442,7 @@
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/ExMachinaParlor"> <img src="ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay6" class="portfolio-overlay">
 								<h4 style = "color: black;">Ex Machina Parlor 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
@@ -453,13 +453,14 @@
 				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
 						<a href="https://futabawebs.github.io/Futaba_Webs/ArticleCatalog"> <img src="Welcome Tier.png" class="img-responsive" alt="portfolio img" height = "400px"> 
-							<div class="portfolio-overlay">
+							<div id = "overlay7" class="portfolio-overlay">
 								<h4 style = "color: black;">Article Catalog 🕸🕸🎃🕸🕸</h4>
 								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
 							</div>
 						</a>
 					</div>
 				</div>
+
 
 			</div>
 		</div>
@@ -484,76 +485,55 @@
 											
 						<a href = "https://www.linkedin.com/in/roy-bull-futaba-webs-2091501b7/recent-activity/articles/" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Futaba_Web's Blogs 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send1" value="🕸🎃🕸 Futaba_Web's Blogs 🕸🎃🕸">
 
 						</a>
 
 						<a href = "https://www.linkedin.com/in/roy-bull-futaba-webs-2091501b7/recent-activity/all/" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Futaba_Web's RSS Feed 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send2" value="🕸🎃🕸 Futaba_Web's RSS Feed 🕸🎃🕸">
 
 						</a>
 
 						<a href = "https://github.com/RoyMBull/READ-ME" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Futaba_Web's GitHub 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send3" value="🕸🎃🕸 Futaba_Web's GitHub 🕸🎃🕸">
 
 						</a>
 
 						<a href = "https://cash.app/$FutabaWebs" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Donate! 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send4" value="🕸🎃🕸 Donate! 🕸🎃🕸">
 							
 						</a>
 
 						<a href = "https://www.patreon.com/Futaba_Webs" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Patreon 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send5" value="🕸🎃🕸 Patreon 🕸🎃🕸">
 
 
 						</a>
 
 						<a href = "http://linkedin.com/company/futaba-webs/" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Business LinkedIn Page 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send6" value="🕸🎃🕸 Business LinkedIn Page 🕸🎃🕸">
 
 
 						</a>
 
 						<a href = "https://github.com/RoyMBull/Resumes" style = "text-decoration: none;">
 
-							<input name="send" type="submit" class="form-control" id="send" value="🕸🎃🕸 Resume 🕸🎃🕸">
+							<input name="send" type="submit" class="form-control" id="send7" value="🕸🎃🕸 Resume 🕸🎃🕸">
 							
 						</a>
 
-
-							
-						
+				
 					</div>
 					<div class="col-md-1 col-sm-1"></div>
 				</div>
 			</div>
 		</div>
 		<!-- end contact -->
-
-		<!-- start footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
-						<p style="color:purple;">&copy; Futaba_Webs 2025 
-                        
-						<hr>
-						<ul class="social-icon">
-							<li><a href="https://www.facebook.com/profile.php?id=100087662881640" class="fa fa-facebook"></a></li>
-							<li><a href="https://x.com/FutabaWebs" class="fa fa-twitter"></a></li>
-							<li><a href="https://instagram.com/futaba_webs" class="fa fa-instagram"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- end footer -->
 
 	</div>
 
@@ -625,7 +605,28 @@
 	</div>
 	</div>
 	
-		<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop"><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+			<!-- 
+		
+
+		//The main one for the site
+		<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop" ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+
+		//The test one to change the color pallets for Crimson's Domain
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" OnClick = CrimsonDomainThemeChange() ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+
+		//The test one to change the color pallets for Velvet Room
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" OnClick = VelvetRoomThemeChange() ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+	-->
+			
+			<div id="custom-nav3" class="right" style="margin-top: -260.5px;" data-toggle="modal" onclick = VelvetRoomThemeChangeArticle() ><ul style = "font-size: 300%; list-style-type: '💜'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+			<div id="custom-nav2" class="right" style="margin-top: -180.5px;" data-toggle="modal" onclick = CrimsonDomainThemeChangeArticle() ><ul style = "font-size: 300%; list-style-type: '❤️'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop" ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
 	
 	</body>
 </html>
