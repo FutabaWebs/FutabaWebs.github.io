@@ -45,8 +45,8 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						<h1 style = "background-color: rgb(0, 0, 0, 0.9)">Futaba _ Webs 🕸🕸🎃🕸🕸</h1>
-						<h2 class="rotate"> - The Hacker Who Laughs 🕸🕸🎃🕸🕸, Founder at Futaba_Webs 🕸🕸🎃🕸🕸</h2>
+						<h1 style = "background-color: rgb(0, 0, 0, 0.9)" id = "Header">Futaba _ Webs 🕸🕸🎃🕸🕸</h1>
+						<h2 class="rotate" id = "BannerTitle" > - The Hacker Who Laughs 🕸🕸🎃🕸🕸, Founder at Futaba_Webs 🕸🕸🎃🕸🕸</h2>
 						<strong> <p style = "color: purple;"> Cyber Security Professional profecient in Offensive Security and Penetration testing, I offer a wide range of services ranging from: Penetration Testing - Offensive Security Auditing, Cyber Security Analyst - Vulnerability Assessments, SOC Analyst - Incident Response, Cyber Security Engineer - Secure Coding, and even Network Security Testing.
 						</p> 
 						</strong>
@@ -83,7 +83,7 @@
 								<i class="fa fa-laptop"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Coding Assessments 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Coding Assessments 🕸 </h3>
 								<p> I’ll perform various secure coding assessments in various programming languages and technologies I’m proficient in, which also include areas I’m proficient in when it comes to Penetration Testing/Offensive Security such as Web Application Security for example. 
 
 								</br> 
@@ -116,7 +116,7 @@
 								<i class="fa fa-link"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Exploitation Demos 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader2"> 🕸 Exploitation Demos 🕸 </h3>
 								<p> In order to emphasize the level of risk a lack of secure code by design has on business infrastructures, I offer services where I engage in exploitation development, showing the REAL level of damage that can be done if left unattended. 
 		
 
@@ -148,7 +148,7 @@
 								<i class="fa fa-paper-plane"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Mitigation Demos 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader3"> 🕸 Mitigation Demos 🕸 </h3>
 								<p> 
 							Part of my services will also include, should clients choose to mitigate the risk, will involve me not only devising various mitigation strategies, but also implementing them. 
 
@@ -190,7 +190,7 @@
 								<i class="fa fa-laptop"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Malware Removal Services 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Malware Removal Services 🕸 </h3>
 								<p> If you have ANY system that has been compromised by malware, I’ll take a look at it and go about removing it for you. Services like this, although it might be possible to remote in and do a little inspection on some of the processes running on the system, this one’s best served via either sending the physical system over to me, OR, an onsite visit if need be. Simply tell me all the symptoms, I’ll look into it and ping you back on how to best deal with the situation.
 
 								</br> 
@@ -213,7 +213,7 @@
 								<i class="fa fa-link"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Malware Researcher 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Malware Researcher 🕸 </h3>
 								<p> Need a Malware Researcher? Found an executable you find suspicious and need me to look into it? I can take care of that for you! Simply bring me the executable, I’ll place it in a Sandbox environment and take a look at it for you.
 	
 								</br>
@@ -241,7 +241,7 @@
 								<i class="fa fa-paper-plane"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Malware Interpreter 🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Malware Interpreter 🕸 </h3>
 								<p> This one’s a bit niche and might not be the case too often for obvious reasons, but in the event you do happen to secure source code for any particular malware, should you need a researcher to interpret and pinpoint any attack vectors in it, I can also do that for you. Again, this service is a bit niche, mainly since the whole point of malware is that it’s typically in binary format requiring you to disassemble it apart safely or analyze it’s behavior in order to interpret it. I doubt threat actors would leave the goods out in the open for you. Foolish mistake. BUT, in the event it does happen send it my way and I’ll take a look at it. 
 								
 								</br>
@@ -264,7 +264,7 @@
 								<i class="fa fa-paper-plane"></i>
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading"> 🕸 Malware Workshops  🕸 </h3>
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Malware Workshops  🕸 </h3>
 								<p> Interested in having me teach people about the art of Malware? Not only in terms of reverse engineering it, BUT, on how to write it for research and exploitation development purposes? Book me on your calendar and I’ll set up a workshop for you!
 
 								
@@ -741,7 +741,28 @@
     
 
 	
-	<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop"><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+		<!-- 
+		
+
+		//The main one for the site
+		<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop" ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+
+		//The test one to change the color pallets for Crimson's Domain
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" OnClick = CrimsonDomainThemeChange() ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+
+		//The test one to change the color pallets for Velvet Room
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" OnClick = VelvetRoomThemeChange() ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+	-->
+			
+			<div id="custom-nav3" class="right" style="margin-top: -260.5px;" data-toggle="modal" onclick = VelvetRoomThemeChangeArticle() ><ul style = "font-size: 300%; list-style-type: '💜'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+			<div id="custom-nav2" class="right" style="margin-top: -180.5px;" data-toggle="modal" onclick = CrimsonDomainThemeChangeArticle() ><ul style = "font-size: 300%; list-style-type: '❤️'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
+			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" data-target="#flipFlop" ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
 
 	</body>
 </html>
