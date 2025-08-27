@@ -92,10 +92,10 @@
             scrollBar: false,
 
             //scrolling (THIS CAUSES AUTO SCROLLING TURN THIS OFF TO PREVENT PAGES FROM RE-ADJUSTINGS)
-           /**  css3: true,
-            scrollingSpeed: 700,
-            autoScrolling: true,
-            fitToSection: true,
+            css3: true,
+            scrollingSpeed: 600,
+            autoScrolling: false,
+            fitToSection: false,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
@@ -103,11 +103,11 @@
             loopHorizontal: true,
             continuousVertical: false,
             normalScrollElements: null,
-            scrollOverflow: false,
+            scrollOverflow: true,
             touchSensitivity: 5,
             normalScrollElementTouchThreshold: 5,
 
-            **/
+            
 
             //Accessibility
             keyboardScrolling: true,
