@@ -93,9 +93,9 @@
 
             //scrolling (THIS CAUSES AUTO SCROLLING TURN THIS OFF TO PREVENT PAGES FROM RE-ADJUSTINGS)
             css3: true,
-            scrollingSpeed: 0,
+            scrollingSpeed: 700,
             autoScrolling: false,
-            fitToSection: true,
+            fitToSection: false,
             easing: 'easeInOutCubic',
             easingcss3: 'ease',
             loopBottom: false,
