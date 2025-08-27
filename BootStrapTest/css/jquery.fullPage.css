@@ -99,7 +99,34 @@ html, body {
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
 }
+
 #custom-nav.right {
+    right: 17px;
+}
+
+#custom-nav2 {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 100%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#custom-nav2.right {
+    right: 17px;
+}
+
+#custom-nav3 {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 100%;
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#custom-nav3.right {
     right: 17px;
 }
 
