@@ -38,7 +38,7 @@ function VelvetRoomThemeChange()
     //Main Banner Elements
 
         //Wallpaper
-        $('#home').css("background-image", "url('halloweentesr.jpg')");
+        $('#home').css("background-image", "url('Images/halloweentesr.jpg')");
 
         //Header Name for the banner
         document.getElementById('Header').style = "color: #1F51FF;";
@@ -245,7 +245,7 @@ function VelvetRoomThemeChange()
     document.getElementById('SkillTree6').style = "color: #1F51FF;";
 
     //RSS image at the end of the about section
-    document.getElementById('RSS').innerHTML = " <img id = 'RSS' src= 'halloweentesr.jpg' class='img-responsive' alt='portfolio img'> "
+    document.getElementById('RSS').innerHTML = " <img id = 'RSS' src= 'Images/halloweentesr.jpg' class='img-responsive' alt='portfolio img'> "
 
     //PortFolio
     document.getElementById('portfolio').style = "background-color: #42026f52;";
@@ -437,7 +437,7 @@ function CrimsonDomainThemeChange()
     //Main Banner Elements
 
         //Wallpaper
-        $('#home').css("background-image", "url('Persona5red.png')");
+        $('#home').css("background-image", "url('Images/Persona5red.png')");
 
         //Header Name for the banner
         document.getElementById('Header').style = "color: #D43F52;";
@@ -644,7 +644,7 @@ function CrimsonDomainThemeChange()
     document.getElementById('SkillTree6').style = "color: #D43F52;";
 
     //RSS image at the end of the about section
-    document.getElementById('RSS').innerHTML = " <img id = 'RSS' src= 'Persona5red.png' class='img-responsive' alt='portfolio img'> "
+    document.getElementById('RSS').innerHTML = " <img id = 'RSS' src= 'Images/Persona5red.png' class='img-responsive' alt='portfolio img'> "
 
     //PortFolio
     document.getElementById('portfolio').style = "background-color: #6f0b0252;";
