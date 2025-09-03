@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title> Futaba_Webs </title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+        <meta name="author" content="templatemo">
+        <!-- 
+        Lavish HTML CSS Template
+        https://templatemo.com/tm-458-lavish
+        -->
+        
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- animate -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- google font -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
+		<!-- fullpage -->
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<!-- custom -->
+		<link rel="stylesheet" href="css/templatemo-style.css">
+
+		<link rel="shortcut icon" type="x-icon" href="phantom.png"/>
+		<link   
+		rel = "stylesheet"
+		href = "FutabaWebs.css"
+	/>
+	<body>
+
+	<div id="fullpage" class = "container-sm container-fluid" >
+
+		<!-- start home style = "background-color: rgb(0, 0, 0, 0.88);"-->
+		<!-- The "bordertest" class is a custom one that allows smooth scroll between the banner and the other elements on the site for clean transition -->
+		<div id="home" class="section container-sm container-fluid"  id = "WallPaper" style = " background-image: url('Images/RemoteLocalFileInclusion.jpg');">
+			<div class="container bordertest" style = "background-color: rgba(0, 0, 0, 0.920);">
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
+						<h1 style = "background-color: rgb(0, 0, 0, 0.9)" id = "Header">Futaba _ Webs 🕸🕸🎃🕸🕸</h1>
+						<h2 class="rotate" id = "BannerTitle" >Remote/Local File Inclusion 🕸🕸🎃🕸🕸 </h2>
+						<strong> <p style = "color: rgb(148, 12, 148); text-align: left;">Today I want to talk about two different types of file inclusion techniques that can be used to exploit web applications: Remote File Inclusion and local file inclusion. I also want to talk about the difference between the two since they tend to be mistaken for one another, as well as a few techniques that can be used to mitigate against them.
+
+						</p>
+						</strong>
+
+
+                        <a id = "homebtn1" href="#Article" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Article</a>
+						<a id = "homebtn2" href="#ArticleGlossory" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Glossary</a>
+						<a id = "homebtn3" href="#portfolio" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Catalog</a>
+						<a id = "homebtn4" href="https://futabawebs.github.io/" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Home </a>
+						<a id = "homebtn5" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color" data-toggle="modal" data-target="#flipFlop" accesskey="l">🎃 Search Mode</a>
+						<a href="https://futabawebs.github.io/FullScreenMode.html" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color; display: none;" accesskey="o">🎃 Terminal</a>
+					</br>
+				</br>
+					
+
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div> 
+		</div>
+		<!-- end home -->
+
+		<!-- start work -->
+		<div id="work" class="section container-sm">
+			<div class="container-sm container-fluid">
+				<div class="row">
+					<div class="col-md-12 wow bounce">
+						<h2 id = "ArticleGlossory"> 🎃 Article Glossary </h2>
+					</div>
+                </div>  
+                
+                <div class="row">
+					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="media">
+							<div class="media-object media-left">
+								<i class="fa fa-laptop"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading" id = "WorkHeader1"> 🕸 Synopsis 🕸 </h3>
+								<p>Today I want to talk about two different types of file inclusion techniques that can be used to exploit web applications: Remote File Inclusion and local file inclusion. I also want to talk about the difference between the two since they tend to be mistaken for one another, as well as a few techniques that can be used to mitigate against them.
+
+
+								</br> 
+								</br>
+							
+                                    
+                               <strong> <im> Disclaimer</im></strong> 
+
+                                </br> 
+								</br>
+                                    As always, personal disclaimer, any and all information for this is strictly for educational purposes and I do not condone any form of illegal activity, nor am I responsible for anything you should use this information for. DO NOT pen-test on anyone's network unless it is your own, or you have permission to do so. Now, let's begin!
+
+
+								</p>
+
+						
+							</div>
+						</div>
+					</div>
+                    
+					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="media">
+							<div class="media-object media-left">
+								<i class="fa fa-link"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading" id = "WorkHeader2"> 🕸 Article Topics 🕸 </h3>
+								<p> I'll be discussing the following topics in order:							
+								</br>
+							</br>			
+                            
+                                        🎃 <a href = "#premise" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">Premise</a> 
+
+										</br>
+									</br>
+										
+											🎃 <a href = "#remote" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">What is Remote File inclusion?</a> 
+
+										</br>
+									</br>
+								
+										
+											🎃 <a href = "#local" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">What is local file inclusion?</a> 
+
+										</br>
+									</br>
+
+                                        🎃 <a href = "#difference" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">The difference between the two?</a> 
+
+										</br>
+									</br>
+
+                                        🎃 <a href = "#rce" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">What is RCE?</a> 
+
+										</br>
+									</br>             
+
+											
+											You can click on any of the topics to simply check that one out if it interests you!
+										</br>
+									</br>
+
+									<em> NOTE: Articles are read from LEFT to RIGHT via 2 columns! Read the first column all the way down and then move to the next one! </em>
+										</br>
+									</br>
+							
+								</p>
+							</div>
+						</div>
+					</div>
+                    
+					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="media">
+							<div class="media-object media-left">
+								<i class="fa fa-paper-plane"></i>
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading" id = "WorkHeader3"> 🕸 Key Links 🕸 </h3>
+								<p> Here's a quick run down on all the main links that are in the article in case you want to check them out first.
+								
+								</br>
+							</br>
+
+							🎃 <a href = "https://www.linkedin.com/pulse/remotelocal-file-inclusion-roy-bull-futaba-webs--6odpe/?trackingId=9Youk%2F93QW%2BJgwARTwXCvw%3D%3D" style = "text-decoration: none;">LinkedIn Version</a>
+
+						</br>
+					</br>	
+
+							🎃 <a href = "https://www.patreon.com/posts/remote-local-105195333" style = "text-decoration: none;">Patreon Version</a>
+
+						</br>
+					</br>							
+								
+
+							</div>
+						</div>
+					</div>
+                    
+				</div>
+			</div>
+		</div>
+		<!-- end work -->
+
+		<!-- start about -->
+
+		<!-- <a href = "" style = "text-decoration: none;"> </a>! -->
+		<!-- start about -->
+		<div id="about" class="section container-sm" >
+			<div class = "container">
+				<div class="row">
+					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
+						<h2 id = "Article"> 🎃 DANGER! Windows Recall </h2>
+						
+                        <h4 id = "premise">Premise 🕸🕸🎃🕸🕸
+
+                        </h4>
+
+						<p>Today's article will include a video demonstration of how to perform local file inclusion, also known as directory traversal, against a remote web application server. I'll even cover one of the best FREE beginner tools that you can use to apply the technique in a more automated fashion.</p>
+
+                        <p></p>
+
+                        <p>If you would like to see how to perform remote file inclusion, as well as the best means to do so, then I suggest checking out this video <a href = "https://www.patreon.com/posts/lab-python-104381028" style = "text-decoration: none;">here</a> from my patreon lab for the TCPBackdoor exploit.</p>
+
+                        <h4 id = "remote">What is Remote File inclusion? 🕸🕸🎃🕸🕸
+
+                        </h4>
+
+						<p>Remote file inclusion is the process of directly uploading malicious files/payloads to a remote web application server in order to have it become a part of the main file archives that belong to it.. This allows the threat actor to infect and or control the web application on a massive scale, as well as deliver unsuspecting payloads to end users that use said service. If done correctly. it can lead to the compromising of many end user networks and IoT devices if not mitigated correctly.</p>
+
+                        <p></p>
+
+
+                        <p>As you know, web application servers use the HTTP/HTTPS protocol to host various html files that end users can access through the internet on behalf of a web browser application. When you visit a website, you're auto directed to the main HTML index page welcoming you to the site. From there the end user browses the site through the main UI(user interface) which will allow them to view any and all HTML pages that are hosted on the web application, as well as any other fields that might be included with it.</p>
+
+                        <p></p>
+
+                        <p>Web applications, as I’ve mentioned earlier, host various other files that are accessible to the end user, like executables, that are auto downloaded to their system the moment they visit the resource location on the server.</p>
+
+                        <p></p>
+
+                        <p>For example: https://website[.]com/Download.exe (JUST AN EXAMPLE! IT'S NOT REAL)</p>
+
+                        <p></p>
+
+                        <p>When you visit this link, it will download a file that is known simply as "Download.exe". Much like how when you visit an HTML page, it's automatically displayed and interpreted on the screen for you, downloadable non HTML files are auto downloaded to your system for you to use.</p>
+
+                        <p></p>
+
+                        <p>Remote file inclusion exploits both of these things discussed about web applications in 2 ways.</p>
+
+                        <p></p>
+
+                        <p>#1, it can host fake pages and replace the pre-existing ones with spoofed pages that are malicious.</p>
+
+                        <p></p>
+
+                        <p>Ever heard of a website that was hacked, and suddenly all the "legitimate" web pages on it were now all malicious and infected end user systems? Well this is how REAL threat actors go about it when they compromise a web application.</p>
+
+                        <p></p>
+
+                        <p>By exploiting this vulnerability in a LEGITIMATE web application, you not only trick the web browser and security in place to protect the end user from spoofed sites, BUT, you also trick the end user into visiting pages that are malicious, allowing them to steal sensitive credentials, and even land a botnet onto the end user network should they want to extend their overall attack surface.</p>
+
+                        <p></p>
+
+                        <p>#2, it can be used to host executables that are auto downloaded to the victim's system</p>
+
+                        <p></p>
+
+                        <p>It's no shocker that one of the bread and butters for a threat actor is to use this technique to host malicious payloads that are auto downloaded to the victim's system. This can be deadly if it's a majorly trusted executable whose signature is also spoofed and ran on the target system.</p>
+
+                        <p></p>
+
+                        <p>Imagine VSCode, a desktop application that is commonly trusted and downloaded onto millions of systems daily, suddenly replaced with a fake version that was trusted by any and all end user systems? This would lead to a massive breach on many systems, as it's also possible for an attacker to spoof the signature of the software to bypass security. They can even do stuff like DLL and Code injection, as well as many obfuscation techniques to go undetected. The list goes on with the amount of creativity and devastating dama that can be done should an attacker land this critical flaw against a well trusted system</p>
+
+                        <p></p>
+
+                        <p>#3 it can allow you to pull of RCE and directory traversal</p>
+
+                        <p></p>
+
+                        <p>If you manage to pop a php file to a web application, you basically have a remote backdoor into the system that you can tap into whenever you need to and further extend your reach to the network the web application is hosted on.</p>
+
+                      
+                    </br>
+
+
+        <!-- Continue Button -->
+		<div id="contact2" class="section">
+	
+			<div class="row">
+				
+				<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
+										
+						<a href = "#local" class = "smoothScroll wow fadeInUp" style = "text-decoration: none;">
+		
+							<input name="send" type="submit" class="form-control" id="send" value="Continue 🕸🕸🎃🕸🕸">
+		
+						</a>
+					
+				</div>
+				<div class="col-md-1 col-sm-1"></div>
+			</div>
+		
+		</div>
+
+				
+					</div>
+					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
+					
+					</br>
+				</br>
+
+
+                  <h4 id = "local">What is local file inclusion? 🕸🕸🎃🕸🕸
+
+                        </h4>
+
+						<p>Local file inclusion, also known as directory traversal, is a technique that allows you to browse the web application's file system. This isn't a form of RCE no, BUT, it does allow you to browse stuff that is outside the bounds of the web application root directory.</p>
+
+                        <p></p>
+
+                        <p>As mentioned before, when you visit a web application you are accessing the HTML files via the file system of the web application.</p>
+
+                        <p></p>
+
+                        <p>For security reasons, in order to prevent you from accessing files outside those bounds, you are prohibited from being able to view anything that is not a part of the main web application root directory that is configured for it.</p>
+
+                        <p></p>
+
+                        <p>Directory traversal bypasses this security and allows you to access any and all files that are sensitive on  the system.</p>
+
+                        <p></p>
+
+                        <p>This can also lead to RCE because should you, in the event there is an open SSH service for example, should you happen to find the credentials to connect with the right privileges, you can extend your attack surface.</p>
+
+                        <p></p>
+
+                        <p>You can also view any and all sensitive files to gain access to password data that can allow you to compromise any services that are tied to the web application, such as the administrative credentials for login pages if they happen to be there.</p>
+
+
+                        
+                 <h4 id = "difference">The difference between the two? 🕸🕸🎃🕸🕸
+
+                        </h4>
+
+						<p>The biggest overall difference between remote file inclusion and local file inclusion, is that remote file inclusion is more you uploading and or replacing legitimate files on the web application to infect it.</p>
+
+                        <p></p>
+
+                        <p>Local file inclusion is more used to browse the system to find sensitive files and or credentials. You can exploit this in various ways, even through programs on the file system that print text data from various files in the web application system.</p>
+
+                        <h4 id = "rce">What is RCE? 🕸🕸🎃🕸🕸
+
+                        </h4>
+
+						<p>RCE, RCE, RCE! You’ve been hearing me say this a lot, but I haven’t quite yet explained what it means right? </p>
+
+                        <p></p>
+
+                        <p>RCE, remote code execution, is the main goal and bread and butter for any and all forms of injection exploits against any system. It's commonly applied to various things: buffer overflows via obfuscated malware, remote code execution, SQL injection, etc. It’s also just a common end game for any form of breach. </p>
+
+                        <p></p>
+
+                        <p>Your end goal is to always find a way to RCE a system in order to control it directly via shell code commands, which can be combined with various coding techniques to deal more damage.</p>
+
+                    </br>
+			
+			<img src="Images/counter.png" class="img-responsive" alt="portfolio img">
+				
+                </br>
+
+                <p> If you like to see the more advanced version of this article that talks about methods that can be used to mitigate, as well as any videos included, SUBSCRIBE TO MY PATREON CYBER SECURITY TIER!
+
+
+                </p>
+
+<p>If you enjoyed this post give it a thumbs up! I’ll be keeping track of whose reacting from now on as there is a “special” reason for it. Just know the more you support my content the more there is in stored!
+</p>
+</br>
+
+<p> 
+	- The Hacker Who Laughs 🕸🕸🎃🕸🕸
+</p>
+
+<img src="Images/RemoteLocalFileInclusion.jpg" class="img-responsive" alt="portfolio img">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end about -->
+
+		<!-- start portfolio -->
+		<div id="portfolio" class="section container-sm" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="wow bounce" id = "PortfolioHeader">The Hacker Who Laughs 🕸🕸🎃🕸🕸</h2>
+				</div>
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/Is_TCM_Still_Credible"> <img src="Images/futaba 6.jpg" class="img-responsive" alt="portfolio img"> 
+							<div id = "overlay1" class="portfolio-overlay">
+								<h4 style = "color: black;"> Is TCM Security Still Credible? 🕸🕸🎃🕸🕸
+                                </h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸 </h5>
+								
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/HowToBuildYourPersonalBrand"> <img src="Images/futaba 5.jpg" class="img-responsive" alt="portfolio img"> 
+							<div id = "overlay2" class="portfolio-overlay">
+								<h4 style = "color: black;">How to Build Your Personal Brand? 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/WomensHistoryMonth2025"> <img src="Images/kiki.jpg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div id = "overlay3" class="portfolio-overlay">
+								<h4 style = "color: black;">Women’s History Month 2025 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/WhyFutabaDoesCyber"> <img src="Images/BatManWL.png" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div id = "overlay4" class="portfolio-overlay">
+								<h4 style = "color: black;">Why Futaba Does Cyber Security!? 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/FreeResourcesOrOpportunities"> <img src="Images/FreeResourcesOrOpportunities.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div id = "overlay5" class="portfolio-overlay">
+								<h4 style = "color: black;">FREE Resource? OR Opportunities? 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Articles/ExMachinaParlor"> <img src="Images/ExMachinaParlor.jpeg" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div id = "overlay6" class="portfolio-overlay">
+								<h4 style = "color: black;">Ex Machina Parlor 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+					<div class="portfolio-thumb">
+						<a href="https://futabawebs.github.io/Catalogs/ArticleCatalog"> <img src="Images/Welcome Tier.png" class="img-responsive" alt="portfolio img" height = "400px"> 
+							<div id = "overlay7" class="portfolio-overlay">
+								<h4 style = "color: black;">Article Catalog 🕸🕸🎃🕸🕸</h4>
+								<h5 style = "color: black;">- The Hacker Who Laughs 🕸🕸🎃🕸🕸</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- end portfolio -->
+
+		<!-- start contact -->
+		<div id="contact" class="section container-sm" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<address>
+							<p class="contact-title"> 🎃 CONTACT ME </p>
+							<p><i class="fa fa-phone"></i> AnOnYmOuS</p>
+							<a href = "mailto:futaba.webs@gmail.com" style = "text-decoration: none;">
+								<p><i class="fa fa-envelope-o"></i>  futaba.webs@gmail.com  </p>
+							</a>
+							<p><i class="fa fa-map-marker"></i> New York, NY United States</p>
+						</address>
+					</div>
+					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
+											
+						<a href = "https://www.linkedin.com/in/roy-bull-futaba-webs-2091501b7/recent-activity/articles/" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send1" value="🕸🎃🕸 Futaba_Web's Blogs 🕸🎃🕸">
+
+						</a>
+
+						<a href = "https://www.linkedin.com/in/roy-bull-futaba-webs-2091501b7/recent-activity/all/" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send2" value="🕸🎃🕸 Futaba_Web's RSS Feed 🕸🎃🕸">
+
+						</a>
+
+						<a href = "https://github.com/RoyMBull/READ-ME" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send3" value="🕸🎃🕸 Futaba_Web's GitHub 🕸🎃🕸">
+
+						</a>
+
+						<a href = "https://cash.app/$FutabaWebs" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send4" value="🕸🎃🕸 Donate! 🕸🎃🕸">
+							
+						</a>
+
+						<a href = "https://www.patreon.com/Futaba_Webs" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send5" value="🕸🎃🕸 Patreon 🕸🎃🕸">
+
+
+						</a>
+
+						<a href = "http://linkedin.com/company/futaba-webs/" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send6" value="🕸🎃🕸 Business LinkedIn Page 🕸🎃🕸">
+
+
+						</a>
+
+						<a href = "https://github.com/RoyMBull/Resumes" style = "text-decoration: none;">
+
+							<input name="send" type="submit" class="form-control" id="send7" value="🕸🎃🕸 Resume 🕸🎃🕸">
+							
+						</a>
+
+				
+					</div>
+					<div class="col-md-1 col-sm-1"></div>
+				</div>
+			</div>
+		</div>
+		<!-- end contact -->
+
+		<!-- start footer -->
+		<footer>
+			<div class="container-sm">
+					<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
+						<p style="color:purple;">&copy; Futaba_Webs 2025 
+                        
+						<hr>
+						<ul class="social-icon">
+							<li><a href="https://www.facebook.com/profile.php?id=100087662881640" class="fa fa-facebook"></a></li>
+							<li><a href="https://x.com/FutabaWebs" class="fa fa-twitter"></a></li>
+							<li><a href="https://instagram.com/futaba_webs" class="fa fa-instagram"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+
+	</div>
+
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- fullpage -->
+		<script src="js/jquery.fullPage.js"></script>
+		<!-- smoothScroll -->
+		<script src="js/smoothscroll.js"></script>
+		<!-- wow -->
+		<script src="js/wow.min.js"></script>
+		<!-- text rotater -->
+		<script src="js/jquery.simple-text-rotator.js"></script>
+		<!-- custom -->
+		<script src="js/custom.js"></script>
+
+<!-- SearchMode modal -->
+<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+	<div class="modal-header" style = "background-color: black;">
+
+			
+ <span class="Contact_Icons mx-4"></span>
+	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Search Mode</h4>
+	</div>
+	<div class="modal-body">
+		
+		
+		
+				<input 
+					type = "search"
+					name = "search"
+					id = "search"
+					onkeyup="myFunction()" 
+				/>
+
+				<input	
+					type = "submit"
+					name = "submit"
+					id = "submit"
+					
+				/>
+
+			
+                <script src = "test.js"></script>
+
+
+
+	</div>
+	<div class="modal-footer" style = "background-color: black; color: #D43F52; text-align: center; font-weight: bold;">
+
+		
+		<p id = "testq"></p>
+		<p id = "testp"></p>
+ 
+
+	<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: #D43F52; border-color: #D43F52; font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
+	</br>
+</br>
+	<p> Run the "Help" Command</p>
+
+<p> "Shift-Alt-P" (Opens Search Mode)</p>
+
+	</div>
+	</div>
+	</div>
+	</div>
+	</body>
+</html>
