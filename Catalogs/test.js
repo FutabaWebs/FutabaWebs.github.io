@@ -2171,6 +2171,95 @@ $('#wordmode').on('hide.bs.modal', function (e) {
 ////////////////////////////////////////////////End of Resume Script Handlers
 
 
+function Navigation()
+{
+    alert("NEW FEATURE IN TESTING COMING SOON (This is just a place holder button!");
+}
+
+////////////////////////////////////////////////End of Resume Script Handlers
+
+
+//Music Selection
+function MusicLoad()
+{    
+    document.getElementById("musicp").innerHTML = '<p> "Shift-Alt-M" (Opens Music Selection) </br> <p> 🎃 Persona 5 (Beneath The Mask) </p> </br> <audio controls> <source src="Music/BeneaththeMask.mp3" type="audio/ogg"> <source src="Music/BeneaththeMask.mp3" type="audio/mpeg"> </audio> </br> <img src="Images/BeneathTheMask.jpg" class="img-responsive" alt="portfolio img" style = "height: 280px;"> </br> </br> </br> <p> 🎃 Persona 5 DSN (Whims Of Fate) </p>  <audio controls> <source src="Music/TheWhimsofFate.mp3" type="audio/ogg"> <source src="Music/TheWhimsofFate.mp3" type="audio/mpeg"> </audio> </br> <img src="Images/WhimsOfFate.jpg" class="img-responsive" alt="portfolio img" onclick = VelvetRoomThemeChange() style = "height: 250px;">';
+}
+
+//Closes the catalog list
+function MusicUnload()
+{    
+    document.getElementById("musicz").innerHTML = '';
+}
+
+//This is going to set an effect for if the modal opens
+$('#music').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MusicLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#music').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MusicUnload();
+})
+
+
+//Theme Change Selection
+function ThemeChangeLoad()
+{    
+    document.getElementById("themep").innerHTML = '<p> "Shift-Alt-K" (Opens Theme Change) </br> <p> 🎃 The Velvet Room </p> </br> <img src="Images/halloweentesr.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img" onclick = VelvetRoomThemeChangeCatalog()> </br> <p> 🎃 Crimsons Domain </p> </br> <img src="Images/Persona5red.png" style = "height: 260px;" class="img-responsive" alt="portfolio img" onclick = CrimsonDomainThemeChangeCatalog()> </br>';
+}
+
+//Closes the catalog list
+function ThemeChangeUnload()
+{    
+    document.getElementById("themez").innerHTML = '';
+}
+
+//This is going to set an effect for if the modal opens
+$('#ThemeChange').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThemeChangeLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#ThemeChange').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThemeChangeUnload();
+})
+
+
+//Navigation Modal
+function NavigationLoad()
+{    
+    document.getElementById("testn").innerHTML = '<p> "Shift-Alt-N" (Opens Navigation Mode) </p> </br> <p> 🎃 Latest News & Updates </p> </br> <a href="https://futabawebs.github.io/Catalogs/NewsAndUpdates" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/personateam.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Catalogs </p> </br> <a href="https://futabawebs.github.io/Catalogs/ArticleCatalog" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/Articles.jpeg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Cyber Security Services </p> </br> <a href="https://futabawebs.github.io/Catalogs/Services.html" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/futaba 9.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Business Card </p> </br> <a href="https://linktr.ee/Futaba_Webs" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/Futaba4.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Blogs </p> </br> <a href="https://futabawebs.github.io/Articles/Is_TCM_Still_Credible" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/futaba 7.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Discord Server </p> </br> <a href="https://discord.gg/kHnjJ9Ew86" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/DiscordServer.png" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Resume </p> </br> <a href="https://futabawebs.github.io/Resume" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/futaba 6.jpg" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Services 2 </p> </br> <a href="https://us.cypsec.xyz/offering/futaba" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/Persona5red.png" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>  <p> 🎃 Terminal Mode </p> </br> <a href="https://futabawebs.github.io/TerminalMode/FullScreenMode.html" style = "text-decoration: none; color: #D43F52; font-weight: bold;"> <img src="Images/metasploit.png" style = "height: 260px;" class="img-responsive" alt="portfolio img"></a></br>';
+}
+
+//Closes the catalog list
+function NavigationUnload()
+{    
+    document.getElementById("testm").innerHTML = '';
+}
+
+//This is going to set an effect for if the modal opens
+$('#navigationmenu').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    NavigationLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#navigationmenu').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    NavigationUnload();
+})
+
+
 //Loads the catalog list
 function ModalLoad()
 {    
