@@ -15,6 +15,26 @@ function myFunction() {
     }
 }
 
+function ModalChange()
+{
+    $('.modal').each(function() {
+  // Perform actions on each modal
+  // For example, to hide all Bootstrap modals:
+  $(this).css("background-image", "url('Images/bgtest.gif')");
+});
+
+}
+
+function ModalRevert()
+{
+    $('.modal').each(function() {
+  // Perform actions on each modal
+  // For example, to hide all Bootstrap modals:
+  $(this).css("background-image", "none");
+});
+
+}
+
 
 //////////////////////////////////////////////// Plays Music on the Site
 
