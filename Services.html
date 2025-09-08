@@ -62,6 +62,8 @@
 						<a id = "homebtn10" href="https://roymbull.github.io/" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Red City Mode </a>
 						<a id = "homebtn11" href="https://futabawebs.github.io/Futaba_Webs/FutabaServices.html" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Services 2</a>
 
+					</br> </br> 
+					
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -901,59 +903,6 @@ You can find links to my patreon down in the contact section at the bottom of th
 		<!-- custom -->
 		<script src="js/custom.js"></script>
 
-		
-<!-- SearchMode modal -->
-<div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style = "background-image: url('');">
-	<div class="modal-dialog" role="document">
-	<div class="modal-content">
-	<div class="modal-header" style = "background-color: black;">
-
-			
- <span class="Contact_Icons mx-4"></span>
-	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Search Mode</h4>
-	</div>
-	<div class="modal-body">
-		
-		
-		
-				<input 
-					type = "search"
-					name = "search"
-					id = "search"
-					onkeyup="myFunction()" 
-				/>
-
-				<input	
-					type = "submit"
-					name = "submit"
-					id = "submit"
-					
-				/>
-
-			<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-
-                <script src = "test.js"></script>
-
-
-	</div>
-	<div class="modal-footer" style = "background-color: black; color: rgb(114, 3, 193); text-align: center; font-weight: bold;">
-
-		
-		<p id = "testq"></p>
-		<p id = "testp"></p>
- 
-
-	<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-	</br>
-</br>
-	<p> Run the "Help" Command</p>
-
-<p> "Shift-Alt-P" (Opens Search Mode)</p>
-
-	</div>
-	</div>
-	</div>
-	</div>
 
 	<!-- Coding Assesement modal -->
 <div class="modal fade" id="codeassess" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -967,23 +916,37 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br>
-		
-		<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4>
-</br>
-<p>🎃 Put me in contact with your dev team. Have them show me around the code base and anything I’ll be working on. I’ll be working alongside them in order to ensure that any and all possible vulnerabilities are fully discovered. </p>
-</br>
-<p>🎃 Give me access to what I need and ONLY what I need. The point of this is to focus on what requires security to be built with in mind. </p>
-</br>
-<p>🎃 Participate in weekly briefings where I both update and check in with you to see if there is anything else I need to work on as well as give overall progress reports</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
-<p>🎃 Generate weekly reports based on my findings that are easily digestiible by those that aren’t tech/security savvy. My goal is to emphasize the big risks your business infrastructure could face if such flaws are left unattended. You’ll not only get a unique version of each report that’s engaging, but you’ll also receive diagrams that further break down my findings to you.</p>
-</br>
-<p>🎃 Run security tests where permissible in disclosed enviornments. You call the shots on where I’m allowed to test. Not only will I be inspecting your code, but I’ll be crafting exploits to test it. If you would like exploit demonstrations, feel free add that in as a part of your consulting fees.</p>
-</br>
-<p>🎃 Each time a vulnerability is discovered, you’ll get full explanations as well as the best means to mitigate it. Your dev team will take it from there and patch it. If you would like me to be a part of the process and add in mitigations I’ve worked on, feel free to add that in as a part of your consultation fees. </p>
+		<p id = "codeas"> </p>
 
+		<script> 
+
+function CodeLoad()
+{    
+    document.getElementById("codeas").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/securecoding.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4> </br> <p>🎃 Put me in contact with your dev team. Have them show me around the code base and anything I’ll be working on. I’ll be working alongside them in order to ensure that any and all possible vulnerabilities are fully discovered. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need. The point of this is to focus on what requires security to be built with in mind. </p> </br> <p>🎃 Participate in weekly briefings where I both update and check in with you to see if there is anything else I need to work on as well as give overall progress reports</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Generate weekly reports based on my findings that are easily digestiible by those that aren’t tech/security savvy. My goal is to emphasize the big risks your business infrastructure could face if such flaws are left unattended. You’ll not only get a unique version of each report that’s engaging, but you’ll also receive diagrams that further break down my findings to you.</p> </br> <p>🎃 Run security tests where permissible in disclosed enviornments. You call the shots on where I’m allowed to test. Not only will I be inspecting your code, but I’ll be crafting exploits to test it. If you would like exploit demonstrations, feel free add that in as a part of your consulting fees.</p> </br> <p>🎃 Each time a vulnerability is discovered, you’ll get full explanations as well as the best means to mitigate it. Your dev team will take it from there and patch it. If you would like me to be a part of the process and add in mitigations I’ve worked on, feel free to add that in as a part of your consultation fees. </p>`;
+}
+
+//Closes the catalog list
+function CodeUnload()
+{    
+    document.getElementById("codeas").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#codeassess').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    CodeLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#codeassess').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    CodeUnload();
+})
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1003,24 +966,35 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 		
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br>
-		
-		<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<p id = "exploitdem"> </p>
+<script> 
 
-<p>🎃 Since this iteration of your package involves exploitation development, you’ll be giving me full permission to test to the highest degree. I’ll be crafting full blown exploits to the highest extent as if I were a threat actor, incorporating both means of white box testing and black box testing.</p>
-</br>
-<p>🎃 You’ll be participating in meetings that will require at least one technical person in charge of overall development for a particular project you’re working on. I’ll be breaking down not only the potential risks, but I’ll also be demonstrating various case scenarios that can occur if you leave a potential risk exposed. I’ll also be tallying up the fines that could result from accepting the risk and the potential damage it could do to your business infrastructure. I want you to NEVER ignore the risk!</p>
-</br>
+function ExploitLoad()
+{    
+    document.getElementById("exploitdem").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/exploitdemo.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Since this iteration of your package involves exploitation development, you’ll be giving me full permission to test to the highest degree. I’ll be crafting full blown exploits to the highest extent as if I were a threat actor, incorporating both means of white box testing and black box testing.</p> </br> <p>🎃 You’ll be participating in meetings that will require at least one technical person in charge of overall development for a particular project you’re working on. I’ll be breaking down not only the potential risks, but I’ll also be demonstrating various case scenarios that can occur if you leave a potential risk exposed. I’ll also be tallying up the fines that could result from accepting the risk and the potential damage it could do to your business infrastructure. I want you to NEVER ignore the risk!</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 On top vulnerability assessment diagrams, I’ll be designing attack tree diagrams that will show you all potential attack vectors that exist in your infrastructure. </p> </br> <p>🎃 I’ll be engaging in custom exploitation development that can be modeled to real world levels outside simulations. You’ll get a simulation of course, but it’ll be based on REAL possible scenarios that could occur. You need to be prepared in the event a threat actor does show up. </p> </br> <p>🎃 I’ll be paring in daily briefings with your head dev so I can instruct them on what needs to be done. </p>`;
+}
 
-		<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+//Closes the catalog list
+function ExploitUnload()
+{    
+    document.getElementById("exploitdem").innerHTML = ``;
+}
 
-		<p>🎃 On top vulnerability assessment diagrams, I’ll be designing attack tree diagrams that will show you all potential attack vectors that exist in your infrastructure. </p>
-</br>
-<p>🎃 I’ll be engaging in custom exploitation development that can be modeled to real world levels outside simulations. You’ll get a simulation of course, but it’ll be based on REAL possible scenarios that could occur. You need to be prepared in the event a threat actor does show up. </p>
-</br>
-<p>🎃 I’ll be paring in daily briefings with your head dev so I can instruct them on what needs to be done. </p>
+//This is going to set an effect for if the modal opens
+$('#exploitdemo').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ExploitLoad();
+})
 
+//This is going to set an effect for if the modal closes
+$('#exploitdemo').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ExploitUnload();
+})
 
+			  </script>
 
 
 	</div>
@@ -1042,25 +1016,38 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br>
+		<p id = "mitdem"> </p>
+
+		<script> 
+
+function MitigationLoad()
+{    
+    document.getElementById("mitdem").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/mitigationdemo.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll put me in charge of the overall mitigation process. Compared to the last two consultations, where I’m mostly pointing things out and mapping out scenarios, I’ll be fully in charge, working alongside your head devs to implement the fixes. </p> </br> <p>🎃 You’ll instruct your head devs to allow me to work as I need to. The goal is to patch your systems, NOT clash with your developers. I need my space and means to work, so please allow me to do so. </p> </br> <p>🎃 You’ll implement the actual fixes. Don’t waste either of our time or your money if you don’t plan to see it through. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 I’ll be taking more charge during the mitigation process, working alongside devs to directly patch any and all vulnerabilities in your systems</p> </br> <p>🎃 Meetings will take place that will incorporate both the vulnerability diagrams, exploit attack tree scenarios, as well as a fully fledged mitigation plan and strategy that breaks everything down for those that are both technical and non technical. </p> </br>`;
+}
+
+//Closes the catalog list
+function MitigationUnload()
+{    
+    document.getElementById("mitdem").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#mitdemo').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MitigationLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#mitdemo').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MitigationUnload();
+})
+
+
+			  </script>
 		
-		<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
-		
-		<p>🎃 You’ll put me in charge of the overall mitigation process. Compared to the last two consultations, where I’m mostly pointing things out and mapping out scenarios, I’ll be fully in charge, working alongside your head devs to implement the fixes. </p>
-</br>
-<p>🎃 You’ll instruct your head devs to allow me to work as I need to. The goal is to patch your systems, NOT clash with your developers. I need my space and means to work, so please allow me to do so. </p>
-</br>
-<p>🎃 You’ll implement the actual fixes. Don’t waste either of our time or your money if you don’t plan to see it through. </p>
-</br>
-
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
-
-<p>🎃 I’ll be taking more charge during the mitigation process, working alongside devs to directly patch any and all vulnerabilities in your systems</p>
-</br>
-<p>🎃 Meetings will take place that will incorporate both the vulnerability diagrams, exploit attack tree scenarios, as well as a fully fledged mitigation plan and strategy that breaks everything down for those that are both technical and non technical. </p>
-</br>
-
-
 	</div>
 	</div>
 	</div>
@@ -1079,24 +1066,39 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/>
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<p id = "malremo"> </p>
+
+<script> 
+
+function MalwareLoad()
+{    
+    document.getElementById("malremo").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/malremove.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Inquiry with me the type of system that’s been infected, as well as any possible symptoms you’re able to pick up on. I need this information in order to conduct research in order to find the best approach of removing the malware for you</p> </br> <p>🎃 Disclose how I’ll be interacting with the system. Is it an onsite pickup? Remote? I need to know so I can properly engage. I recommend options like onsite visits as well as simply directly sending me the infected system so I can further inspect it.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once You’ve disclosed the symptoms to me, as part of the first initial process of consultation, I’ll break down the root cause of analysis and any potential fixes that can be done for you. From there you decide if you wish to either remediate the system(s) yourself, OR, you can have me do it!</p> </br> <p>🎃 I’ll plan out a route of engagement and timeframe on how long it’ll take to deal with the system(s)</p> </br> <p>🎃 Once the malware is removed, you’ll be given further instructions on how to prevent future infections</p>`;
+}
+
+//Closes the catalog list
+function MalwareUnload()
+{    
+    document.getElementById("malremo").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#malremov').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MalwareLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#malremov').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    MalwareUnload();
+})
 
 
-<p>🎃 Inquiry with me the type of system that’s been infected, as well as any possible symptoms you’re able to pick up on. I need this information in order to conduct research in order to find the best approach of removing the malware for you</p>
-</br>
-<p>🎃 Disclose how I’ll be interacting with the system. Is it an onsite pickup? Remote? I need to know so I can properly engage. I recommend options like onsite visits as well as simply directly sending me the infected system so I can further inspect it.</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+			  </script>
 
-<p>🎃 Once You’ve disclosed the symptoms to me, as part of the first initial process of consultation, I’ll break down the root cause of analysis and any potential fixes that can be done for you. From there you decide if you wish to either remediate the system(s) yourself, OR, you can have me do it!</p>
-</br>
-<p>🎃 I’ll plan out a route of engagement and timeframe on how long it’ll take to deal with the system(s)</p>
-</br>
-<p>🎃 Once the malware is removed, you’ll be given further instructions on how to prevent future infections</p>
-		
 	</div>
 	</div>
 	</div>
@@ -1114,21 +1116,39 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 		
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/>
+		<p id = "malresearc"> </p>
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
 
-<p>🎃 You’ll deliver me any executables that you found to be suspected of malware infections. </p>
-</br>
-<p>🎃 Once you receive details about the malware, If it happens to be along the lines of an actual infection, rather than simply for study, I’ll guide you on various clean up strategies and measures you can take to get rid of it!</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+		<script> 
 
-<p>🎃 If any excutables you bring me are indeed malware, I’ll perform binary analysis on it to see what makes it tick under the hood. If you happen to find source code of any kind, feel free to send it over, and I’ll take a look at it. </p>
-</br>
-<p>🎃 I’ll document a full report that breaks down how the malware works and measures that can be taken to mitigate it should the need to arise</p>
+function malresearchLoad()
+{    
+    document.getElementById("malresearc").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/malresearcher.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll deliver me any executables that you found to be suspected of malware infections. </p> </br> <p>🎃 Once you receive details about the malware, If it happens to be along the lines of an actual infection, rather than simply for study, I’ll guide you on various clean up strategies and measures you can take to get rid of it!</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 If any excutables you bring me are indeed malware, I’ll perform binary analysis on it to see what makes it tick under the hood. If you happen to find source code of any kind, feel free to send it over, and I’ll take a look at it. </p> </br> <p>🎃 I’ll document a full report that breaks down how the malware works and measures that can be taken to mitigate it should the need to arise</p>`;
+}
 
+//Closes the catalog list
+function malresearchUnload()
+{    
+    document.getElementById("malresearc").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#malresearch').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malresearchLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#malresearch').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malresearchUnload();
+})
+
+
+			  </script>
+		
 	</div>
 	</div>
 	</div>
@@ -1147,22 +1167,39 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 		
-		<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/>
+		<p id = "malde"> </p>
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
 
-<p>🎃 Tell me the type of security system you’re testing against. This’ll tell me what I’m up against and what to strategize for. </p>
-</br>
-<p>🎃 Tell me the systems I’m allowed to test against. If you can, create a separate environment where I can do just that on. This allows me to work optimally and safely since I plan to go all out as if it were a REAL attack! </p>
+		<script> 
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+function maldevLoad()
+{    
+    document.getElementById("malde").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/maldev.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Tell me the type of security system you’re testing against. This’ll tell me what I’m up against and what to strategize for. </p> </br> <p>🎃 Tell me the systems I’m allowed to test against. If you can, create a separate environment where I can do just that on. This allows me to work optimally and safely since I plan to go all out as if it were a REAL attack! </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once the type of system I’m testing against is disclosed, I’ll begin researching hardware and software versions in order to gain insights on the target. Doing so allows me to better craft a malware exploit that can properly test against your systems.</p> </br> <p>🎃 Once I’ve been disclosed systems I’m allowed to test against, I’ll begin the engagement. You’ll receive write-up reports on every step of the process.</p>`;
+}
 
-<p>🎃 Once the type of system I’m testing against is disclosed, I’ll begin researching hardware and software versions in order to gain insights on the target. Doing so allows me to better craft a malware exploit that can properly test against your systems.</p>
-</br>
-<p>🎃 Once I’ve been disclosed systems I’m allowed to test against, I’ll begin the engagement. You’ll receive write-up reports on every step of the process.</p>
+//Closes the catalog list
+function maldevUnload()
+{    
+    document.getElementById("malde").innerHTML = ``;
+}
 
+//This is going to set an effect for if the modal opens
+$('#maldev').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    maldevLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#maldev').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    maldevUnload();
+})
+
+
+			  </script>
+		
 	</div>
 	</div>
 	</div>
@@ -1179,28 +1216,41 @@ You can find links to my patreon down in the contact section at the bottom of th
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Maleware WorkShops </h4>
 	</div>
 	<div class="modal-body">
-		
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
+	
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
-
-<p>🎃 Book an appointment with me and put a mark on your calendar for a consultation which I do charge for. If you happen to be in further need of my services, we’ll take it a step forward from there.</p>
-</br>
-<p>🎃 Disclose what you’d like me to demonstrate as well as demonstrate with. If not selected, then I’ll do the selecting myself.</p>
-</br>
-<p>🎃 Disclose the number of people attending the workshop. I charge per person per entree on top of the base consulting fee.</p>
+		<p id = "malworkshop"> </p>
 
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+<script> 
+
+function malworkshopsLoad()
+{    
+    document.getElementById("malworkshop").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/malworkshop.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Book an appointment with me and put a mark on your calendar for a consultation which I do charge for. If you happen to be in further need of my services, we’ll take it a step forward from there.</p> </br> <p>🎃 Disclose what you’d like me to demonstrate as well as demonstrate with. If not selected, then I’ll do the selecting myself.</p> </br> <p>🎃 Disclose the number of people attending the workshop. I charge per person per entree on top of the base consulting fee.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 I’ll plan out our meeting, taking any details given to me in advance so I can further assist you. I recommend having what you want to talk about disclosed before hand via email so I can easily assist you and answer any questions on the fly. It also sets a nice pace for the meeting. </p> </br> <p>🎃 Once we’ve settled on what you’d like me to demonstrate for the workshop, OR, should I be the one selecting what’ll be demonstrated, I’ll begin prepping for the workshop.</p> </br> <p>🎃 After getting a headcount for the people attending, I’ll plan out how to setup for the event as well as visuals and audio so all goes well. You’ll be the one providing the equipment and setup. I’ll be arriving a week in advance to prep for the setup and everything.</p>`;
+}
+
+//Closes the catalog list
+function malworkshopsUnload()
+{    
+    document.getElementById("malworkshop").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#malworkshops').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malworkshopsLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#malworkshops').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malworkshopsUnload();
+})
 
 
-<p>🎃 I’ll plan out our meeting, taking any details given to me in advance so I can further assist you. I recommend having what you want to talk about disclosed before hand via email so I can easily assist you and answer any questions on the fly. It also sets a nice pace for the meeting. </p>
-</br>
-<p>🎃 Once we’ve settled on what you’d like me to demonstrate for the workshop, OR, should I be the one selecting what’ll be demonstrated, I’ll begin prepping for the workshop.</p>
-</br>
-<p>🎃 After getting a headcount for the people attending, I’ll plan out how to setup for the event as well as visuals and audio so all goes well. You’ll be the one providing the equipment and setup. I’ll be arriving a week in advance to prep for the setup and everything.</p>
+			  </script>
+
 	</div>
 	</div>
 	</div>
@@ -1218,28 +1268,38 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 	
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
+		<p id = "webap"> </p>
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
 
-<p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p>
-</br>
-<p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p>
-</br>
-<p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p>
-</br>
-<p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+		<script> 
 
-<p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that.  </p>
-</br>
-<p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p>
-</br>
-<p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p>
-</br>
-<p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>
+function webappLoad()
+{    
+    document.getElementById("webap").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/webapplication.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p> </br> <p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p> </br> <p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p> </br> <p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that. </p> </br> <p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p> </br> <p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p> </br> <p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>`;
+}
+
+//Closes the catalog list
+function webappUnload()
+{    
+    document.getElementById("webap").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#webapp').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    webappLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#webapp').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    webappUnload();
+})
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1247,7 +1307,7 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 
 
-<!-- Network Testing  modal -->
+<!-- Network Testing modal -->
 <div class="modal fade" id="networktesting" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 	<div class="modal-content">
@@ -1259,28 +1319,38 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 	
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<p id = "networktestin"> </p>
 
-<p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p>
-</br>
-<p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p>
-</br>
-<p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p>
-</br>
-<p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+<script> 
 
-<p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that.  </p>
-</br>
-<p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p>
-</br>
-<p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p>
-</br>
-<p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>
+function networktestingLoad()
+{    
+    document.getElementById("networktestin").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/networktesting.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p> </br> <p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p> </br> <p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p> </br> <p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that. </p> </br> <p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p> </br> <p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p> </br> <p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>`;
+}
+
+//Closes the catalog list
+function networktestingUnload()
+{    
+    document.getElementById("networktestin").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#networktesting').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    networktestingLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#networktesting').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    networktestingUnload();
+})
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1299,29 +1369,39 @@ You can find links to my patreon down in the contact section at the bottom of th
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> API Security </h4>
 	</div>
 	<div class="modal-body">
-	
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
 
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<p id = "apise"> </p>
 
-<p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p>
-</br>
-<p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p>
-</br>
-<p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p>
-</br>
-<p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p>
-</br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+<script> 
 
-<p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that.  </p>
-</br>
-<p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p>
-</br>
-<p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p>
-</br>
-<p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>
+function apisecLoad()
+{    
+    document.getElementById("apise").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/apitesting.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Forward me the overall scope for the Pentest and what I need to test for. If you aren’t sure what you need me to test against, we can book a consultation where I perform an assessment and check for you. From there I’ll create the scope and go about the overall test for you. This is extra in terms of fees if you go about it this way.</p> </br> <p>🎃 Give me a reasonable deadline to test against your site. Be mindful, the longer the test, the better, as it gives me more time to find critical flaws in your site. I recommend 2 to 3 months. All tests are done manually and granularly in order to ensure nothing gets missed. </p> </br> <p>🎃 Put me in contact with all major points of contact so I can send regular updates as I test against the site. This is to ensure that you KNOW it’s not a REAL threat actor, and so that folks like executives aren’t spiraling out of control.</p> </br> <p>🎃 Give me as much room to test as possible. I recommend the open scope plan, since it allows me to freely test as thoroughly as possible. I charge more for this, but the benefit you get from it is more through testing. You can specify sensitive assets if necessary.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 I’ll go over the scope and look into any and all assets pertaining to it, as well as stakeholders. Once I’m settled, then I’ll update you on the plan for the test to get your approval. This part does involve an initial consulting fee so do be mindful of that. </p> </br> <p>🎃 Once we settle on a reasonable time frame, I’ll officially begin testing against the site</p> </br> <p>🎃 During any and all tests, I’ll regularly update you. Certain updates, like sensitive assets, will be more frequent than others, some of which might ask for approval before beginning a certain type of test to ensure nothing goes wrong. </p> </br> <p>🎃 Once all tests are done, you’ll receive an official report on all my findings, which will come with an executive summary. </p>`;
+}
+
+//Closes the catalog list
+function apisecUnload()
+{    
+    document.getElementById("apise").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#apisec').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    apisecLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#apisec').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    apisecUnload();
+})
+
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1341,21 +1421,36 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 	
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
+		<p id = "vulnasses"> </p>
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<script> 
+function VulnerabilityLoad()
+{    
+    document.getElementById("vulnasses").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/vulnanalysis.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p> </br> <p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>`;
+}
 
-<p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p>
-</br>
-<p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p>
-</br>
+//Closes the catalog list
+function VulnerabilityUnload()
+{    
+    document.getElementById("vulnasses").innerHTML = ``;
+}
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+//This is going to set an effect for if the modal opens
+$('#vulnassess').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    VulnerabilityLoad();
+})
 
-<p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p>
-</br>
-<p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>
+//This is going to set an effect for if the modal closes
+$('#vulnassess').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    VulnerabilityUnload();
+})
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1375,23 +1470,37 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br></br>
+		<p id = "threatris"> </p>
 
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
+		<script> 
 
-<p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p>
-</br>
-<p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p>
-</br>
+function ThreatLoad()
+{    
+    document.getElementById("threatris").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/threatrisk.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p> </br> <p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>`;
+}
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+//Closes the catalog list
+function ThreatUnload()
+{    
+    document.getElementById("threatris").innerHTML = ``;
+}
 
-<p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p>
-</br>
-<p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>
+//This is going to set an effect for if the modal opens
+$('#threatrisk').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThreatLoad();
+})
 
+//This is going to set an effect for if the modal closes
+$('#threatrisk').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThreatUnload();
+})
 
+			  </script>
 
 	</div>
 	</div>
@@ -1412,21 +1521,37 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 	
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
+		<p id = "irservice"> </p>
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br>
 
-<p>🎃 Put me in contact with you head SOC IR lead. It’s important I get in touch with them since every team operates differently. </p>
-</br>
-<p>🎃 Send me the overall playbook so I know what strategies/procedures YOU specifically follow for IR along with standard protocols at play.</p>
+		<script> 
+function IRLoad()
+{    
+    document.getElementById("irservice").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/irteam.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Put me in contact with you head SOC IR lead. It’s important I get in touch with them since every team operates differently. </p> </br> <p>🎃 Send me the overall playbook so I know what strategies/procedures YOU specifically follow for IR along with standard protocols at play.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I’m in contact with your SOC IR lead. I’ll be following their every move on how they go about the investigation while incorporating my unique and strategic skill sets. </p> </br> <p>🎃 Once I receive a playbook, I’ll look it over and coordinate with your team, and we’ll take it from there. I’ll also provide insights on what could further be done if permissible. </p>`;
+}
 
-<h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br>
+//Closes the catalog list
+function IRUnload()
+{    
+    document.getElementById("irservice").innerHTML = ``;
+}
 
-<p>🎃 Once I’m in contact with your SOC IR lead. I’ll be following their every move on how they go about the investigation while incorporating my unique and strategic skill sets. </p>
-</br>
-<p>🎃 Once I receive a playbook, I’ll look it over and coordinate with your team, and we’ll take it from there. I’ll also provide insights on what could further be done if permissible. </p>
+//This is going to set an effect for if the modal opens
+$('#irservices').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    IRLoad();
+})
 
+//This is going to set an effect for if the modal closes
+$('#irservices').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    IRUnload();
+})
+
+
+			  </script>
 
 	</div>
 	</div>
@@ -1446,110 +1571,35 @@ You can find links to my patreon down in the contact section at the bottom of th
 	</div>
 	<div class="modal-body">
 
+		<p id = "whtreseac"> </p>
 
-		<h4 style = "text-align: center; font-size: 30px;">🎃 The DANGER! Series 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/dangerseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>The Danger! Series is I raise more awareness about critical flaws and vulnerabilities that exist within various system infrastructures, including any protocols and data communication methods, and the Dangers of what could happen should they be exploited to the fullest extent. I also go over various mitigation strategies that can be used to prevent them as well. If by chance there is an exploit video for me showing the full potential risk, it will be included in the advance version of this article for PAID patreon members only!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video (IF one is made for it).</p>
+<script> 
+function whtreseachLoad()
+{    
+    document.getElementById("whtreseac").innerHTML = `<h4 style = "text-align: center; font-size: 30px;">🎃 The DANGER! Series 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/dangerseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>The Danger! Series is I raise more awareness about critical flaws and vulnerabilities that exist within various system infrastructures, including any protocols and data communication methods, and the Dangers of what could happen should they be exploited to the fullest extent. I also go over various mitigation strategies that can be used to prevent them as well. If by chance there is an exploit video for me showing the full potential risk, it will be included in the advance version of this article for PAID patreon members only!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video (IF one is made for it).</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Exploit Guides (Patreon only) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/exploitseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>There's a difference between a simulation and the REAL deal! In these videos I cover how to apply what you learn from: HackTheBox, TCM Security, and a lot more on a PRACTICAL and REAL WORLD level.</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Tool Guides (Patreon only) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/toolguideseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Ever seen a tool used for ethical hacking and penetration testing but never understood how it FULLY worked? I cover ADVANCED methodologies and techniques that can be applied with various tools on top of all the basics!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Programming Videos (Patreon only) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/programmingseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>It's no shocker that programming is one of the most core skill sets a hacker can wield. Nearly EVERY tool or form of security software we have set in place has code behind it. Even injection techniques require you to know how to code, more so once you dive into things on a granular level!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Electrical Engineering (Patreon only) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/electricalseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Ever wanted to dive into electrical engineering but never knew where to start? I cover the core basics, and then teach you how to develop your own custom penetration testing tools you can be proud of!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Malware Labs (Patreon only) (NEW) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/malwarelabseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>It's no shocker.... BUT I LOVE MALWARE!! I love writing it, dissecting it, you get the point!</p> </br> <p>In this series of content, I'll teach you the art of reverse engineering and malware analysis! You'll also learn some cool programming methodologies along the way which I'll fully explain to you!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Defensive Coding Puzzles (Patreon only) (NEW) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/securecodeseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>This series is focuses on teaching you how to highlight vulnerabilities that exist in code bases for various software products.</p> </br> <p>Much like the new malware lab series I'll be introducing, this series will do the exact same thing, EXCEPT, for defensive purposes.</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Mr.Robot (Patreon only) (New) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/mrrobot.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>This one is going to be a SPECIAL one! I'm basically going to go over any core hacking methodologies that Elliot uses over the course of the "Mr.Robot" series and explain it to you!</p> </br> <p>My goal for this is to also have stuff like watch parties you can join in and ask me questions about in case there's anything you don't understand!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Labs (Patreon only) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/labs.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p> I've talked about this before, but nearly all of my series, at some point, will have a lab excersize that's FULLY hands on, rather, it's a lab that you do along side a video in order to build REAL skills from all the stuff you're learning from my content over each set of parts they have. </p> </br> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Audibles (FREE) (NEW) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/audibleseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Don't have the time to read all my past articles? No worries! Listen to them on the go via audible style!</p> </br> <p>Any and all past articles I've done will be featuring voice overs, including all of my past exploit guides!</p> </br> <p>All of this Sounds fun!?</p> </br> <p>If you enjoyed this post give it a thumbs up! I’ll be keeping track of whose reacting from now on as there is a “special” reason for it. Just know the more you support my content the more there is in stored!</p>`;
+}
 
+//Closes the catalog list
+function whtreseachUnload()
+{    
+    document.getElementById("whtreseac").innerHTML = ``;
+}
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Exploit Guides (Patreon only) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/exploitseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>There's a difference between a simulation and the REAL deal! In these videos I cover how to apply what you learn from: HackTheBox, TCM Security, and a lot more on a PRACTICAL and REAL WORLD level.</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
+//This is going to set an effect for if the modal opens
+$('#whtreseach').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    whtreseachLoad();
+})
 
+//This is going to set an effect for if the modal closes
+$('#whtreseach').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    whtreseachUnload();
+})
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Tool Guides (Patreon only) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/toolguideseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>Ever seen a tool used for ethical hacking and penetration testing but never understood how it FULLY worked? I cover ADVANCED methodologies and techniques that can be applied with various tools on top of all the basics!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Programming Videos (Patreon only) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/programmingseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>It's no shocker that programming is one of the most core skill sets a hacker can wield. Nearly EVERY tool or form of security software we have set in place has code behind it. Even injection techniques require you to know how to code, more so once you dive into things on a granular level!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Electrical Engineering (Patreon only) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/electricalseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>Ever wanted to dive into electrical engineering but never knew where to start? I cover the core basics, and then teach you how to develop your own custom penetration testing tools you can be proud of!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Malware Labs (Patreon only) (NEW) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/malwarelabseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>It's no shocker.... BUT I LOVE MALWARE!! I love writing it, dissecting it, you get the point!</p>
-</br>
-<p>In this series of content, I'll teach you the art of reverse engineering and malware analysis! You'll also learn some cool programming methodologies along the way which I'll fully explain to you!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Defensive Coding Puzzles (Patreon only) (NEW) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/securecodeseries.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>This series is focuses on teaching you how to highlight vulnerabilities that exist in code bases for various software products.</p>
-</br>
-<p>Much like the new malware lab series I'll be introducing, this series will do the exact same thing, EXCEPT, for defensive purposes.</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Mr.Robot (Patreon only) (New) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/mrrobot.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>This one is going to be a SPECIAL one! I'm basically going to go over any core hacking methodologies that Elliot uses over the course of the "Mr.Robot" series and explain it to you!</p>
-</br>
-<p>My goal for this is to also have stuff like watch parties you can join in and ask me questions about in case there's anything you don't understand!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Labs (Patreon only) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/labs.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p> 
-I've talked about this before, but nearly all of my series, at some point, will have a lab excersize that's FULLY hands on, rather, it's a lab that you do along side a video in order to build REAL skills from all the stuff you're learning from my content over each set of parts they have.
-</p>
-</br>
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Audibles (FREE) (NEW) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/audibleseries.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-
-</br>
-<p>Don't have the time to read all my past articles? No worries! Listen to them on the go via audible style!</p>
-</br>
-<p>Any and all past articles I've done will be featuring voice overs, including all of my past exploit guides!</p>
-</br>
-<p>All of this Sounds fun!?</p>
-</br>
-<p>If you enjoyed this post give it a thumbs up! I’ll be keeping track of whose reacting from now on as there is a “special” reason for it. Just know the more you support my content the more there is in stored!</p>
-
+			  </script>
 
 	</div>
 	</div>
@@ -1569,51 +1619,37 @@ I've talked about this before, but nearly all of my series, at some point, will 
 	</div>
 	<div class="modal-body">
 
+		<p id = "goodie"> </p>
 
-		<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Collection Tier) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/BatManWL.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>The Danger! Series is I raise more awareness about critical flaws and vulnerabilities that exist within various system infrastructures, including any protocols and data communication methods, and the Dangers of what could happen should they be exploited to the fullest extent. I also go over various mitigation strategies that can be used to prevent them as well. If by chance there is an exploit video for me showing the full potential risk, it will be included in the advance version of this article for PAID patreon members only!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video (IF one is made for it).</p>
+<script> 
+function goodiesLoad()
+{    
+    document.getElementById("goodie").innerHTML = `<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Collection Tier) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/BatManWL.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>The Danger! Series is I raise more awareness about critical flaws and vulnerabilities that exist within various system infrastructures, including any protocols and data communication methods, and the Dangers of what could happen should they be exploited to the fullest extent. I also go over various mitigation strategies that can be used to prevent them as well. If by chance there is an exploit video for me showing the full potential risk, it will be included in the advance version of this article for PAID patreon members only!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video (IF one is made for it).</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Advanced Cyber Security) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/ExploitVideos.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>There's a difference between a simulation and the REAL deal! In these videos I cover how to apply what you learn from: HackTheBox, TCM Security, and a lot more on a PRACTICAL and REAL WORLD level.</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Cyber Security Tier) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/Mobile Hacking.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Ever seen a tool used for ethical hacking and penetration testing but never understood how it FULLY worked? I cover ADVANCED methodologies and techniques that can be applied with various tools on top of all the basics!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Welcome Tier) Goodies! 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/futaba3.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>It's no shocker that programming is one of the most core skill sets a hacker can wield. Nearly EVERY tool or form of security software we have set in place has code behind it. Even injection techniques require you to know how to code, more so once you dive into things on a granular level!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 Supporter Tier Goodies 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/asian2.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Ever wanted to dive into electrical engineering but never knew where to start? I cover the core basics, and then teach you how to develop your own custom penetration testing tools you can be proud of!</p> </br> <p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>`;
+}
 
+//Closes the catalog list
+function goodiesUnload()
+{    
+    document.getElementById("goodie").innerHTML = ``;
+}
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Advanced Cyber Security) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/ExploitVideos.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>There's a difference between a simulation and the REAL deal! In these videos I cover how to apply what you learn from: HackTheBox, TCM Security, and a lot more on a PRACTICAL and REAL WORLD level.</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
+//This is going to set an effect for if the modal opens
+$('#goodies').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    goodiesLoad();
+})
 
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Cyber Security Tier)  🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/Mobile Hacking.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>Ever seen a tool used for ethical hacking and penetration testing but never understood how it FULLY worked? I cover ADVANCED methodologies and techniques that can be applied with various tools on top of all the basics!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Welcome Tier) Goodies! 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/futaba3.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>It's no shocker that programming is one of the most core skill sets a hacker can wield. Nearly EVERY tool or form of security software we have set in place has code behind it. Even injection techniques require you to know how to code, more so once you dive into things on a granular level!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
+//This is going to set an effect for if the modal closes
+$('#goodies').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    goodiesUnload();
+})
 
 
-</br></br>
-<h4 style = "text-align: center; font-size: 30px;">🎃 Supporter Tier Goodies 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/asian2.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
-<p>Ever wanted to dive into electrical engineering but never knew where to start? I cover the core basics, and then teach you how to develop your own custom penetration testing tools you can be proud of!</p>
-</br>
-<p>This series includes a FREE 2 page article, the paid version being an additional page along with a long full in depth video!</p>
-
-
+			  </script>
+		
 
 	</div>
 	</div>
@@ -1633,53 +1669,36 @@ I've talked about this before, but nearly all of my series, at some point, will 
 	</div>
 	<div class="modal-body">
 
-
-		<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Cyber Security) 🎃</h4></br>
-<img class = "img-thumbnail F_Pics bg-dark" src = "Images/BatManWL.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br>
-</br>
+		<p id = "tierperk"> </p>
 
 
-<p>🎃 You get 2 day early access to any and all non-excluisve updates before they are announced on all of my platforms!</p>
-</br>
-<p>🎃 Members of this tier will receive a more advanced version of any and all articles that are released. This means that you get access to exclusive stuff like: exploit guides, videos, including any programming videos if they are set for it that non-patreons won't get.</p>
-</br>
-<p>🎃 Members of this tier will receive 1 additional EXCLUSIVE article on top of the 2 that are set to launch bi-weekly, which will sample some of the main material that will be in my mentorship program when it launches. That way you get to see if you would like the content for it BEFORE you buy it! This includes any and all exploit videos and guides that happen to come with it!</p>
-</br>
-<p>🎃 You get access to “light” mentorship, where you can ask me any direct questions about the material that is included in this tier. This also includes anything from the FREE material as well! If there is something that you don’t understand, simply message me via discord or LinkedIn and I’ll answer them for you. THIS DOES NOT INCLUDE THE IN DEPTH MENTORSHIP THAT WILL BE APART OF MY MAIN PROGRAM! This is another testing ground to let you see if you like my teaching style BEFORE you join my program. </p>
-</br>
-<p>🎃 You get access to any and all watch parties whether they be related to hacking or not. LET’S WATCH MR.ROBOT TOGETHER!!!!!</p>
-</br>
-<p>🎃 Access to all older posts.</p>
-</br>
-<p>🎃 Access to all previous tier benefits.</p>
-</br>
-<p>🎃 Access to my workshop, including any and all photos and videos of me working on ongoing products for sale.</p>
-</br>
-<p>🎃 You get to pitch me some news topics that you will like for me to cover. It's not set in stone, but if I happen to like some of them, I might even make an exploit guide based on the exploit methodology that is in them.</p>
-</br>
-<p>🎃 Once a month Samples that are in random rotation from my soon to launch mentorship program. This way you get to see if you like it BEFORE you buy it!</p>
-</br>
-<p>🎃 Copy of my vanilla HTML, CSS, and JavaScript Resources (Cheat sheets included with sample code)</p>
-</br>
-<p>🎃 Sample of 3 chapters of my cyber security research material</p>
-</br>
-<p>🎃 Sample of my Linux Resources</p>
-</br>
-<p>🎃 Access to exclusive CTF write ups that aren't available for sale or posted on any of my social media content.</p>
-</br>
-<p>🎃 Electrical Engineering Content is also covered here as well! Get access to setup videos on all of the hands on stuff so that you know how to set it up and program modules LIVE with me!</p>
-</br>
-<p>🎃 Software Engineering Content is also covered here as well! Learn to write code with me and get some inspiration for project ideas together.</p>
-</br>
-<p>🎃 Access to my Master Script as well as any new updates for it. This makes the Kali OS a lot easier to setup and install everything for you.</p>
-</br>
-<p>🎃 Access to my Kali-NetHunter Script so you can do mobile hacking with Kali on the go like in WatchDogs 2</p>
-</br>
-<p>🎃 Access to my EXCLUSIVE 100+ video playlist on all the BEST hacking videos I personally use on a regular basis to learn some extra cool stuff.</p>
-</br>
-<p>🎃 Access to TWO sets of EXCLUSIVE EXTENSIVE resources that will get you up to speed on how to begin your offensive Cyber Security journey.</p>
-</br>
-<p>🎃 EXCLUSIVE labs that you get when they drop for my ANY of my stuff. This is the hands on part where you get REAL PRACTICAL experience with a lot of hacking methodologies that are covered in my content.</p>
+		<script> 
+function tierperksLoad()
+{    
+    document.getElementById("tierperk").innerHTML = `<h4 style = "text-align: center; font-size: 30px;">🎃 Futaba_Webs (Cyber Security) 🎃</h4></br> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/BatManWL.png" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>🎃 You get 2 day early access to any and all non-excluisve updates before they are announced on all of my platforms!</p> </br> <p>🎃 Members of this tier will receive a more advanced version of any and all articles that are released. This means that you get access to exclusive stuff like: exploit guides, videos, including any programming videos if they are set for it that non-patreons won't get.</p> </br> <p>🎃 Members of this tier will receive 1 additional EXCLUSIVE article on top of the 2 that are set to launch bi-weekly, which will sample some of the main material that will be in my mentorship program when it launches. That way you get to see if you would like the content for it BEFORE you buy it! This includes any and all exploit videos and guides that happen to come with it!</p> </br> <p>🎃 You get access to “light” mentorship, where you can ask me any direct questions about the material that is included in this tier. This also includes anything from the FREE material as well! If there is something that you don’t understand, simply message me via discord or LinkedIn and I’ll answer them for you. THIS DOES NOT INCLUDE THE IN DEPTH MENTORSHIP THAT WILL BE APART OF MY MAIN PROGRAM! This is another testing ground to let you see if you like my teaching style BEFORE you join my program. </p> </br> <p>🎃 You get access to any and all watch parties whether they be related to hacking or not. LET’S WATCH MR.ROBOT TOGETHER!!!!!</p> </br> <p>🎃 Access to all older posts.</p> </br> <p>🎃 Access to all previous tier benefits.</p> </br> <p>🎃 Access to my workshop, including any and all photos and videos of me working on ongoing products for sale.</p> </br> <p>🎃 You get to pitch me some news topics that you will like for me to cover. It's not set in stone, but if I happen to like some of them, I might even make an exploit guide based on the exploit methodology that is in them.</p> </br> <p>🎃 Once a month Samples that are in random rotation from my soon to launch mentorship program. This way you get to see if you like it BEFORE you buy it!</p> </br> <p>🎃 Copy of my vanilla HTML, CSS, and JavaScript Resources (Cheat sheets included with sample code)</p> </br> <p>🎃 Sample of 3 chapters of my cyber security research material</p> </br> <p>🎃 Sample of my Linux Resources</p> </br> <p>🎃 Access to exclusive CTF write ups that aren't available for sale or posted on any of my social media content.</p> </br> <p>🎃 Electrical Engineering Content is also covered here as well! Get access to setup videos on all of the hands on stuff so that you know how to set it up and program modules LIVE with me!</p> </br> <p>🎃 Software Engineering Content is also covered here as well! Learn to write code with me and get some inspiration for project ideas together.</p> </br> <p>🎃 Access to my Master Script as well as any new updates for it. This makes the Kali OS a lot easier to setup and install everything for you.</p> </br> <p>🎃 Access to my Kali-NetHunter Script so you can do mobile hacking with Kali on the go like in WatchDogs 2</p> </br> <p>🎃 Access to my EXCLUSIVE 100+ video playlist on all the BEST hacking videos I personally use on a regular basis to learn some extra cool stuff.</p> </br> <p>🎃 Access to TWO sets of EXCLUSIVE EXTENSIVE resources that will get you up to speed on how to begin your offensive Cyber Security journey.</p> </br> <p>🎃 EXCLUSIVE labs that you get when they drop for my ANY of my stuff. This is the hands on part where you get REAL PRACTICAL experience with a lot of hacking methodologies that are covered in my content.</p>`;
+}
+
+//Closes the catalog list
+function tierperksUnload()
+{    
+    document.getElementById("tierperk").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#tierperks').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    tierperksLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#tierperks').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    tierperksUnload();
+})
+
+			  </script>
 
 	</div>
 	</div>
