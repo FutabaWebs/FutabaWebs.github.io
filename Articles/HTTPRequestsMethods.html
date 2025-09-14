@@ -602,11 +602,15 @@
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Search Mode</h4>
+
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = HotKeyMenu() accesskey="c" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Hot-Key Maps 🎃</button>
+
+
 	</div>
 	<div class="modal-body">
 		
 		
-		
+		<!-- 
 				<input 
 					type = "search"
 					name = "search"
@@ -618,12 +622,43 @@
 					type = "submit"
 					name = "submit"
 					id = "submit"
-					
 				/>
 
-			<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
+	-->
 
-			<a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Home 🕸🎃🕸</button> </a>
+	
+<p id = "menubuttons">
+
+	<!-- 
+
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = Reset() accesskey="p" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃</button>
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = ModalChange() accesskey="h" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">✨</button>
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = ModalRevert() accesskey="r" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">💫</button>
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = MusicLoad() accesskey="m" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎼</button>
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = ThemeChangeLoad() accesskey="k" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎭</button>
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = NavigationLoad() accesskey="n" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🧭</button>
+	<a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" accesskey="g" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Home 🎃</button> </a>
+
+	<button type="button" id="contact2" class="btn btn-secondary" onclick = Reset() accesskey="p" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃</button> <button type="button" id="contact2" class="btn btn-secondary" onclick = ModalChange() accesskey="h" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">✨</button> <button type="button" id="contact2" class="btn btn-secondary" onclick = ModalRevert() accesskey="r" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">💫</button> <button type="button" id="contact2" class="btn btn-secondary" onclick = MusicLoad() accesskey="m" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎼</button> <button type="button" id="contact2" class="btn btn-secondary" onclick = ThemeChangeLoad() accesskey="k" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎭</button> <button type="button" id="contact2" class="btn btn-secondary" onclick = NavigationLoad() accesskey="n" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🧭</button> <a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" accesskey="g" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Home 🎃</button> </a>
+
+-->
+</p>
+
+
+	<input 
+					type = "search"
+					name = "search"
+					id = "search"
+					onkeyup="myFunction()" 
+				/>
+
+				<input	
+					type = "submit"
+					name = "submit"
+					id = "submit"
+				/>
+
+	<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
 
 
                 <script src = "test.js"></script>
@@ -635,145 +670,6 @@
 		
 		<p id = "testq"></p>
 		<p id = "testp"></p>
- 
-
-	<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-	</br>
-</br>
-	<p> Run the "Help" Command</p>
-
-<p> "Shift-Alt-P" (Opens Search Mode)</p>
-
-	</div>
-	</div>
-	</div>
-	</div>
-		
-
-<!-- Navigation modal -->
-<div class="modal fade" id="navigationmenu" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style = "background-image: url('');">
-	<div class="modal-dialog" role="document">
-	<div class="modal-content">
-	<div class="modal-header" style = "background-color: black;">
-
-			
- <span class="Contact_Icons mx-4"></span>
-	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Navigation Mode</h4>
-	</div>
-	<div class="modal-body">
-	
-
-		<div class = "container"> 
-			
-			<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-			
-			<a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Home 🕸🎃🕸</button> </a>
-
-			<button type="button" onclick = Navigation() id="navi" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Navigation 🕸🎃🕸</button> 
-		
-		</div>
-
-
-		<script src = "test.js"></script>
-		
-
-	</div>
-	<div class="modal-footer" style = "background-color: black; color: rgb(114, 3, 193); text-align: center; font-weight: bold;">
-
-		<p id = "testn"></p>
-		<p id = "testm"></p>
-
-	</br>
-</br>
-
-
-	</div>
-	</div>
-	</div>
-	</div>
-
-
-
-<!-- ThemeChange modal -->
-<div class="modal fade" id="ThemeChange" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style = "background-image: url('');">
-	<div class="modal-dialog" role="document">
-	<div class="modal-content">
-	<div class="modal-header" style = "background-color: black;">
-
-			
- <span class="Contact_Icons mx-4"></span>
-	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Theme Change</h4>
-	</div>
-	<div class="modal-body">
-	
-
-		<div class = "container"> 
-			
-			<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-			
-			<a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Home 🕸🎃🕸</button> </a>
-
-			<button type="button" onclick = Navigation() id="navi" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Navigation 🕸🎃🕸</button> 
-
-			<a hidden href="https://futabawebs.github.io/"> <button type="button" onclick = Navigation() id="navi2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Navigation Close🕸🎃🕸</button> </a>
-		
-		</div>
-
-
-		<script src = "test.js"></script>
-		
-
-	</div>
-	<div class="modal-footer" style = "background-color: black; color: rgb(114, 3, 193); text-align: center; font-weight: bold;">
-
-		<p id = "themep"></p>
-		<p id = "themez"></p>
-
-
-
-	</div>
-	</div>
-	</div>
-	</div>
-
-
-<!-- Music modal -->
-<div class="modal fade" id="music" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style = "background-image: url('');">
-	<div class="modal-dialog" role="document">
-	<div class="modal-content">
-	<div class="modal-header" style = "background-color: black;">
-
-			
- <span class="Contact_Icons mx-4"></span>
-	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Music Mode</h4>
-	</div>
-	<div class="modal-body">
-	
-
-		<div class = "container"> 
-			
-			<button type="button" id="contact2" class="btn btn-secondary" data-dismiss="modal" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 CLOSE 🕸🎃🕸</button>
-			
-			<a href="https://futabawebs.github.io/"> <button type="button" id="contact2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Home 🕸🎃🕸</button> </a>
-
-			<button type="button" onclick = Navigation() id="navi" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Navigation 🕸🎃🕸</button> 
-
-			<a hidden href="https://futabawebs.github.io/"> <button type="button" onclick = Navigation() id="navi2" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold;">🕸🎃🕸 Navigation Close🕸🎃🕸</button> </a>
-		
-		</div>
-
-
-		<script src = "test.js"> </script>
-		
-
-	</div>
-	<div class="modal-footer" style = "background-color: black; color: rgb(114, 3, 193); text-align: center; font-weight: bold;">
-
-		<p id = "musicp"></p>
-		<p id = "musicz"></p>
-
-	</br>
-</br>
 
 
 	</div>
@@ -797,18 +693,10 @@
 			<div id="custom-nav" class="right" style="margin-top: -110.5px;" data-toggle="modal" OnClick = VelvetRoomThemeChange() ><ul style = "font-size: 300%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
 
 	-->
-	
-			<div id="custom-nav3" class="right" style="margin-top: -720.5px;" onclick = ModalChange() accesskey="h"> <ul style = "font-size: 200%; list-style-type: '💫'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
-	
-			<div id="custom-nav3" class="right" style="margin-top: -720.5px;" onclick = ModalRevert() accesskey="r" hidden> <ul style = "font-size: 200%; list-style-type: '✨'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
 
-			<div id="custom-nav3" class="right" style="margin-top: -240.5px;" data-toggle="modal" data-target="#music" accesskey="m"> <ul style = "font-size: 200%; list-style-type: '🎼 '; "><li><a href="#" class="active"><span></span></a></li></ul></div>
-
-			<div id="custom-nav3" class="right" style="margin-top: -180.5px;" data-toggle="modal" data-target="#ThemeChange" accesskey="k"><ul style = "font-size: 200%; list-style-type: '🎭 '; "><li><a href="#" class="active"><span></span></a></li></ul></div>
-
-			<div id="custom-nav3" class="right" style="margin-top: -120.5px;" data-toggle="modal" data-target="#navigationmenu" accesskey="n"><ul style = "font-size: 200%; list-style-type: '🧭'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
 
 			<div id="custom-nav" class="right" style="margin-top: -65px;" data-toggle="modal" data-target="#flipFlop" ><ul style = "font-size: 200%; list-style-type: '🎃'; "><li><a href="#" class="active"><span></span></a></li></ul></div>
+
 
 	</body>
 </html>
