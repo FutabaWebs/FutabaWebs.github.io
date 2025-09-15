@@ -63,7 +63,7 @@
 						<a id = "homebtn8" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color" data-toggle="modal" data-target="#flipFlop" accesskey="l">🎃 Search Mode</a>
 						<a id = "homebtn9" href="https://futabawebs.github.io/Catalogs/NewsAndUpdates" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Latest News </a>
 						<a id = "homebtn10" href="https://futabawebs.github.io/Catalogs/ArticleCatalog" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Catalogs </a>
-						<a id = "homebtn11" href="https://futabawebs.github.io/Catalogs/Services.html" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Services 2 </a>
+						<a id = "homebtn11" href="https://futabawebs.github.io/Services" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" style = "color">🎃 Services 2 </a>
 						
 					</br></br>
 
@@ -124,7 +124,7 @@
 					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="media">
 							<div class="media-object media-left">
-								<a href = "https://futabawebs.github.io/Catalogs/Services">
+								<a href = "https://futabawebs.github.io/Services">
 									
 									<i class="fa fa-link"></i>
 
@@ -343,14 +343,11 @@
 									</br>
 
 									<h4> Latest News & Updates 🕸🕸🎃🕸🕸 </h4>
-
-									<a href = "https://futabawebs.github.io/Catalogs/NewsAndUpdates"> <img class = "img-thumbnail F_Pics bg-dark" src = "Images/CCTVHacking.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </a>
-								
-							</br></br></br></br>
+										
 
 									<p id = "RSS">
 
-										<img id = "RSS" src= "Images/halloweentesr.jpg" class="img-responsive" alt="portfolio img"> 
+										<a href = "https://futabawebs.github.io/Catalogs/NewsAndUpdates"> <img id = "RSS" src= "Images/halloweentesr.jpg" class="img-thumbnail F_Pics bg-dark" style = "background: black; border-color: indigo;" alt="portfolio img"> </a>
 								
 									</p>
 
@@ -681,6 +678,8 @@
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Vulnerability Assessments </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 	
@@ -689,7 +688,7 @@
 		<script> 
 function VulnerabilityLoad()
 {    
-    document.getElementById("vulnasses").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/vulnanalysis.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br><p>This time around, rather than assess your code base infrastructures, this time around I’ll be doing so for any particular system you have. </p> </br> <p>Every system has a vulnerability, a weakness that can be exploited. It’s my job to find it before threat actors do. </p> </br> <p>By consulting in this service, I’ll be able to pinpoint weaknesses in any system you have, outlining the strategic means to better secure them. </p> </br>`;
+    document.getElementById("vulnasses").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/vulnanalysis.webp" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>This time around, rather than assess your code base infrastructures, this time around I’ll be doing so for any particular system you have. </p> </br> <p>Every system has a vulnerability, a weakness that can be exploited. It’s my job to find it before threat actors do. </p> </br> <p>By consulting in this service, I’ll be able to pinpoint weaknesses in any system you have, outlining the strategic means to better secure them. </p>  </br> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p> </br> <p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>`;
 }
 
 //Closes the catalog list
@@ -721,56 +720,6 @@ $('#vulnassess').on('hide.bs.modal', function (e) {
 	</div>
 
 
-<!-- Threat/Risk Assessments modal -->
-<div class="modal fade" id="threatrisk" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-	<div class="modal-content">
-	<div class="modal-header" style = "background-color: black;">
-
-			
- <span class="Contact_Icons mx-4"></span>
-	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Threat/Risk Assessments </h4>
-	</div>
-	<div class="modal-body">
-
-		<p id = "threatris"> </p>
-
-
-		<script> 
-
-function ThreatLoad()
-{    
-    document.getElementById("threatris").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/threatrisk.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>This time around, rather than assess for vulnerabilities, I’m assessing potential threats/risks in your systems. </p> </br> <p>The scope of what both you and I will be doing will be the same as in the previous card since it aligns in terms of how I approach.</p> </br> <p>One of my specialties is pinpointing risk/threats BEFORE they surface. </p> </br> <p>Much like how every system has a vulnerability, a weakness that can be exploited, they also have potential threats/risks where if unattended they can turn into actual weaknesses in the system. </p> </br> <p>By consulting in this service, I’ll be able to pinpoint potential weaknesses in any system you have, outlining the strategic means to better secure them. </p> </br>`;
-}
-
-//Closes the catalog list
-function ThreatUnload()
-{    
-    document.getElementById("threatris").innerHTML = ``;
-}
-
-//This is going to set an effect for if the modal opens
-$('#threatrisk').on('show.bs.modal', function (e) {
-   
-    //Calls the ModalLoad() function that loads all the elements to the page
-    ThreatLoad();
-})
-
-//This is going to set an effect for if the modal closes
-$('#threatrisk').on('hide.bs.modal', function (e) {
-   
-    //Calls the ModalLoad() function that loads all the elements to the page
-    ThreatUnload();
-})
-
-			  </script>
-
-	</div>
-	</div>
-	</div>
-	</div>
-
-
 
 <!-- IR Services modal -->
 <div class="modal fade" id="irservices" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -781,6 +730,8 @@ $('#threatrisk').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> IR Services </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 	
@@ -790,7 +741,7 @@ $('#threatrisk').on('hide.bs.modal', function (e) {
 		<script> 
 function IRLoad()
 {    
-    document.getElementById("irservice").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/irteam.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Didn’t think a Red Teamer could be good at IR? Think again! Who knows better than someone who specializes in reverse engineering and forensics!</p> </br> <p>Much like my Secure Coding services, where I work alongside your dev team to uncover vulnerabilities in your codebase, this time around, I’ll be working along your IR team to uncover various root causes that led to Security Incidents.</p> </br>`;
+    document.getElementById("irservice").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/irteam.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>Didn’t think a Red Teamer could be good at IR? Think again! Who knows better than someone who specializes in reverse engineering and forensics!</p> </br> <p>Much like my Secure Coding services, where I work alongside your dev team to uncover vulnerabilities in your codebase, this time around, I’ll be working along your IR team to uncover various root causes that led to Security Incidents.</p> </br> </br><h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 Put me in contact with you head SOC IR lead. It’s important I get in touch with them since every team operates differently. </p> </br> <p>🎃 Send me the overall playbook so I know what strategies/procedures YOU specifically follow for IR along with standard protocols at play.</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I’m in contact with your SOC IR lead. I’ll be following their every move on how they go about the investigation while incorporating my unique and strategic skill sets. </p> </br> <p>🎃 Once I receive a playbook, I’ll look it over and coordinate with your team, and we’ll take it from there. I’ll also provide insights on what could further be done if permissible. </p>`;
 }
 
 //Closes the catalog list
@@ -821,6 +772,160 @@ $('#irservices').on('hide.bs.modal', function (e) {
 	</div>
 	</div>
 
+<!-- Coding Assesement modal -->
+<div class="modal fade" id="codeassess" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+	<div class="modal-header" style = "background-color: black;">
+
+			
+ <span class="Contact_Icons mx-4"></span>
+	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Coding Assessments </h4>
+	<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+	</div>
+	<div class="modal-body">
+
+		<p id = "codeas"> </p>
+
+		<script> 
+
+function CodeLoad()
+{    
+    document.getElementById("codeas").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/securecoding.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/></br></br> <p> Secure by design should be a standard when it comes to any form of modern computing technology: Biotechnology, Nanotechnology, A.I., etc. As technology evolves, so does the capacity and toolset of threat actors. </br> </br> </p> <p>Consulting from this service, you’ll gain valuable insights on vulnerabilities that exist in your code base infrastructure. This will not only allow you to better secure your code, but develop with security in mind.</p> </br> <p>Want an overall run down of the procedure? </p> </br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4> </br> <p>🎃 Put me in contact with your dev team. Have them show me around the code base and anything I’ll be working on. I’ll be working alongside them in order to ensure that any and all possible vulnerabilities are fully discovered. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need. The point of this is to focus on what requires security to be built with in mind. </p> </br> <p>🎃 Participate in weekly briefings where I both update and check in with you to see if there is anything else I need to work on as well as give overall progress reports</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Generate weekly reports based on my findings that are easily digestiible by those that aren’t tech/security savvy. My goal is to emphasize the big risks your business infrastructure could face if such flaws are left unattended. You’ll not only get a unique version of each report that’s engaging, but you’ll also receive diagrams that further break down my findings to you.</p> </br> <p>🎃 Run security tests where permissible in disclosed enviornments. You call the shots on where I’m allowed to test. Not only will I be inspecting your code, but I’ll be crafting exploits to test it. If you would like exploit demonstrations, feel free add that in as a part of your consulting fees.</p> </br> <p>🎃 Each time a vulnerability is discovered, you’ll get full explanations as well as the best means to mitigate it. Your dev team will take it from there and patch it. If you would like me to be a part of the process and add in mitigations I’ve worked on, feel free to add that in as a part of your consultation fees. </p>`;
+}
+
+//Closes the catalog list
+function CodeUnload()
+{    
+    document.getElementById("codeas").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#codeassess').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    CodeLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#codeassess').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    CodeUnload();
+})
+
+
+			  </script>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+
+
+<!-- Malware Researcher modal -->
+<div class="modal fade" id="malresearch" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+	<div class="modal-header" style = "background-color: black;">
+
+			
+ <span class="Contact_Icons mx-4"></span>
+	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Malware Researcher </h4>
+	<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+	</div>
+	<div class="modal-body">
+		
+		<p id = "malresearc"> </p>
+
+
+		<script> 
+
+function malresearchLoad()
+{    
+    document.getElementById("malresearc").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/malresearcher.jpeg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br></br> <p> Need a Malware Researcher? Found an executable you find suspicious and need me to look into it? I can take care of that for you! Simply bring me the executable, I’ll place it in a Sandbox environment and take a look at it for you. </br> </br> I can also take a look at any source code you either suspect of being malware, OR, is in fact malware, breaking down all the root attack vectors and methodologies behind them so you can further your defenses. </br></br></br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll deliver me any executables that you found to be suspected of malware infections. </p> </br> <p>🎃 Once you receive details about the malware, If it happens to be along the lines of an actual infection, rather than simply for study, I’ll guide you on various clean up strategies and measures you can take to get rid of it!</p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 If any excutables you bring me are indeed malware, I’ll perform binary analysis on it to see what makes it tick under the hood. If you happen to find source code of any kind, feel free to send it over, and I’ll take a look at it. </p> </br> <p>🎃 I’ll document a full report that breaks down how the malware works and measures that can be taken to mitigate it should the need to arise</p>`;
+}
+
+//Closes the catalog list
+function malresearchUnload()
+{    
+    document.getElementById("malresearc").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#malresearch').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malresearchLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#malresearch').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    malresearchUnload();
+})
+
+
+			  </script>
+		
+	</div>
+	</div>
+	</div>
+	</div>
+
+<!-- Threat/Risk Assessments modal -->
+<div class="modal fade" id="threatrisk" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	<div class="modal-content">
+	<div class="modal-header" style = "background-color: black;">
+
+			
+ <span class="Contact_Icons mx-4"></span>
+	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Threat/Risk Assessments </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
+	</div>
+	<div class="modal-body">
+
+		<p id = "threatris"> </p>
+
+
+		<script> 
+
+function ThreatLoad()
+{    
+    document.getElementById("threatris").innerHTML = `<img class = "img-thumbnail F_Pics bg-dark" src = "Images/threatrisk.jpg" style = "border-color: violet; height: 250px; background: black;" data-bs-target = "#How_to_Botnet" data-bs-toggle = "modal"/> </br> </br> <p>This time around, rather than assess for vulnerabilities, I’m assessing potential threats/risks in your systems. </p> </br> <p>The scope of what both you and I will be doing will be the same as in the previous card since it aligns in terms of how I approach.</p> </br> <p>One of my specialties is pinpointing risk/threats BEFORE they surface. </p> </br> <p>Much like how every system has a vulnerability, a weakness that can be exploited, they also have potential threats/risks where if unattended they can turn into actual weaknesses in the system.  </p> </br> <p>By consulting in this service, I’ll be able to pinpoint potential weaknesses in any system you have, outlining the strategic means to better secure them. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What You’ll Do? 🎃</h4></br> <p>🎃 You’ll forward me the scope of any system you want me to test out. Focus on the KEY systems that keep your infrastructure up and running. </p> </br> <p>🎃 Give me access to what I need and ONLY what I need and keep track of the potential severities of the vulnerabilities I disclose to you. </p> </br> <h4 style = "text-align: center; font-size: 30px;">🎃 What I'll Do? 🎃</h4></br> <p>🎃 Once I receive the overall scope to begin engagement I’ll begin. If you would like for an open scope, which I highly recommend to cover common ground, I charge extra for that. </p> </br> <p>🎃 Once I have access to any systems I’m allowed to test out, much like with some of my other services, I’ll be needing major points of contact so I can provide logistics on my reports. </p>`;
+}
+
+//Closes the catalog list
+function ThreatUnload()
+{    
+    document.getElementById("threatris").innerHTML = ``;
+}
+
+//This is going to set an effect for if the modal opens
+$('#threatrisk').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThreatLoad();
+})
+
+//This is going to set an effect for if the modal closes
+$('#threatrisk').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    ThreatUnload();
+})
+
+			  </script>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
 
 <!-- White Paper Research modal -->
 <div class="modal fade" id="whtreseach" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -831,6 +936,8 @@ $('#irservices').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> White Paper Research </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 
@@ -880,6 +987,8 @@ $('#whtreseach').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Coding Assessments </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 
@@ -930,6 +1039,8 @@ $('#codeassess').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Malware Researcher </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 		
@@ -981,6 +1092,8 @@ $('#malresearch').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Maleware Developer </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 		
@@ -1032,6 +1145,8 @@ $('#maldev').on('hide.bs.modal', function (e) {
 			
  <span class="Contact_Icons mx-4"></span>
 	<h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Web Application </h4>
+		<button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button>
+
 	</div>
 	<div class="modal-body">
 	
