@@ -2600,8 +2600,9 @@ document.getElementById('search').addEventListener('input', function(event) {
 
                                     case "#":
 
-                                        var hash = prompt("Enter Directory Destination");
+                                        var hash = prompt("Enter Directory Destination \n Enter Directory Destination \n Enter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \n");
 
+                                        
                                         window.location.href = `https://futabawebs.github.io/${hash}`;
                                         
            
@@ -7493,7 +7494,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                                                 //Opens the modal vesion of the article
                                                 case "ctfw -r":
 
-                                                    CTFServer();
+                                                    CTF_Write_Ups();
 
                                                     break;
 
@@ -7829,7 +7830,7 @@ document.getElementById('search').addEventListener('input', function(event) {
  // (CTF Server COMMAND)
 
                                                 //Navigates the end user to the article page
-                                                case "ctfply":
+                                                case "ctfw":
 
                                                 //If the end user hits the enter key
                                                             document.getElementById("submit").addEventListener('click', function(event)
@@ -7861,7 +7862,7 @@ document.getElementById('search').addEventListener('input', function(event) {
                                                 //Opens the modal vesion of the article
                                                 case "ctfply -r":
 
-                                                    CTF_Write_Ups();
+                                                    CTFServer();
 
                                                     break;
 
