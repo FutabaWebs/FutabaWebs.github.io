@@ -1,0 +1,762 @@
+//This is the main core logic for the on page existing modals when we're ready to replace them
+
+function testmodal()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testthis').innerHTML = `<div class="modal fade" id="testmodal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true"> <div class="modal-dialog" role="document"> <div class="modal-content"> <div class="modal-header" style = "background-color: black;"> <span class="Contact_Icons mx-4"></span> <h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: #D43F52"> Test Modal </h4> <button type="button" id="contact2" data-dismiss="modal" class="btn btn-secondary" style = "text-decoration: none; background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Close 🎃</button> </div> <div class="modal-body"> <img class = "img-thumbnail mt-4 Modal_Pic_Generic" src = "Your Journey begins.png" style = "border-color: red; background-color: black;"> </h3> <p class = "pb-5 mt-4"> Futaba_Webs is a new brand I’m starting that focuses on developing a series of unique penetration testing tools with style, both software and hardware wise. I also develop and create educational resources that will help people learn how to program, as well as paint the clear pathway to the cyber security field and all it’s intricacies. The most difficult part of learning anything is knowing where to start. </br> </br> - The Hacker Who Laughs 🕸🕸🎃🎃🕸🕸 </p> <a href = "https://www.linkedin.com/company/futaba-webs" style = "text-decoration: none;"> <div class="d-grid"> <button type = "button" class = "btn btn-block" style = "background-color: black; font-weight: bold; color: gray; border-color: red;" > Click to View More </button> </div> </a> </div> </div> </div> </div>`;
+
+    //This activates the modal
+    $('#testmodal').modal('show');
+
+    alert("Modal Generated");
+
+}
+
+function testmodalunload()
+{
+    //This will clear the modal from the page
+    document.getElementById('testthis').innerHTML = ``;
+
+        
+    alert("Modal Removed");
+
+
+}
+
+//When the modal closes, this set of code will trigger the unload function that will clear the modal and all other elements from the page
+
+$('#testmodal').on('show.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    alert("This modal just closed! Unlaoding it now");
+})
+$('#testmodal').on('hide.bs.modal', function (e) {
+   
+    //Calls the ModalLoad() function that loads all the elements to the page
+    alert("This modal just closed! Unlaoding it now");
+    testmodalunload();
+})
+
+
+
+
+//This is the main core logic for all of the commands on the page
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+
+
+
+
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+function tcm()
+{
+    //When the spider button is called, it will write out the modal elements on the page for our pumpkin to define
+    document.getElementById('testq').innerHTML = `<div class="modal-body" style = "text-align: left; font-weight: normal;"> </div>`;
+
+
+}
+
+
+
+//If the end user hits the enter key
+            document.getElementById("submit").addEventListener('click', function(event)
+            {
+                
+
+            })
+
+            //If the end user clicks the submit button
+            document.getElementById("search").addEventListener('keypress', function(event)
+            {
+                if (event.key === "Enter") {
+                    // Cancel the default action, if needed
+                    event.preventDefault();
+                    // Trigger the button element with a click
+                    document.getElementById("submit").click();
+                }
+                //We're going to change the value of the field again 
+
+            })
+
+
+
+//If the end user hits the enter key
+                                        document.getElementById("submit").addEventListener('click', function(event)
+                                        {
+                
+
+                                        })
+
+                                        //If the end user clicks the submit button
+                                        document.getElementById("search").addEventListener('keypress', function(event)
+                                        {
+                                            if (event.key === "Enter") {
+                                            // Cancel the default action, if needed
+                                            event.preventDefault();
+                                            // Trigger the button element with a click
+                                            document.getElementById("submit").click();
+                                        }
+                                        
+                                        //We're going to change the value of the field again 
+
+                                        })
+
+
+                                                            //If the end user hits the enter key
+                                                            document.getElementById("submit").addEventListener('click', function(event)
+                                                            {
+                
+
+                                                            })
+
+                                                            //If the end user clicks the submit button
+                                                            document.getElementById("search").addEventListener('keypress', function(event)
+                                                            {
+                                                                if (event.key === "Enter") {
+                                                                // Cancel the default action, if needed
+                                                                event.preventDefault();
+                                                                // Trigger the button element with a click
+                                                                document.getElementById("submit").click();
+                                                            }
+                                        
+                                                            //We're going to change the value of the field again 
+
+                                                            })
