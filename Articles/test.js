@@ -2605,11 +2605,9 @@ document.getElementById('search').addEventListener('input', function(event) {
                                        
                                         break;
 
-
-
                                     case "#":
 
-                                        var hash = prompt("Enter Directory Destination \n Enter Directory Destination \n Enter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \nEnter Directory Destination \n");
+                                        var hash = prompt("Enter Directory \n");
 
                                         
                                         window.location.href = `https://futabawebs.github.io/${hash}`;
