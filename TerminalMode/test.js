@@ -2480,9 +2480,18 @@ function Navigation()
 
 //Music Selection
 function MusicLoad()
-{    
-    document.getElementById("testq").innerHTML = '';
-    document.getElementById("testq").innerHTML = '<p> "Shift-Alt-M" (Opens Music Selection) </br> <p> 🎃 Persona 5 (Beneath The Mask) </p> </br> <audio controls> <source src="Music/BeneaththeMask.mp3" type="audio/ogg"> <source src="Music/BeneaththeMask.mp3" type="audio/mpeg"> </audio> </br> <img src="Images/BeneathTheMask.jpg" class="img-responsive" alt="portfolio img" onclick = VelvetRoomThemeChange()> </br> <p> 🎃 Persona DSN (Whims Of Fate) </p> </br> <audio controls> <source src="Music/theWhims.mp3" type="audio/ogg"> <source src="Music/TheWhimsofFate.mp3" type="audio/mpeg"> </audio> <img src="Images/WhimsOfFate.jpg" class="img-responsive" alt="portfolio img" onclick = CrimsonDomainThemeChange()> </br>';
+{  
+
+    //This is going to target the music modal paragraph and write out the contents as well as the main button on the page for it
+    document.getElementById("musicmodal").innerHTML = `<div class="modal fade" id="music" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true" style = "background-image: url('');"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header" style = "background-color: black;"><span class="Contact_Icons mx-4"></span><h4 class="modal-title" id="modalLabel" style = "text-align: center; font-weight: bold; font-size: 25px; color: rgb(114, 3, 193)"> Search Mode</h4><button type="button" id="contact2" class="btn btn-secondary" onclick = HotKeyMenu() accesskey="c" style = "background-color: black; color: rgb(114, 3, 193); border-color: rgb(114, 3, 193); font-weight: bold; font-size: 100%">🎃 Hot-Key Maps 🎃</button></div><div class="modal-body"><script src = "test.js"></script></div><div class="modal-footer" style = "background-color: black; color: rgb(114, 3, 193); text-align: center; font-weight: bold;"><p id = "musicdata"></p><p id = "testp"></p></div></div></div></div>`;
+
+    document.getElementById("musicbutton").innerHTML = `<div id="custom-nav" class="right" style="margin-top: -125px;" data-toggle="modal" data-target="#music" accesskey="m"><ul style = "font-size: 200%; list-style-type: '🎼'; "><li><a href="#" class="active"><span></span></a></li></ul></div>`;
+    //Next, the code is going to write out 
+    document.getElementById("testq").innerHTML = 'Close the menu to access the music menu from the new button on the bottom right';
+
+    document.getElementById("musicdata").innerHTML = '<p> "Shift-Alt-M" (Opens Music Selection) </br> <p> 🎃 Persona 5 (Beneath The Mask) </p> </br> <audio controls> <source src="Music/BeneaththeMask.mp3" type="audio/ogg"> <source src="Music/BeneaththeMask.mp3" type="audio/mpeg"> </audio> </br> <img src="Images/BeneathTheMask.jpg" class="img-responsive" alt="portfolio img" onclick = VelvetRoomThemeChange()> </br> <p> 🎃 Persona DSN (Whims Of Fate) </p> </br> <audio controls> <source src="Music/theWhims.mp3" type="audio/ogg"> <source src="Music/TheWhimsofFate.mp3" type="audio/mpeg"> </audio> <img src="Images/WhimsOfFate.jpg" class="img-responsive" alt="portfolio img" onclick = CrimsonDomainThemeChange()> </br>';
+
+
 }
 
 
